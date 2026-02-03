@@ -18,7 +18,6 @@ def main():
     print("   Social Media Opinion Scraper & Text Analyzer")
     print("=" * 80)
     
-    # Initialize components
     scraper = SmartFarmScraper()
     cleaner = TextCleaner()
     display = DataDisplay()
@@ -29,7 +28,7 @@ def main():
     print("=" * 80)
     
     try:
-        # Search for SPECIFIC technology + livestock topics
+        # Search for specific technology + livestock topics
         print("\n[SEARCH] Searching for TECHNOLOGY & AI opinions in farming...")
         scraper.scrape_reddit_search("AI livestock monitoring", limit=25)
         scraper.scrape_reddit_search("smart farming sensors cattle dairy", limit=25)
@@ -90,15 +89,11 @@ def main():
     try:
         cleaned_data = cleaner.clean_all(raw_data)
         
-        # Get statistics
         stats = cleaner.get_statistics()
         
-        # Save cleaned data
         cleaner.save_cleaned_data('cleaned_data.json')
-        
-        # Save statistics
+
         with open('statistics.json', 'w', encoding='utf-8') as f:
-            # Convert Counter objects to lists for JSON serialization
             stats_json = stats.copy()
             stats_json['top_words'] = stats['top_words']
             stats_json['top_bigrams'] = stats['top_bigrams']
@@ -118,16 +113,12 @@ def main():
     print("=" * 80)
     
     try:
-        # Display statistics
         display.display_cleaning_stats(stats)
         
-        # Display cleaned sample
         display.display_cleaned_sample(cleaned_data, max_items=3)
         
-        # Display topic keywords
         display.display_topic_keywords(stats)
         
-        # Create summary report
         display.create_summary_report(raw_data, cleaned_data, stats, 'summary_report.txt')
         
     except Exception as e:

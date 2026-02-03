@@ -50,7 +50,7 @@ class DataDisplay:
         for idx, item in enumerate(data[:max_items], 1):
             print(self.color_text(f"[{idx}] ", 'YELLOW'), end='')
             
-            # Display based on type
+            # Display based on type/source
             if item.get('source') == 'Reddit':
                 if item.get('type') == 'post':
                     print(self.color_text(f"r/{item.get('subreddit', 'unknown')}", 'BLUE'), end=' ')
@@ -113,12 +113,10 @@ class DataDisplay:
             print(f"    {self.color_text('Cleaned:', 'GREEN')} {item.get('cleaned_text', '')[:100]}...")
             print(f"    {self.color_text('Tokens:', 'CYAN')} {item.get('token_count', 0)} words")
             
-            # Show first few tokens
             tokens = item.get('tokens', [])[:10]
             if tokens:
                 print(f"    {self.color_text('Sample tokens:', 'BLUE')} {', '.join(tokens)}")
             
-            # Show bigrams
             bigrams = item.get('bigrams', [])[:5]
             if bigrams:
                 bigram_display = ', '.join([b.replace('_', '→') for b in bigrams])
@@ -130,7 +128,7 @@ class DataDisplay:
         """Display key topic-related words"""
         self.print_section("Key Topic Words (Smart Farming & AI Livestock)")
         
-        # Filter for relevant topic words
+        # Filter for relevant topic words related to "smart farm technology/ AI use in -Livestock "
         topic_words = {
             'Technology': ['ai', 'technology', 'sensor', 'system', 'data', 'machine', 'automate', 'smart', 'precision', 'robot', 'software', 'app', 'device'],
             'Livestock': ['cattle', 'cow', 'dairy', 'livestock', 'animal', 'herd', 'calf', 'milk', 'beef'],
@@ -147,7 +145,7 @@ class DataDisplay:
                 if word in word_freq:
                     found.append((word, word_freq[word]))
             
-            # Sort by frequency
+            # Sort by frequency in descending order
             found.sort(key=lambda x: x[1], reverse=True)
             
             for word, count in found[:8]:
@@ -169,7 +167,7 @@ class DataDisplay:
             f.write(f"Total items scraped: {len(raw_data)}\n")
             f.write(f"Items after cleaning: {len(cleaned_data)}\n\n")
             
-            # Count by source
+            # Count sources
             sources = {}
             for item in raw_data:
                 source = item.get('source', 'Unknown')
@@ -203,7 +201,6 @@ class DataDisplay:
 
 
 if __name__ == "__main__":
-    # Test display with sample data
     sample_data = [
         {
             'source': 'Reddit',

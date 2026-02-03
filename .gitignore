@@ -4,6 +4,13 @@ cleaned_data.json
 statistics.json
 summary_report.txt
 scraper_output.log
+
+# Sentiment Analysis Files (Step 2)
+sentiment_training_data.json
+sentiment_model.pkl
+vectorizer.pkl
+classified_sentiment_data.json
+sentiment_report.txt
 # Python
 __pycache__/
 *.py[cod]
