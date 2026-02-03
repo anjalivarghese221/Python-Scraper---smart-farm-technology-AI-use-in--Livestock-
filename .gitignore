@@ -11,6 +11,12 @@ sentiment_model.pkl
 vectorizer.pkl
 classified_sentiment_data.json
 sentiment_report.txt
+
+# Network Analysis Files (Step 3)
+keyword_network.pkl
+network_analysis_results.json
+network_analysis_report.txt
+visualizations/
 # Python
 __pycache__/
 *.py[cod]
