@@ -22,20 +22,14 @@ class SentimentClassifier:
         
     def load_model(self):
         """Load the trained model and vectorizer from disk"""
-        if not os.path.exists(self.model_path):
-            raise FileNotFoundError(f"Model file not found: {self.model_path}")
-        if not os.path.exists(self.vectorizer_path):
-            raise FileNotFoundError(f"Vectorizer file not found: {self.vectorizer_path}")
+        if not os.path.exists(self.model_path) or not os.path.exists(self.vectorizer_path):
+            raise FileNotFoundError(f"Model files not found")
         
-        print(f"\nLoading model from {self.model_path}...")
         with open(self.model_path, 'rb') as f:
             self.model = pickle.load(f)
-        
-        print(f"Loading vectorizer from {self.vectorizer_path}...")
         with open(self.vectorizer_path, 'rb') as f:
             self.vectorizer = pickle.load(f)
-        
-        print("Model and vectorizer loaded successfully!")
+        print(f"Loaded: {self.model_path}, {self.vectorizer_path}")
     
     def classify_text(self, text):
         """Classify a single text and return sentiment with confidence"""
@@ -54,29 +48,21 @@ class SentimentClassifier:
     
     def classify_dataset(self, data):
         """Classify all items in the dataset"""
-        print(f"\nClassifying {len(data)} items...")
+        print(f"Classifying {len(data)} items...")
         results = []
         
         for i, item in enumerate(data):
-            if (i + 1) % 20 == 0:
-                print(f"  Processed {i + 1}/{len(data)} items...")
+            if (i + 1) % 50 == 0:
+                print(f"  {i + 1}/{len(data)}...")
             
-            # Get the cleaned text
-            cleaned_text = item.get('cleaned_text', '')
-            if not cleaned_text:
-                # Fallback to original text if cleaned text not available
-                cleaned_text = item.get('title', '') + ' ' + item.get('selftext', '')
-            
-            # Classify
+            cleaned_text = item.get('cleaned_text', '') or item.get('title', '') + ' ' + item.get('selftext', '')
             sentiment, confidence = self.classify_text(cleaned_text)
             
-            # Add sentiment info to item
             result = item.copy()
             result['sentiment'] = sentiment
             result['sentiment_confidence'] = float(confidence)
             results.append(result)
         
-        print(f"Classification complete!")
         return results
     
     def generate_sentiment_report(self, classified_data, output_file='sentiment_report.txt'):
@@ -182,56 +168,38 @@ def main():
     """Main execution function"""
     print("=" * 60)
     print("SENTIMENT CLASSIFICATION")
-    print("Applying trained model to scraped data")
     print("=" * 60)
     
-    # Initialize classifier
     classifier = SentimentClassifier()
     
     try:
-        # Load the trained model
         classifier.load_model()
         
-        # Load cleaned data from Step 1
         input_file = 'cleaned_data.json'
-        print(f"\nLoading cleaned data from {input_file}...")
-        
         if not os.path.exists(input_file):
-            print(f"\nERROR: Input file '{input_file}' not found!")
-            print("Please run the main scraper (Step 1) first to generate cleaned data.")
+            print(f"\\nERROR: {input_file} not found. Run Step 1 first.")
             return
         
+        print(f"\\nLoading {input_file}...")
         with open(input_file, 'r', encoding='utf-8') as f:
             cleaned_data = json.load(f)
-        
         print(f"Loaded {len(cleaned_data)} posts")
         
-        # Classify all posts
         classified_data = classifier.classify_dataset(cleaned_data)
         
-        # Save classified data
         output_file = 'classified_sentiment_data.json'
-        print(f"\nSaving classified data to {output_file}...")
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(classified_data, f, indent=2, ensure_ascii=False)
-        print(f"Classified data saved!")
+        print(f"\\nSaved: {output_file}")
         
-        # Generate report
         classifier.generate_sentiment_report(classified_data)
         
-        print("\n" + "=" * 60)
-        print("SENTIMENT CLASSIFICATION COMPLETE")
+        print("\\n" + "=" * 60)
+        print("COMPLETE")
         print("=" * 60)
         
-    except FileNotFoundError as e:
-        print(f"\nERROR: {e}")
-        print("\nPlease ensure you have:")
-        print("1. Trained the model (run sentiment_model.py)")
-        print("2. Generated cleaned data (run main.py from Step 1)")
     except Exception as e:
-        print(f"\nERROR: {e}")
-        import traceback
-        traceback.print_exc()
+        print(f"\\nERROR: {e}")
 
 
 if __name__ == "__main__":

@@ -135,17 +135,12 @@ class SentimentModelTrainer:
     def save_model(self, model_path='sentiment_model.pkl', vectorizer_path='vectorizer.pkl'):
         """Save trained model and vectorizer"""
         if self.model is None:
-            raise ValueError("No model to save. Train a model first.")
-        
-        print(f"\nSaving model to {model_path}...")
+            raise ValueError("No model to save.")
         with open(model_path, 'wb') as f:
             pickle.dump(self.model, f)
-        
-        print(f"Saving vectorizer to {vectorizer_path}...")
         with open(vectorizer_path, 'wb') as f:
             pickle.dump(self.vectorizer, f)
-        
-        print("Model and vectorizer saved successfully!")
+        print(f"Saved: {model_path}, {vectorizer_path}")
     
     def predict(self, texts):
         """Predict sentiment for new texts"""
