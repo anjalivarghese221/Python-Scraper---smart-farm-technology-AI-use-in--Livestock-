@@ -5,11 +5,9 @@ Scrapes social media opinions (Reddit) about smart farming and AI use in livesto
 """
 
 import requests
-from bs4 import BeautifulSoup
 import re
 import time
 from collections import Counter
-from urllib.parse import urljoin, urlparse
 import json
 
 

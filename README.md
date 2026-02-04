@@ -1,176 +1,114 @@
-#  Smart Farm Technology & AI in Livestock - Social Media Scraper
+#  Smart Farm Technology & AI in Livestock Analysis
 
-A Python-based web scraper that collects and analyzes social media opinions about smart farming technology and AI use in livestock management. The scraper focuses on Reddit discussions and implements a comprehensive 9-step text cleaning process for data analysis.
+Python-based social media scraper and sentiment analyzer for smart farming technology and AI use in livestock management.
+
+##  Overview
+
+**4-Step Analysis Pipeline:**
+1. **Scraper** - Collect Reddit posts about smart farming and livestock AI
+2. **Sentiment Analysis** - Train and apply ML model to classify opinions
+3. **Network Analysis** - Extract keywords and map co-occurrence networks
+4. **Final Analysis** - Comprehensive sentiment report with visualizations
 
 ##  Features
 
-### 1. **Reddit Social Media Scraping**
-- Scrapes relevant posts from farming, agriculture, and technology subreddits
-- Searches for specific keywords: "smart farm", "AI livestock", "precision agriculture"
-- Collects post titles, content, scores, and comment counts
-- No authentication required (uses public Reddit JSON API)
+### Step 1: Reddit Scraping & Text Cleaning
+- Scrapes farming/agriculture subreddits using public JSON API
+- 9-step text cleaning pipeline (deduplication, stop words, lemmatization)
+- Generates cleaned dataset for analysis
 
-### 2. **9-Step Text Cleaning Process**
-Based on the industry-standard text preprocessing pipeline:
-1.  Remove duplicate tweets/posts to filter out bots
-2.  Remove usernames and links
-3.  Remove special characters and punctuation
-4.  Exclude meaningless words ("stop" words)
-5.  Save text for sentiment analysis
-6.  Remove hashtagged words
-7.  Tokenize the texts (break into words)
-8.  Count word combinations (bigrams)
-9.  Convert tokenized words to base form (lemmatization)
+### Step 2: Sentiment Model
+- Trains Logistic Regression classifier with 150 labeled examples
+- Classifies posts as positive, negative, or neutral
+- Saves trained model for reuse
 
-### 3. **Data Visualization & Display**
-- Color-coded terminal output with statistics
-- Top word frequency analysis
-- Bigram (word pair) frequency analysis
-- Topic-specific keyword extraction
-- Beautiful data presentation with progress indicators
+### Step 3: Network Analysis
+- Extracts meaningful keywords (filters 100+ stop words)
+- Builds co-occurrence network (keywords appearing together)
+- Detects topic communities using Louvain algorithm
+- Generates 8 network visualizations
 
-### 4. **Output Files**
-- `raw_scraped_data.json` - Original scraped data
-- `cleaned_data.json` - Processed and cleaned text data
-- `statistics.json` - Word frequencies and analysis
-- `summary_report.txt` - Human-readable summary report
+### Step 4: Final Sentiment Analysis
+- Comprehensive sentiment report by subreddit
+- Statistical analysis and visualizations
+- 4-panel sentiment overview chart
 
 ##  Getting Started
 
-### Prerequisites
-- Python 3.9+ (already installed )
-- pip (Python package manager)
-
 ### Installation
-
-1. **Install required packages:**
 ```bash
 pip3 install -r requirements.txt
 ```
 
 ### Usage
 
-**Run the complete scraper with cleaning and analysis:**
+**Run all 4 steps:**
 ```bash
-python3 main.py
-```
-
-**Or run individual components:**
-```bash
-# Just scraping
-python3 scraper.py
-
-# Test text cleaning
-python3 text_cleaner.py
-
-# Test display
-python3 data_display.py
+python3 main.py                      # Step 1: Scraping & cleaning
+python3 sentiment_model.py           # Step 2a: Train model
+python3 sentiment_classifier.py      # Step 2b: Classify posts
+python3 network_analysis.py          # Step 3: Network analysis
+python3 network_visualizer.py        # Generate visualizations
+python3 final_sentiment_analysis.py  # Step 4: Final report
 ```
 
 ##  Project Structure
 
 ```
-├── main.py              # Main orchestration script
-├── scraper.py           # Reddit scraping functionality
-├── text_cleaner.py      # 9-step cleaning process
-├── data_display.py      # Visualization and reporting
-├── requirements.txt     # Python dependencies
-└── README.md           # This file
+├── main.py                       # Step 1 orchestrator
+├── scraper.py                    # Reddit scraper
+├── text_cleaner.py               # 9-step cleaning pipeline
+├── create_training_data.py       # Generate training examples
+├── sentiment_model.py            # Train sentiment classifier
+├── sentiment_classifier.py       # Apply model to dataset
+├── network_analysis.py           # Keyword network builder
+├── network_visualizer.py         # Generate network graphs
+├── final_sentiment_analysis.py   # Comprehensive analysis
+├── requirements.txt              # Dependencies
+└── visualizations/               # Output graphs
 ```
 
-##  Sample Output
+##  Output Files
 
-The scraper will:
-1. Search Reddit for relevant posts about smart farming and AI livestock
-2. Clean and process the text data
-3. Display statistics including:
-   - Total words and unique vocabulary
-   - Most frequent words related to the topic
-   - Common word pairs (bigrams)
-   - Topic-specific keyword analysis
-4. Generate multiple output files for further analysis
+**Data:**
+- `raw_scraped_data.json` - Original scraped posts
+- `cleaned_data.json` - Cleaned text
+- `sentiment_training_data.json` - Training dataset (150 examples)
+- `classified_sentiment_data.json` - Posts with sentiment labels
 
-##  Target Topics
+**Models:**
+- `sentiment_model.pkl` - Trained classifier
+- `vectorizer.pkl` - TF-IDF vectorizer
+- `keyword_network.pkl` - Network graph
 
-The scraper focuses on:
-- **Smart Farm Technology**: Sensors, automation, IoT devices
-- **AI & Machine Learning**: Predictive analytics, computer vision
-- **Livestock Management**: Cattle monitoring, dairy farming, health tracking
-- **Precision Agriculture**: Data-driven farming decisions
+**Reports:**
+- `statistics.json` - Word frequencies
+- `network_analysis_results.json` - Network statistics
+- Text reports auto-generated by each step
 
-##  Customization
+**Visualizations:**
+- `visualizations/full_network.png` - Complete keyword network
+- `visualizations/communities.png` - Topic communities
+- `visualizations/community_*.png` - Individual communities
+- `visualizations/sentiment_overview.png` - 4-panel analysis
 
-### Modify Target Subreddits
-Edit the `subreddits` list in [scraper.py](scraper.py):
-```python
-self.subreddits = ['farming', 'agriculture', 'AgTech', 'dairy', 'livestock']
-```
+##  Requirements
 
-### Adjust Search Keywords
-Modify search terms in [main.py](main.py):
-```python
-scraper.scrape_reddit_search("your custom search term", limit=20)
-```
+- Python 3.9+
+- requests
+- scikit-learn
+- pandas
+- numpy
+- networkx
+- matplotlib
 
-### Change Stop Words
-Edit the `stop_words` set in [text_cleaner.py](text_cleaner.py) to customize word filtering.
+##  Notes
 
-##  Important Notes
-
-### Ethical Scraping
-- The scraper uses public Reddit APIs and respects rate limiting
-- Includes polite delays between requests (2 seconds)
-- Only collects publicly available data
-- Always respect website terms of service
-
-### Potential Issues & Solutions
-
-**Issue**: Reddit blocks requests
-- **Solution**: The scraper includes proper User-Agent headers and rate limiting
-- **Alternative**: If blocked, wait a few minutes before retrying
-
-**Issue**: No data collected
-- **Solution**: Check your internet connection
-- **Alternative**: Reddit's JSON API might be temporarily unavailable
-
-**Issue**: Rate limiting (HTTP 429)
-- **Solution**: The scraper automatically waits when rate limited
-- **Note**: This is normal and handled automatically
-
-##  Understanding the Results
-
-### Top Words
-Shows the most frequently mentioned terms in discussions about smart farming and AI livestock.
-
-### Bigrams (Word Pairs)
-Reveals common phrases and concepts, such as:
-- "smart → farm"
-- "cattle → health"
-- "ai → system"
-
-### Topic Keywords
-Categorized analysis showing:
-- **Technology**: AI, sensors, automation
-- **Livestock**: Cattle, dairy, animals
-- **Farming**: Agriculture, crops, fields
-- **Management**: Monitoring, tracking, health
-
-##  Future Enhancements
-
-Potential additions:
-- [ ] Sentiment analysis on cleaned text
-- [ ] Export to CSV format
-- [ ] Twitter/X scraping (requires API keys)
-- [ ] Word cloud visualization
-- [ ] Time-series analysis of discussions
-- [ ] Machine learning topic modeling
-
-##  License
-
-This project is for educational and research purposes.
-
-##  Contributing
+- Uses public Reddit JSON API (no auth needed)
+- Includes rate limiting (2s delays)
+- Stop words filtered for cleaner network analysis
+- All generated reports/data excluded from git
 
 ---
 
-**Note**: This scraper was created for analyzing public discussions about agricultural technology. Always ensure you comply with website terms of service and data privacy regulations.
+**Educational project for analyzing agricultural technology discussions.**
