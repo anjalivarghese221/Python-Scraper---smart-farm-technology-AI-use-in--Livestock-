@@ -175,14 +175,26 @@ def main():
     try:
         classifier.load_model()
         
-        input_file = 'cleaned_data.json'
-        if not os.path.exists(input_file):
-            print(f"\\nERROR: {input_file} not found. Run Step 1 first.")
-            return
+        # Try new preprocessed file first, fallback to old cleaned_data
+        if os.path.exists('preprocessed_data.json'):
+            input_file = 'preprocessed_data.json'
+            print(f"\\nLoading {input_file}...")
+            with open(input_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            # Extract posts array if it's wrapped in metadata
+            if isinstance(data, dict) and 'data' in data:
+                cleaned_data = data['data']
+            else:
+                cleaned_data = data
+        else:
+            input_file = 'cleaned_data.json'
+            if not os.path.exists(input_file):
+                print(f"\\nERROR: {input_file} not found. Run preprocessing first.")
+                return
+            print(f"\\nLoading {input_file}...")
+            with open(input_file, 'r', encoding='utf-8') as f:
+                cleaned_data = json.load(f)
         
-        print(f"\\nLoading {input_file}...")
-        with open(input_file, 'r', encoding='utf-8') as f:
-            cleaned_data = json.load(f)
         print(f"Loaded {len(cleaned_data)} posts")
         
         classified_data = classifier.classify_dataset(cleaned_data)

@@ -83,9 +83,9 @@ class NetworkVisualizer:
         # Draw edges with varying thickness
         edge_weights = [subgraph[u][v].get('weight', 1) for u, v in subgraph.edges()]
         max_weight = max(edge_weights) if edge_weights else 1
-        edge_widths = [w / max_weight * 2 for w in edge_weights]
+        edge_widths = [w / max_weight * 3 for w in edge_weights]
         
-        nx.draw_networkx_edges(subgraph, self.pos, alpha=0.3, width=edge_widths, edge_color='gray')
+        nx.draw_networkx_edges(subgraph, self.pos, alpha=0.7, width=edge_widths, edge_color='#2c3e50')
         nx.draw_networkx_nodes(subgraph, self.pos, node_size=node_sizes, 
                               node_color='skyblue', alpha=0.8, edgecolors='darkblue', linewidths=1.5)
         nx.draw_networkx_labels(subgraph, self.pos, font_size=10, font_weight='bold')
@@ -138,7 +138,7 @@ class NetworkVisualizer:
                      for node in subgraph.nodes()]
         
         # Draw with better visibility
-        nx.draw_networkx_edges(subgraph, pos, alpha=0.2, width=1.5, edge_color='gray', ax=ax)
+        nx.draw_networkx_edges(subgraph, pos, alpha=0.7, width=2.5, edge_color='#2c3e50', ax=ax)
         nx.draw_networkx_nodes(subgraph, pos, node_color=node_colors,
                               node_size=node_sizes, alpha=0.85, 
                               edgecolors='black', linewidths=1.5, ax=ax)
@@ -303,6 +303,96 @@ class NetworkVisualizer:
             plt.close()
 
     
+    def visualize_sentiment_network(self, results, output_file='network_sentiment.png', figsize=(18, 14)):
+        """
+        Visualize network with nodes colored by dominant sentiment
+        Standard in social media analysis - shows sentiment clustering
+        """
+        print("\nGenerating sentiment-colored network visualization...")
+        
+        if self.graph.number_of_nodes() == 0:
+            print("Empty graph. Cannot visualize.")
+            return
+        
+        # Get top nodes
+        degree_dict = dict(self.graph.degree())
+        top_nodes = sorted(degree_dict.items(), key=lambda x: x[1], reverse=True)[:80]
+        top_node_names = [node for node, _ in top_nodes]
+        subgraph = self.graph.subgraph(top_node_names).copy()
+        
+        print(f"  Showing {subgraph.number_of_nodes()} nodes with sentiment colors")
+        
+        # Calculate dominant sentiment for each keyword
+        keyword_sentiment = {}
+        for node in subgraph.nodes():
+            node_attrs = self.graph.nodes[node]
+            if 'sentiment' in node_attrs:
+                sent_dist = node_attrs['sentiment']
+                # Find dominant sentiment
+                if sent_dist['positive'] > sent_dist['negative'] and sent_dist['positive'] > sent_dist['neutral']:
+                    keyword_sentiment[node] = 'positive'
+                elif sent_dist['negative'] > sent_dist['positive'] and sent_dist['negative'] > sent_dist['neutral']:
+                    keyword_sentiment[node] = 'negative'
+                else:
+                    keyword_sentiment[node] = 'neutral'
+            else:
+                keyword_sentiment[node] = 'neutral'
+        
+        # Color mapping
+        sentiment_colors = {
+            'positive': '#2ecc71',  # Green
+            'negative': '#e74c3c',  # Red
+            'neutral': '#95a5a6'    # Gray
+        }
+        
+        node_colors = [sentiment_colors.get(keyword_sentiment.get(node, 'neutral'), '#95a5a6') 
+                      for node in subgraph.nodes()]
+        
+        fig, ax = plt.subplots(figsize=figsize)
+        
+        # Layout
+        pos = nx.spring_layout(subgraph, k=2.5, iterations=100, seed=42)
+        
+        # Node sizes
+        node_sizes = [degree_dict[node] * 40 + 400 for node in subgraph.nodes()]
+        
+        # Draw edges
+        edge_weights = [subgraph[u][v].get('weight', 1) for u, v in subgraph.edges()]
+        if edge_weights:
+            max_weight = max(edge_weights)
+            edge_widths = [w / max_weight * 3.5 for w in edge_weights]
+        else:
+            edge_widths = [1] * len(edge_weights)
+        
+        nx.draw_networkx_edges(subgraph, pos, alpha=0.7, width=edge_widths, 
+                              edge_color='#2c3e50', ax=ax)
+        
+        # Draw nodes with sentiment colors
+        nx.draw_networkx_nodes(subgraph, pos, node_size=node_sizes, 
+                              node_color=node_colors, alpha=0.9, 
+                              edgecolors='black', linewidths=1.5, ax=ax)
+        
+        nx.draw_networkx_labels(subgraph, pos, font_size=9, font_weight='bold', ax=ax)
+        
+        # Legend
+        legend_elements = [
+            mpatches.Patch(facecolor='#2ecc71', edgecolor='black', label='Positive Sentiment'),
+            mpatches.Patch(facecolor='#e74c3c', edgecolor='black', label='Negative Sentiment'),
+            mpatches.Patch(facecolor='#95a5a6', edgecolor='black', label='Neutral Sentiment')
+        ]
+        ax.legend(handles=legend_elements, loc='upper right', fontsize=11, framealpha=0.9)
+        
+        ax.set_title('Keyword Network Colored by Dominant Sentiment\n' + 
+                    'Green=Positive | Red=Negative | Gray=Neutral',
+                    fontsize=16, fontweight='bold', pad=20)
+        ax.axis('off')
+        
+        plt.tight_layout()
+        plt.savefig(output_file, dpi=300, bbox_inches='tight', facecolor='white')
+        print(f"Sentiment network visualization saved to: {output_file}")
+        plt.close()
+
+    
     def generate_all_visualizations(self, results):
         """Generate all visualization outputs"""
         viz_dir = 'visualizations'
@@ -311,6 +401,7 @@ class NetworkVisualizer:
         
         print(f"\nGenerating {viz_dir}/...")
         self.visualize_full_network(output_file=f'{viz_dir}/network_full.png')
+        self.visualize_sentiment_network(results, output_file=f'{viz_dir}/network_sentiment.png')
         self.visualize_communities(results, output_file=f'{viz_dir}/network_communities.png')
         self.visualize_top_keywords(results, output_file=f'{viz_dir}/top_keywords.png')
         self.visualize_centrality(results, output_file=f'{viz_dir}/keyword_centrality.png')

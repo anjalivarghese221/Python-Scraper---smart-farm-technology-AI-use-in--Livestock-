@@ -170,6 +170,10 @@ class KeywordNetworkAnalyzer:
                     self.graph.add_edge(word1, word2, weight=weight)
                     edge_count += 1
         
+        # Add sentiment attributes to nodes
+        for keyword in self.graph.nodes():
+            self.graph.nodes[keyword]['sentiment'] = self.keyword_sentiment[keyword]
+        
         print(f"Network nodes (keywords): {self.graph.number_of_nodes()}")
         print(f"Network edges (co-occurrences): {self.graph.number_of_edges()}")
         
@@ -356,7 +360,8 @@ def main():
     print("KEYWORD NETWORK ANALYSIS - Step 3")
     print("=" * 70)
     
-    analyzer = KeywordNetworkAnalyzer(min_keyword_freq=8, min_cooccurrence=4)
+    # Lower thresholds for more connections (was 8, 4)
+    analyzer = KeywordNetworkAnalyzer(min_keyword_freq=3, min_cooccurrence=2)
     
     input_file = 'classified_sentiment_data.json'
     if not os.path.exists(input_file):
