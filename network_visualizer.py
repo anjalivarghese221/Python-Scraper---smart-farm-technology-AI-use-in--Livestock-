@@ -292,7 +292,7 @@ class NetworkVisualizer:
             
             # Title with topic info
             title = f"Community {i}: {comm_data['topic_label']}\n"
-            title += f"{len(comm_nodes)} keywords, {subgraph.number_of_edges()} connections"
+            title += f"{comm_data['size']} keywords (showing top {len(comm_nodes)}), {subgraph.number_of_edges()} connections"
             ax.set_title(title, fontsize=13, fontweight='bold')
             ax.axis('off')
             

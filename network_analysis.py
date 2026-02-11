@@ -205,12 +205,19 @@ class KeywordNetworkAnalyzer:
         
         return self.communities
     
-    def analyze_communities(self):
-        """Analyze and label detected communities"""
+    def analyze_communities(self, min_community_size=5):
+        """Analyze and label detected communities - filter out small/noise communities"""
         community_analysis = []
+        community_id = 1  # Track ID for meaningful communities only
         
         for i, community in enumerate(self.communities, 1):
             keywords = list(community)
+            
+            # Filter out small communities (noise)
+            if len(keywords) < min_community_size:
+                print(f"  Skipping community {i} (only {len(keywords)} keywords - too small)")
+                continue
+            
             total_freq = sum(self.keyword_freq.get(k, 0) for k in keywords)
             
             # Top keywords by frequency
@@ -234,7 +241,7 @@ class KeywordNetworkAnalyzer:
             topic_label = self.infer_topic_label(top_keywords)
             
             community_analysis.append({
-                'community_id': i,
+                'community_id': community_id,
                 'size': len(keywords),
                 'total_frequency': total_freq,
                 'top_keywords': top_keywords,
@@ -243,7 +250,10 @@ class KeywordNetworkAnalyzer:
                 'sentiment_percentages': sentiment_pct,
                 'all_keywords': keywords
             })
+            
+            community_id += 1
         
+        print(f"\nRetained {len(community_analysis)} meaningful communities (≥{min_community_size} keywords)")
         return community_analysis
     
     def infer_topic_label(self, top_keywords):
