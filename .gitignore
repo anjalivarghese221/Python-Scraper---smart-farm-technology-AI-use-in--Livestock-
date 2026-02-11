@@ -1,25 +1,24 @@
-# Scraper Output Files
-raw_scraped_data.json
-cleaned_data.json
-statistics.json
-summary_report.txt
-scraper_output.log
+# Data Files (Large JSON outputs - do not commit)
+*.json
+!requirements.json
+!package.json
 
-# Sentiment Analysis Files (Step 2)
-sentiment_training_data.json
-sentiment_model.pkl
-vectorizer.pkl
-classified_sentiment_data.json
-sentiment_report.txt
+# Model Files (Binary, regeneratable)
+*.pkl
 
-# Network Analysis Files (Step 3)
-keyword_network.pkl
-network_analysis_results.json
-network_analysis_report.txt
+# Visualizations (Generated outputs)
 visualizations/
+*.png
 
-# Final Analysis Files (Step 4)
-final_sentiment_analysis.txt
+# Text Reports (Generated outputs)
+*.txt
+!requirements.txt
+
+# macOS
+.DS_Store
+
+# Backups
+*_backup.json
 # Python
 __pycache__/
 *.py[cod]
