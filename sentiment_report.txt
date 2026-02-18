@@ -1,0 +1,5609 @@
+============================================================
+SENTIMENT ANALYSIS REPORT
+Smart Farm Technology - Social Media Opinions
+============================================================
+
+Total Posts Analyzed: 2811
+Average Confidence: 0.3928
+
+------------------------------------------------------------
+SENTIMENT DISTRIBUTION
+------------------------------------------------------------
+
+POSITIVE  : 1351 posts (48.06%)
+             ████████████████████████
+
+NEGATIVE  : 1000 posts (35.57%)
+             █████████████████
+
+NEUTRAL   :  460 posts (16.36%)
+             ████████
+
+------------------------------------------------------------
+EXAMPLE POSTS (High Confidence)
+------------------------------------------------------------
+
+POSITIVE (confidence: 0.5694):
+  Title: How researchers are making precision agriculture more affordable...
+  Text: ...
+
+NEGATIVE (confidence: 0.6425):
+  Title: The core issue that plagues Warframe is poor reward scaling, not powerful AoE frames like Ember...
+  Text: ...
+
+NEUTRAL (confidence: 0.6471):
+  Title: Probably the wrong sub, but I'll try to get some karma anyway...
+  Text: ...
+
+------------------------------------------------------------
+SENTIMENT BY SUBREDDIT
+------------------------------------------------------------
+
+r/2007scape (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/3DPrintFarms (4 posts):
+  positive:   3 (75.00%)
+  negative:   1 (25.00%)
+  neutral :   0 ( 0.00%)
+
+r/3DprintEntrepreneurs (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/3Dprinting (10 posts):
+  positive:   5 (50.00%)
+  negative:   3 (30.00%)
+  neutral :   2 (20.00%)
+
+r/40kLore (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/6Perks (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/AAGE_hamesha_scholars (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ABoringDystopia (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ACPocketCamp (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AI4CivilEngineering (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AI4tech (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AICareer (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AIJobHub (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AIO (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/AIPsychosisRecovery (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AITAH (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AITrailblazers (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AI_Agents (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AI_India (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AIandRobotics (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/AMA (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ARC_Raiders (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   2 (100.00%)
+
+r/AR_MR_XR (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ASTSpaceMobile (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AbioticFactor (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/AcneScars (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AgainstHateSubreddits (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AgencyGrowthHacks (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AgriMinds (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AgriTech (14 posts):
+  positive:  11 (78.57%)
+  negative:   3 (21.43%)
+  neutral :   0 ( 0.00%)
+
+r/AgriTechInfo (6 posts):
+  positive:   4 (66.67%)
+  negative:   2 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/Agriculture (78 posts):
+  positive:  34 (43.59%)
+  negative:  21 (26.92%)
+  neutral :  23 (29.49%)
+
+r/AgricultureArticles (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/AgricultureAust (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Agronomics_Investors (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/Albuquerque (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AliensDarkDescent (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AllThingsDrones (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AlltraxInc (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AltcoinAdvisor (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AlternateHistory (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AlternativeHistory (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AmIOverreacting (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AmItheAsshole (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/AmazonVine (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Amd (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Amigurumi (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AnalyticsAutomation (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Anarcho_Capitalism (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/AncientCivilizations (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Android (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AndroidClosedTesting (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AngelInvesting (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AntiVegan (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Anticonsumption (3 posts):
+  positive:   1 (33.33%)
+  negative:   2 (66.67%)
+  neutral :   0 ( 0.00%)
+
+r/AnythingGoesNews (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AoSLore (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AppHookup (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Appalachia (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ApplyingToCollege (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Aquaculture (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ArcRaiders (5 posts):
+  positive:   2 (40.00%)
+  negative:   2 (40.00%)
+  neutral :   1 (20.00%)
+
+r/Archaeology (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Art (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ArtefactPorn (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ArtificialInteligence (5 posts):
+  positive:   2 (40.00%)
+  negative:   2 (40.00%)
+  neutral :   1 (20.00%)
+
+r/ArtificialNtelligence (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AsianBeauty (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AskACanadian (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AskALawyer (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AskAnAmerican (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AskBrits (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AskElectricians (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AskEngineers (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AskFrance (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AskHistorians (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AskReddit (4 posts):
+  positive:   1 (25.00%)
+  negative:   3 (75.00%)
+  neutral :   0 ( 0.00%)
+
+r/AskRobotics (3 posts):
+  positive:   1 (33.33%)
+  negative:   2 (66.67%)
+  neutral :   0 ( 0.00%)
+
+r/AskTheWorld (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AskVegans (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AskVet (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Astroneer (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AudioFuzz (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Austin (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AustralianCattleDog (4 posts):
+  positive:   3 (75.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (25.00%)
+
+r/AustralianNostalgia (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/AustralianPolitics (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/AutoNewspaper (4 posts):
+  positive:   4 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Automate (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/AutomationGames (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Awe_Robotics_and_AI (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/BB_Stock (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/BORUpdates (3 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (33.33%)
+  neutral :   2 (66.67%)
+
+r/BYNDCentral (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Baking (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/BaldisBasicsEdu (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/BaldursGate3 (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/BalticStates (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/BambuLab (10 posts):
+  positive:   0 ( 0.00%)
+  negative:  10 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Battlefield (3 posts):
+  positive:   2 (66.67%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (33.33%)
+
+r/Battlefield6 (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/BeamNG (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/BestofRedditorUpdates (41 posts):
+  positive:  15 (36.59%)
+  negative:  20 (48.78%)
+  neutral :   6 (14.63%)
+
+r/BiocharToday (4 posts):
+  positive:   4 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/BiologyPreprints (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Bird_Flu_Now (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Bitcoin (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/BlackMythWukong (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/BlackNovel (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/BlueskySkeets (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Bogleheads (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/BoomersBeingFools (5 posts):
+  positive:   1 (20.00%)
+  negative:   4 (80.00%)
+  neutral :   0 ( 0.00%)
+
+r/Brawlstars (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/BreakingNews24hr (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/BrevilleCoffee (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Btechtards (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/BusinessTodayNews (3 posts):
+  positive:   3 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Byzantineroleplaying (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/CATHELP (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/CBSE (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/CFB (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/CLEPexam (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/CODZombies (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/CSE111 (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/CallOfDutyMobile (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/CampHalfBloodRP (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/CanadaPersonalFinance (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/CanadianConservative (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/CanadianPostalService (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/CapitolConsequences (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/CarMechanicSimulator (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/CarbonCredits (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/CasualUK (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/Cattle (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/CellularAgriculture (7 posts):
+  positive:   7 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Chainlink (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ChainsawMan (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ChaosZeroN (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ChaosZeroNightmare (3 posts):
+  positive:   3 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/CharacterRant (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ChatGPT (10 posts):
+  positive:   5 (50.00%)
+  negative:   4 (40.00%)
+  neutral :   1 (10.00%)
+
+r/ChatGPTPromptGenius (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ChemicalInsightReport (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/ClarksonsFarm (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ClashOfClans (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/ClaudeAI (4 posts):
+  positive:   0 ( 0.00%)
+  negative:   3 (75.00%)
+  neutral :   1 (25.00%)
+
+r/ClimateActionPlan (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ClimateOffensive (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/CodingJobs (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/CollegeStation (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/College_Homework (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Commodities (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Conures (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Cooking (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/CoreKeeperGame (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/Costco (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/CraftivismCollective (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/CreateMod (3 posts):
+  positive:   1 (33.33%)
+  negative:   2 (66.67%)
+  neutral :   0 ( 0.00%)
+
+r/CreepCast_Submissions (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/CreepsMcPasta (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/CrusaderKings (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/CryptoCurrency (7 posts):
+  positive:   2 (28.57%)
+  negative:   4 (57.14%)
+  neutral :   1 (14.29%)
+
+r/CryptoCurrencyClassic (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/CryptoIndex_io (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/CryptoMoonShots (7 posts):
+  positive:   6 (85.71%)
+  negative:   1 (14.29%)
+  neutral :   0 ( 0.00%)
+
+r/CultFSInvestorClub (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/CultivateNation (4 posts):
+  positive:   4 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Cyberpunk (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/DCEUleaks (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/DCcomics (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/DDLC (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/DIYPCBattlesInfo (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/DMAcademy (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Damnthatsinteresting (3 posts):
+  positive:   1 (33.33%)
+  negative:   2 (66.67%)
+  neutral :   0 ( 0.00%)
+
+r/DanganAndChaos (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Dbrain (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/DeadlockTheGame (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/DebateAChristian (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/DebateAVegan (4 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (50.00%)
+  neutral :   2 (50.00%)
+
+r/DebateReligion (3 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (66.67%)
+  neutral :   1 (33.33%)
+
+r/DebateVaccines (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/DeepMarketScan (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/DeepSeek (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Defeat_Project_2025 (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/Destiny (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/DestinyTheGame (7 posts):
+  positive:   2 (28.57%)
+  negative:   4 (57.14%)
+  neutral :   1 (14.29%)
+
+r/DestroyMyGame (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Diablo (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/DimitraTech (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Discussion (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/DiscussionZone (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/DnD (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/DogAdvice (3 posts):
+  positive:   1 (33.33%)
+  negative:   1 (33.33%)
+  neutral :   1 (33.33%)
+
+r/DogTrainingTips (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/DonutLab (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/DotA2 (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/DressToImpressRoblox (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/EB2_NIW (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ESCP (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/EU5 (4 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (50.00%)
+  neutral :   2 (50.00%)
+
+r/EU_Economics (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/EarthIsDoneWithUs (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/EcoUplift (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/EconNews (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/EconomicHistory (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/EffectiveAltruism (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Eldenring (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/EliteDangerous (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Emmerdale (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/EndUkrainianGenocide (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/EngineeringAdmissions (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/EngineeringPorn (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/EngineeringResumes (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/EntitledPeople (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Entrepreneur (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/EntrepreneurConnect (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/EnvironmentalNews (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Environmental_Careers (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/Environmentalism (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/Epstein (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Equestrian (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Esphome (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/EverythingScience (3 posts):
+  positive:   2 (66.67%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (33.33%)
+
+r/ExplainAFilmPlotBadly (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/F1Technical (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/FF06B5 (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/FFXV (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/FacebookScience (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/Fallout (4 posts):
+  positive:   2 (50.00%)
+  negative:   1 (25.00%)
+  neutral :   1 (25.00%)
+
+r/Fallout4modsps4 (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Fantasy (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/FarmingUK (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/FarmsofStardewValley (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/FedJerk (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/FieldsOfMistriaGame (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Filltech (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/FishFarming (3 posts):
+  positive:   3 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Fitness_India (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/FluentInFinance (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/FoodLosAngeles (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Foodforthought (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/FoundandExpose (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Frostpunk (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Frugal (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Futurism (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/Futurology (32 posts):
+  positive:  10 (31.25%)
+  negative:  17 (53.12%)
+  neutral :   5 (15.62%)
+
+r/GEODNET_ (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Games (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/GardeningIRE (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/GenAI4all (3 posts):
+  positive:   1 (33.33%)
+  negative:   2 (66.67%)
+  neutral :   0 ( 0.00%)
+
+r/GenesisDreamTeach (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Geniusphere_Hub (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Genshin_Impact (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Genshin_Lore (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Geospatial_Data (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/GhostRecon (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/GlobalHorseRacingTips (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/GlobalOffensive (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/GoldenCO (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/GoodNewsUK (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/Guildwars2 (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/H5N1_AvianFlu (12 posts):
+  positive:   7 (58.33%)
+  negative:   2 (16.67%)
+  neutral :   3 (25.00%)
+
+r/HARAToken (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/HFY (150 posts):
+  positive:  46 (30.67%)
+  negative:  76 (50.67%)
+  neutral :  28 (18.67%)
+
+r/HandsOnComplexity (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/HeliumNetwork (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Helldivers (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/HermanCainAward (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/HermanCainDebate (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/HermitCraft (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/HighStrangeness (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/HistamineIntolerance (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/HobbyDrama (3 posts):
+  positive:   1 (33.33%)
+  negative:   1 (33.33%)
+  neutral :   1 (33.33%)
+
+r/Hololive (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Home (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/HomeHacksHarmonyInfo (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/HomeKit (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Homesteading (49 posts):
+  positive:  21 (42.86%)
+  negative:  18 (36.73%)
+  neutral :  10 (20.41%)
+
+r/HonkaiStarRail (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/HotZone (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/HuaweiWatchGT (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/HubermanLab (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Hydroponics (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/HytaleInfo (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/IAmA (6 posts):
+  positive:   3 (50.00%)
+  negative:   3 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/ID_News (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/IDmydog (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/IMMORTALITY64 (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/IOLauto (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/IOT (25 posts):
+  positive:  12 (48.00%)
+  negative:  11 (44.00%)
+  neutral :   2 ( 8.00%)
+
+r/ISRO (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/I_DONT_LIKE (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/IncelTears (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/IndiaNonPolitical (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/IndiaTax (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/IndianAcademia (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/IndianGaming (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Indianbooks (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Indians_StudyAbroad (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/IndiansofIndia (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/IndieDev (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Industrial (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Infographics (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/InnovationCommunity (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/InterdimensionalNHI (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/InternshipsIndia (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/IntileoTechnologies (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/Investors (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Iowa (3 posts):
+  positive:   1 (33.33%)
+  negative:   2 (66.67%)
+  neutral :   0 ( 0.00%)
+
+r/IsraelPalestine (3 posts):
+  positive:   2 (66.67%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (33.33%)
+
+r/JEENEETards (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/JackSucksAtLife (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Jaguarland (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/JapanFinance (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Jobs4Bitcoins (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/JoeRogan (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/Jujutsufolk (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Jungle_Mains (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/JusticeForClayton (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Kaiserreich (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/KeamKerala (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Keep_Track (6 posts):
+  positive:   1 (16.67%)
+  negative:   5 (83.33%)
+  neutral :   0 ( 0.00%)
+
+r/Kenya (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Kerala (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Kokomi_Mains (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/KotakuInAction (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/LAUSR (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/LEGOfortnite (3 posts):
+  positive:   3 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/LINKTrader (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/LaborPartyofAustralia (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/LandscapeAstro (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/LateStageCapitalism (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Law_and_Politics (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/LegoStarWarsLeaks (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/LeopardsAteMyFace (5 posts):
+  positive:   1 (20.00%)
+  negative:   3 (60.00%)
+  neutral :   1 (20.00%)
+
+r/LeopardsAteMyFarm (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/LetsDiscussThis (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/LinkedInLunatics (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/LinusTechTips (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/LittlePeopleBigWorld (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Living_in_Korea (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/LlamaFarm (3 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   3 (100.00%)
+
+r/LocalLLaMA (3 posts):
+  positive:   2 (66.67%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (33.33%)
+
+r/LookOutsideGame (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/Lora (4 posts):
+  positive:   3 (75.00%)
+  negative:   1 (25.00%)
+  neutral :   0 ( 0.00%)
+
+r/Louisiana (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/LoveAndDeepspace (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/LowStakesConspiracies (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/MCPE (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/MHWilds (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/MMAT (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/MMORPG (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/MSCS (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/MSTR (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/MTB (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/MVIS (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/MachineLearning (31 posts):
+  positive:  11 (35.48%)
+  negative:  13 (41.94%)
+  neutral :   7 (22.58%)
+
+r/MachineLearningJobs (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/MadeMeSmile (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/MagicArena (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Maine (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/MaliciousCompliance (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/Manhua (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ManorLords (7 posts):
+  positive:   6 (85.71%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (14.29%)
+
+r/MapPorn (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/Maplestory (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Marijuanagreenhouse (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/MarkMyWords (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/MarvelStudiosSpoilers (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/MedicareForAll (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/MedievalDynasty (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/MekongRiver (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/MiamiHurricanes (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Michigan (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/MilitaryWorldbuilding (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Minecraft (9 posts):
+  positive:   1 (11.11%)
+  negative:   6 (66.67%)
+  neutral :   2 (22.22%)
+
+r/MinecraftHelp (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Minecraftbuilds (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/MobileAL (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Mobilicom (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ModCoord (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ModernWarfareII (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/MonsterHunter (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/MontereyBay (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/MoonBets (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/MortalKombat (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/MotorBuzz (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/MotorcycleMavensA (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Multiplatform_AI (6 posts):
+  positive:   5 (83.33%)
+  negative:   1 (16.67%)
+  neutral :   0 ( 0.00%)
+
+r/MurderAtTheCottage (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/N24 (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/NLNieuws (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/NSDQ420 (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/National_Pet_Adoption (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/NatureofPredators (33 posts):
+  positive:  10 (30.30%)
+  negative:  12 (36.36%)
+  neutral :  11 (33.33%)
+
+r/Nepal (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Neuralink (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/NewsWithJingjing (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/NoMansSkyTheGame (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/NoStupidQuestions (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/NorthAmericanPantheon (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/NorthCarolina (5 posts):
+  positive:   1 (20.00%)
+  negative:   3 (60.00%)
+  neutral :   1 (20.00%)
+
+r/NovaScotia (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/Oahu (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ObscurePatentDangers (3 posts):
+  positive:   3 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ObsidianMD (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/OctopusEnergy (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/OculusQuest (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Ohio (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Omaha (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/OnePiece (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/OnlineMarketResearch (20 posts):
+  positive:  20 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/OntarioGrade12s (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/OntarioUniversities (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/OpenAI (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/OpenDogTraining (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Oppo (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/OriginTrail (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/OutsourceDevHub (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Overwatch (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/OzBargainNew (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/PLC (3 posts):
+  positive:   3 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/PTCGP (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Palworld (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/Paranormal (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Parasitology (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ParlerWatch (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/PathOfExile2 (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/PathOfExileBuilds (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/PathToNowhere (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Pennsylvania (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/PennyStocksWatch (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Pennystock (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/Permaculture (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/PersonalFinanceNZ (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/PetAdvice (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/PetPalaces (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/PetRescueExposed (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Petsloverclubs (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/PhasmophobiaGame (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/PiNetwork (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/PixelWatch (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/PlateUp (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/PokemonScarletViolet (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/PokemonTCG (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/PoliticalCompassMemes (4 posts):
+  positive:   1 (25.00%)
+  negative:   3 (75.00%)
+  neutral :   0 ( 0.00%)
+
+r/PoliticalReceipts (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Political_Revolution (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/Portland (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Positive_News (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/PrecisionAg (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/PrematureEjaculation (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/PremierLeague (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/PrepperIntel (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/PrivatePackets (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ProfessorFinance (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/PropTech_AI (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Python (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/QidiTech3D (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Quantisnow (11 posts):
+  positive:   9 (81.82%)
+  negative:   2 (18.18%)
+  neutral :   0 ( 0.00%)
+
+r/QuebecLibre (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/RASPBERRY_PI_PROJECTS (3 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (66.67%)
+  neutral :   1 (33.33%)
+
+r/RFIDNews (7 posts):
+  positive:   4 (57.14%)
+  negative:   3 (42.86%)
+  neutral :   0 ( 0.00%)
+
+r/RKLB (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ROS (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/RWATimes (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/RWBY (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/RaftTheGame (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Ranching (4 posts):
+  positive:   2 (50.00%)
+  negative:   2 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/RandomActsOfGaming (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/RealEstateCanada (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/RealLifeShinies (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/RealOrAI (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/RealStockPicksAreUs (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/RealVerge3D (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Realms_of_Omnarai (8 posts):
+  positive:   3 (37.50%)
+  negative:   4 (50.00%)
+  neutral :   1 (12.50%)
+
+r/RedditEng (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ReefTank (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/RegenerativeAg (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/RescueRaiders (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ReviewRequests (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/RewildingUK (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/RimWorld (5 posts):
+  positive:   3 (60.00%)
+  negative:   2 (40.00%)
+  neutral :   0 ( 0.00%)
+
+r/RitualsOfCare (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Rivian (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/RocketLeague (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/RomanceBooks (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/RossRiskAcademia (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/SAtechnews (4 posts):
+  positive:   2 (50.00%)
+  negative:   1 (25.00%)
+  neutral :   1 (25.00%)
+
+r/SCPDeclassified (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/SECourses (3 posts):
+  positive:   3 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/SRMUNIVERSITY (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/STEW_ScTecEngWorld (4 posts):
+  positive:   3 (75.00%)
+  negative:   1 (25.00%)
+  neutral :   0 ( 0.00%)
+
+r/SaaS (4 posts):
+  positive:   2 (50.00%)
+  negative:   2 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/SaasDevelopers (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Sabah (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/SafeMoon (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/SaintMeghanMarkle (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/SampleSize (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/SatisfactoryGame (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Schedule_I (18 posts):
+  positive:  10 (55.56%)
+  negative:   4 (22.22%)
+  neutral :   4 (22.22%)
+
+r/Scholar (5 posts):
+  positive:   4 (80.00%)
+  negative:   1 (20.00%)
+  neutral :   0 ( 0.00%)
+
+r/ScienceJobs (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Science_India (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Seattle (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/SeveranceAppleTVPlus (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Showerthoughts (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/SideProject (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/Silksong (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/Simplex_Wireless (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/SingularityNetwork (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/Sino (3 posts):
+  positive:   1 (33.33%)
+  negative:   2 (66.67%)
+  neutral :   0 ( 0.00%)
+
+r/SinoDiscussion (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/SkyFactory (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Solarbusiness (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/SouthJersey (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/SpaceCannibalism (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Spacstocks (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/SpecEvoFandom (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/SpongeTheBand (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Spydra_Blockchain (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/SquaredCircle (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/StLouis (4 posts):
+  positive:   2 (50.00%)
+  negative:   1 (25.00%)
+  neutral :   1 (25.00%)
+
+r/StarWarsCantina (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/StardewValley (8 posts):
+  positive:   4 (50.00%)
+  negative:   1 (12.50%)
+  neutral :   3 (37.50%)
+
+r/StardewValleyExpanded (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/StardewValleyMods (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/StartUpIndia (4 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (50.00%)
+  neutral :   2 (50.00%)
+
+r/Stationeers (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Steam (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/Stellaris (29 posts):
+  positive:  16 (55.17%)
+  negative:  10 (34.48%)
+  neutral :   3 (10.34%)
+
+r/StockTitan (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/StoneBlock4 (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/StopKillingGames (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/StoriesAboutKevin (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/Stormworks (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/StremioAddons (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Studentcorner (3 posts):
+  positive:   3 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/SubredditDrama (16 posts):
+  positive:   3 (18.75%)
+  negative:  10 (62.50%)
+  neutral :   3 (18.75%)
+
+r/SubscribeToMe (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Superstonk (15 posts):
+  positive:   4 (26.67%)
+  negative:   8 (53.33%)
+  neutral :   3 (20.00%)
+
+r/SurveyCircle (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Syria (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/TIMESINDIAauto (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/TMJ (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/TalesFromTheCreeps (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/TargetedSolutions (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/TechLebanon (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/TechnologyAddicted (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/TechnologyShorts (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Terminator (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Terraria (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Thaumcraft (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/TheBlackFriday (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/TheBookTribunal (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/TheFirstDescendant (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/TheInvestorsPodcast (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/TheRealGrandePrairie (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/TheRookie (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/TheTwitterFeed (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/TikTokCringe (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/TormentedSouls (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/TradingEdge (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/TransitIndia (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/TregonialWrites (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/Truckers (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/TrueOffMyChest (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Trumpvirus (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/TwoBestFriendsPlay (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/TwoXChromosomes (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/TwoXPreppers (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/UAVmapping (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/UCSC (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/UFOB (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/UFOs (9 posts):
+  positive:   0 ( 0.00%)
+  negative:   6 (66.67%)
+  neutral :   3 (33.33%)
+
+r/UFOs_Archives (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/UIUC (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/USCensus2020 (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/UberEATS (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Udemies (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/UmaMusume (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Unity3D (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/UnnecessaryInventions (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/UnresolvedMysteries (6 posts):
+  positive:   0 ( 0.00%)
+  negative:   3 (50.00%)
+  neutral :   3 (50.00%)
+
+r/UsefulThingsOnly (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Utah (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ValorantCompetitive (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/ValueChemistryStocks (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ValueInvesting (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/VeganFood (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/VeganLA (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/VentureBlock (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/VintageStory (3 posts):
+  positive:   1 (33.33%)
+  negative:   1 (33.33%)
+  neutral :   1 (33.33%)
+
+r/Virginia (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/VirtualAssistant (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/VisitingIceland (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/Voicesofthevoid (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/VynZREsearch (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/WallStreetbetsELITE (3 posts):
+  positive:   1 (33.33%)
+  negative:   1 (33.33%)
+  neutral :   1 (33.33%)
+
+r/Wallstreetbetsnew (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/Warframe (10 posts):
+  positive:   1 (10.00%)
+  negative:   9 (90.00%)
+  neutral :   0 ( 0.00%)
+
+r/WastelandByWednesday (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/WatchesCirclejerk (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/WearOS (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Weddingattireapproval (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/Weddingsunder10k (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/WelcomeToGilead (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Wellington (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/Wellthatsucks (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/WestleyEmporium (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/WhatTrumpHasDone (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/WhitePeopleTwitter (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/WorldDeals (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/WorldMagzinezone (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/WorldOfWarships (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Worldbox (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/WorldbuildingWithAI (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/WriteNerds (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/WritersOfHorror (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/WritingPrompts (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/WutheringWaves (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/XGramatikInsights (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/XenobladeChroniclesX (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/YahooQR (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/YangForPresidentHQ (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Yogscast (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/YouShouldKnow (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/YuGiOhMasterDuel (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ZZZ_Discussion (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/Zambia (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ZenaTech (5 posts):
+  positive:   5 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/accelerate (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/acnh (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/adultingph (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/aggies (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/agtech (50 posts):
+  positive:  33 (66.00%)
+  negative:  12 (24.00%)
+  neutral :   5 (10.00%)
+
+r/aiagents (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/aipromptprogramming (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/airbnb_hosts (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/aiwars (4 posts):
+  positive:   3 (75.00%)
+  negative:   1 (25.00%)
+  neutral :   0 ( 0.00%)
+
+r/aliens (3 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (66.67%)
+  neutral :   1 (33.33%)
+
+r/alientechnology (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/allthemods (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/alphaandbetausers (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/alternativevillages (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/amazonemployees (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/amazonprime (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/andhra_pradesh (3 posts):
+  positive:   3 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/animalwelfarescience (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/anno (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/antiMLM (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/antinatalism (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/antiwork (4 posts):
+  positive:   1 (25.00%)
+  negative:   2 (50.00%)
+  neutral :   1 (25.00%)
+
+r/aoe2 (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/apexlegends (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/appventurez (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/arborists (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/arcraiderscirclejerk (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/arduino (5 posts):
+  positive:   2 (40.00%)
+  negative:   3 (60.00%)
+  neutral :   0 ( 0.00%)
+
+r/arxiv_daily (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/askscience (21 posts):
+  positive:   6 (28.57%)
+  negative:   6 (28.57%)
+  neutral :   9 (42.86%)
+
+r/assassinscreed (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/augmentedreality (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/austincirclejerk (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/autotldr (3 posts):
+  positive:   1 (33.33%)
+  negative:   0 ( 0.00%)
+  neutral :   2 (66.67%)
+
+r/aww (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/banano (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/bangalore (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/bathandbodyworks (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/betatests (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/betterbioeconomy (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/bevelhealth (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/biotech_stocks (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/birds (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/bitcoincashSV (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/bittensor_ (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/blender (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/boardgames (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/bookclub (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/books (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/bostonceltics (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/boxoffice (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/britishproblems (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/btd6 (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/buhaydigital (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/buildapc (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/burlington (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/businessinfo (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/byndinvest (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/camping (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/canada (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/canadian (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/carbonsteel (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/cardano (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/careerguidance (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/cfs (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/changemyview (7 posts):
+  positive:   1 (14.29%)
+  negative:   5 (71.43%)
+  neutral :   1 (14.29%)
+
+r/charts (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/chicago (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/childfree (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/chrisabraham (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/citral (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/civ (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/classicwow (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/climate (3 posts):
+  positive:   1 (33.33%)
+  negative:   0 ( 0.00%)
+  neutral :   2 (66.67%)
+
+r/climatechange (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/cnbusinessforum (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/cobblemon (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/cofounderhunt (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/collapse (4 posts):
+  positive:   2 (50.00%)
+  negative:   2 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/columbiamo (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/complaints (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/computervision (5 posts):
+  positive:   4 (80.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (20.00%)
+
+r/conservation (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/conservativeterrorism (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/conspiracy (14 posts):
+  positive:   4 (28.57%)
+  negative:   6 (42.86%)
+  neutral :   4 (28.57%)
+
+r/coolguides (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/cooperatives (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/copypasta (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/coralisland (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/couchtuner (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/creepcast (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/crows (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/crtgaming (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/cryptospread (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/cs2 (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/csMajors (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/cscareerquestions (3 posts):
+  positive:   1 (33.33%)
+  negative:   0 ( 0.00%)
+  neutral :   2 (66.67%)
+
+r/csgo (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/cuba (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/cyberpunkgame (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/dadjokes (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/dairy (55 posts):
+  positive:  38 (69.09%)
+  negative:  13 (23.64%)
+  neutral :   4 ( 7.27%)
+
+r/dairyfarming (7 posts):
+  positive:   5 (71.43%)
+  negative:   2 (28.57%)
+  neutral :   0 ( 0.00%)
+
+r/danganronpa (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/dataisbeautiful (3 posts):
+  positive:   1 (33.33%)
+  negative:   2 (66.67%)
+  neutral :   0 ( 0.00%)
+
+r/datascience (20 posts):
+  positive:  10 (50.00%)
+  negative:   8 (40.00%)
+  neutral :   2 (10.00%)
+
+r/deadbydaylight (4 posts):
+  positive:   2 (50.00%)
+  negative:   1 (25.00%)
+  neutral :   1 (25.00%)
+
+r/decadeology (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/dechonkers (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/deeplearning (3 posts):
+  positive:   1 (33.33%)
+  negative:   2 (66.67%)
+  neutral :   0 ( 0.00%)
+
+r/defi (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/degoogle (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/democrats (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/developersIndia (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/diablo3 (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/diablo4 (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/digitaltwin (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/diyelectronics (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/dji (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/dndnext (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/doctorstock (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/dogs (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/doohickeycorporation (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/doordash (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/droneinspection (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/drones (5 posts):
+  positive:   3 (60.00%)
+  negative:   1 (20.00%)
+  neutral :   1 (20.00%)
+
+r/dwarffortress (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/economicCollapse (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/economy (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/eductionalpartner (3 posts):
+  positive:   3 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/egenag (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/elderwitches (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/electricvehicles (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/embedded (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/energy (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/entertainment (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/environment (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   2 (100.00%)
+
+r/ephemera (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/erqos (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/esp32 (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/espresso (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ethereum (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ethtrader (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/eu4 (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/eucastglobal (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/europe (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/exmormon (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/exmuslim (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/explainlikeimfive (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/expo (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/facepalm (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/factorio (4 posts):
+  positive:   3 (75.00%)
+  negative:   1 (25.00%)
+  neutral :   0 ( 0.00%)
+
+r/fantasyfootball (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/farming (72 posts):
+  positive:  30 (41.67%)
+  negative:  19 (26.39%)
+  neutral :  23 (31.94%)
+
+r/farmingsimulator (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/farmingsimulator25 (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/farmmanager (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/fednews (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/feedthebeast (6 posts):
+  positive:   2 (33.33%)
+  negative:   3 (50.00%)
+  neutral :   1 (16.67%)
+
+r/feedthememes (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/femalelivingspace (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/fermentation (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/fiaustralia (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/findfallacies (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/fitbit (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/floxedtreatment (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/fo76 (3 posts):
+  positive:   2 (66.67%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (33.33%)
+
+r/food (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/foodstamps (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/formula1 (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/formuladank (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/france (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/funny (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/gachagaming (4 posts):
+  positive:   3 (75.00%)
+  negative:   1 (25.00%)
+  neutral :   0 ( 0.00%)
+
+r/gadgets (3 posts):
+  positive:   1 (33.33%)
+  negative:   1 (33.33%)
+  neutral :   1 (33.33%)
+
+r/gaggiaclassic (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/galaxybuds (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/gaming (5 posts):
+  positive:   1 (20.00%)
+  negative:   3 (60.00%)
+  neutral :   1 (20.00%)
+
+r/geography (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/germanshepherds (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ghana (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ginkgobioworks (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/gis (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/gm310509 (4 posts):
+  positive:   4 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/goStartupIndia (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/goingmedieval (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/goodnews (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/goodworldbuilding (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/grafa (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/greenhouse (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/greeninvestor (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/happymonkai (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/helldiversarmor (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/history (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/homeassistant (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/homeautomation (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/homelab (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/homestead (51 posts):
+  positive:  17 (33.33%)
+  negative:  26 (50.98%)
+  neutral :   8 (15.69%)
+
+r/hometheater (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/hospitalfood (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/houston (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/houstonwade (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/howto (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/hscprojects (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/humansarespaceorcs (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/hwstartups (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/hydro (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/hypeurls (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/hypotheticalsituation (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/hytale (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/ibs (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/illinois (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/imaginarymaps (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/immortalists (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/inazumacaravan (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/incremental_games (3 posts):
+  positive:   3 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/india (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/indianbikes (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/indiasocial (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/innovations (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/insanepeoplefacebook (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/intentionalcommunity (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/interestingasfuck (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/interestingnewsworld (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/investing_discussion (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/iran (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ireland (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/jenova_ai (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/jobbit (4 posts):
+  positive:   4 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/jobboardsearch (23 posts):
+  positive:  19 (82.61%)
+  negative:   4 (17.39%)
+  neutral :   0 ( 0.00%)
+
+r/jobcorps (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/jobhuntify (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/jobs (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/jobsearchhacks (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/kansas (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/kelpie (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/kindle (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/kingdomcome (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/klippers (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/languagelearning (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/lastfm (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/lawncare (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/leagueoflegends (8 posts):
+  positive:   3 (37.50%)
+  negative:   2 (25.00%)
+  neutral :   3 (37.50%)
+
+r/learnmachinelearning (7 posts):
+  positive:   4 (57.14%)
+  negative:   1 (14.29%)
+  neutral :   2 (28.57%)
+
+r/learnprogramming (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/learnpython (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/leetcode (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/legaladvice (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/lehighvalley (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/lifehack (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/linux_gaming (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/livestock (35 posts):
+  positive:   8 (22.86%)
+  negative:  19 (54.29%)
+  neutral :   8 (22.86%)
+
+r/longhair (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/longisland (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/loopringorg (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/macbookair (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/machinelearningnews (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/malta (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/mapporncirclejerk (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/mariokart (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/marvelrivals (4 posts):
+  positive:   1 (25.00%)
+  negative:   1 (25.00%)
+  neutral :   2 (50.00%)
+
+r/marvelstudios (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/maryland (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/masseffect (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/mathshelper (4 posts):
+  positive:   1 (25.00%)
+  negative:   0 ( 0.00%)
+  neutral :   3 (75.00%)
+
+r/mediterraneandiet (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/megafaunarewilding (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/memes (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/meridairy (5 posts):
+  positive:   4 (80.00%)
+  negative:   1 (20.00%)
+  neutral :   0 ( 0.00%)
+
+r/metalgearsolid (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/miband (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/microbiology (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/mildlyinfuriating (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/mildlyinteresting (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/miltonkeynes (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/minnesota (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ml_news (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/model_holonet (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/mongolia (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/monsterhunterrage (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/moreplatesmoredates (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/mormon (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   2 (100.00%)
+
+r/motogp (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/mountandblade (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/movies (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/mtg (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/mycology (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/mystery (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/n8n (3 posts):
+  positive:   1 (33.33%)
+  negative:   1 (33.33%)
+  neutral :   1 (33.33%)
+
+r/nairobitechies (3 posts):
+  positive:   3 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/nasdaq (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/nature (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/nba (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/neighborsfromhell (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/nespresso (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/news (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/newworldgame (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/newzealand (3 posts):
+  positive:   3 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/nextfuckinglevel (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/nocode (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/nosleep (18 posts):
+  positive:   9 (50.00%)
+  negative:   3 (16.67%)
+  neutral :   6 (33.33%)
+
+r/notliketheothergirls (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/observingtheanomaly (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/oddlysatisfying (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/oddlyspecific (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/offbeat (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/okbuddyraider (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/oneplus (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/onguardforthee (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/opencv (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/opensource (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/options (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/orchids (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/overlanding (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/pakistan (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/pathofexile (5 posts):
+  positive:   2 (40.00%)
+  negative:   3 (60.00%)
+  neutral :   0 ( 0.00%)
+
+r/pcgaming (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/pcmasterrace (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/peakoil (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/pebble (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/pennystocks (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/pettyrevenge (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/phtravel (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/pics (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/pittsburgh (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/pluribustv (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/pokemongodev (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/politics (6 posts):
+  positive:   3 (50.00%)
+  negative:   2 (33.33%)
+  neutral :   1 (16.67%)
+
+r/portersreserve (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/portlandme (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/pourover (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/preppers (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/programmation (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/projects (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/projectstartups (5 posts):
+  positive:   5 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/projectzomboid (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/prsuk (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/puppy101 (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/quantfinance (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/queensland (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/rant (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (50.00%)
+  neutral :   1 (50.00%)
+
+r/reactivedogs (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/recruitinghell (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/redditenfrancais (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/redrising (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/redscarepod (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/redstone (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/regularcarreviews (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/relationship_advice (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/remotesensing (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/remotework (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/remoteworks (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/reptiles (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/respectthreads (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/resumes (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/robotics (20 posts):
+  positive:   8 (40.00%)
+  negative:  11 (55.00%)
+  neutral :   1 ( 5.00%)
+
+r/romancenovels (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/rootsofprogress (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/runefactory (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/sales (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/samharris (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/scarystories (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/science (11 posts):
+  positive:   6 (54.55%)
+  negative:   3 (27.27%)
+  neutral :   2 (18.18%)
+
+r/scifiwriting (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/scitechfuture (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/self (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/selfhosted (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/sheep (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/shittymcsuggestions (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/shittyprogramming (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/shopifyDev (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/shrinkflation (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/singularity (6 posts):
+  positive:   4 (66.67%)
+  negative:   2 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/skibidiscience (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/skilledtrades (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/skyrim (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/slatestarcodex (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/smallbusiness (42 posts):
+  positive:  15 (35.71%)
+  negative:  15 (35.71%)
+  neutral :  12 (28.57%)
+
+r/smallbusinessindia (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/smallbusinessuk (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/solar (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/solarpunk (6 posts):
+  positive:   3 (50.00%)
+  negative:   2 (33.33%)
+  neutral :   1 (16.67%)
+
+r/songsofsyx (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/spaceengineers (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/spacex (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/specializedtools (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/sports (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/startrek (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/startups (37 posts):
+  positive:  15 (40.54%)
+  negative:  13 (35.14%)
+  neutral :   9 (24.32%)
+
+r/startupsArgentina (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/startups_promotion (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/statisticshelperz (2 posts):
+  positive:   1 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (50.00%)
+
+r/steam_giveaway (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/stocknear (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/stocks (5 posts):
+  positive:   2 (40.00%)
+  negative:   1 (20.00%)
+  neutral :   2 (40.00%)
+
+r/stories (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/strongcoast (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/summonerschool (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/survivinginfidelity (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/swingtrading (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/sysadmin (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/tasker (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/tearsofthekingdom (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/tech (3 posts):
+  positive:   2 (66.67%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (33.33%)
+
+r/tech_x (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/technews (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/technicalminecraft (4 posts):
+  positive:   2 (50.00%)
+  negative:   2 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/technology (38 posts):
+  positive:  13 (34.21%)
+  negative:  13 (34.21%)
+  neutral :  12 (31.58%)
+
+r/tennis (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/teslainvestorsclub (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/teslamotors (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/test (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/texas (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/thecallforUnity (3 posts):
+  positive:   1 (33.33%)
+  negative:   1 (33.33%)
+  neutral :   1 (33.33%)
+
+r/theplanetcrafter (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/therapists (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/therewasanattempt (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/thescoop (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/thesims (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/theydidthemath (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/tifu (3 posts):
+  positive:   1 (33.33%)
+  negative:   2 (66.67%)
+  neutral :   0 ( 0.00%)
+
+r/tijahub (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/tomorrowsworld (8 posts):
+  positive:   8 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/toronto (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/totalwar (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/transhumanism (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/traumatizeThemBack (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/travel (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/treelaw (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/truegaming (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/u_BadWolf3939 (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/u_Jhonjournalist (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/u_LionDEX_Finance (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/u_RaulTiru (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/u_That_Win4731 (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/u_The14Pictures (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/u_TheLotStore (7 posts):
+  positive:   4 (57.14%)
+  negative:   3 (42.86%)
+  neutral :   0 ( 0.00%)
+
+r/u_TheShanghaiEye (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/u_b2idigital (3 posts):
+  positive:   2 (66.67%)
+  negative:   1 (33.33%)
+  neutral :   0 ( 0.00%)
+
+r/u_billsponsor (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/u_dipk123 (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/u_enoumen (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/u_farmingthebestgreens (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/u_gm310509 (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/u_ozrobotics (4 posts):
+  positive:   4 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ufo (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/ukraine (3 posts):
+  positive:   1 (33.33%)
+  negative:   2 (66.67%)
+  neutral :   0 ( 0.00%)
+
+r/ukrainerussiareportII (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/unpopularopinion (3 posts):
+  positive:   1 (33.33%)
+  negative:   1 (33.33%)
+  neutral :   1 (33.33%)
+
+r/uoguelph (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/valve (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/vancouver (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/vegan (8 posts):
+  positive:   4 (50.00%)
+  negative:   2 (25.00%)
+  neutral :   2 (25.00%)
+
+r/veganfitness (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/veganrecipes (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/vegetablegardening (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/verticalfarming (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/vfx (2 posts):
+  positive:   0 ( 0.00%)
+  negative:   2 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/vibecoding (2 posts):
+  positive:   1 (50.00%)
+  negative:   1 (50.00%)
+  neutral :   0 ( 0.00%)
+
+r/victoria3 (5 posts):
+  positive:   2 (40.00%)
+  negative:   2 (40.00%)
+  neutral :   1 (20.00%)
+
+r/videosurveillance (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/virtualreality (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/visualization (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/walkaway (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/wallstreetbets (12 posts):
+  positive:   5 (41.67%)
+  negative:   5 (41.67%)
+  neutral :   2 (16.67%)
+
+r/washdc (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/wbjee (2 posts):
+  positive:   2 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/weedstocks (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/whatisthisthing (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/wheresthebeef (6 posts):
+  positive:   3 (50.00%)
+  negative:   2 (33.33%)
+  neutral :   1 (16.67%)
+
+r/wikipedia (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/wisconsin (3 posts):
+  positive:   1 (33.33%)
+  negative:   1 (33.33%)
+  neutral :   1 (33.33%)
+
+r/wolves (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/woolworths (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/workingmoms (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/worldbuilding (4 posts):
+  positive:   2 (50.00%)
+  negative:   0 ( 0.00%)
+  neutral :   2 (50.00%)
+
+r/worldnews (3 posts):
+  positive:   1 (33.33%)
+  negative:   1 (33.33%)
+  neutral :   1 (33.33%)
+
+r/wyzecam (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/ycombinator (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   0 ( 0.00%)
+  neutral :   1 (100.00%)
+
+r/youtube (1 posts):
+  positive:   0 ( 0.00%)
+  negative:   1 (100.00%)
+  neutral :   0 ( 0.00%)
+
+r/youtubedl (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+r/zmarter (1 posts):
+  positive:   1 (100.00%)
+  negative:   0 ( 0.00%)
+  neutral :   0 ( 0.00%)
+
+============================================================
+END OF REPORT
+============================================================

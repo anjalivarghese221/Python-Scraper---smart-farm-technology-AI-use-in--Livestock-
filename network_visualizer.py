@@ -393,6 +393,132 @@ class NetworkVisualizer:
         plt.close()
 
     
+    def visualize_sentiment_overview(self, output_file='sentiment_overview.png'):
+        """Create comprehensive 4-panel sentiment overview"""
+        print("\nGenerating sentiment overview...")
+        
+        # Load classified data for overall sentiment distribution
+        with open('classified_sentiment_data.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        # Load network analysis results for community data
+        with open('network_analysis_results.json', 'r', encoding='utf-8') as f:
+            results = json.load(f)
+        
+        fig = plt.figure(figsize=(16, 12))
+        
+        # Panel 1: Overall Sentiment Distribution (Pie Chart)
+        ax1 = plt.subplot(2, 2, 1)
+        sentiments = [post.get('sentiment', 'neutral') for post in data]
+        sentiment_counts = Counter(sentiments)
+        
+        colors = {'positive': '#2ecc71', 'negative': '#e74c3c', 'neutral': '#95a5a6'}
+        labels = []
+        sizes = []
+        pie_colors = []
+        for sent in ['positive', 'negative', 'neutral']:
+            count = sentiment_counts.get(sent, 0)
+            pct = count / len(data) * 100
+            labels.append(f'{sent.capitalize()}\n{count} ({pct:.1f}%)')
+            sizes.append(count)
+            pie_colors.append(colors[sent])
+        
+        ax1.pie(sizes, labels=labels, colors=pie_colors, autopct='', startangle=90,
+               textprops={'fontsize': 11, 'weight': 'bold'})
+        ax1.set_title('Overall Sentiment Distribution\n2,811 Posts', fontsize=13, fontweight='bold', pad=15)
+        
+        # Panel 2: Sentiment by Community (Stacked Bar)
+        ax2 = plt.subplot(2, 2, 2)
+        communities = [comm['topic_label'] for comm in results['communities']]
+        pos_pcts = [comm['sentiment_distribution']['positive'] for comm in results['communities']]
+        neu_pcts = [comm['sentiment_distribution']['neutral'] for comm in results['communities']]
+        neg_pcts = [comm['sentiment_distribution']['negative'] for comm in results['communities']]
+        
+        x = range(len(communities))
+        ax2.barh(x, pos_pcts, color='#2ecc71', label='Positive', alpha=0.85)
+        ax2.barh(x, neu_pcts, left=pos_pcts, color='#95a5a6', label='Neutral', alpha=0.85)
+        ax2.barh(x, neg_pcts, left=[p+n for p, n in zip(pos_pcts, neu_pcts)], 
+                color='#e74c3c', label='Negative', alpha=0.85)
+        
+        # Wrap long labels
+        wrapped_labels = []
+        for label in communities:
+            if len(label) > 30:
+                words = label.split()
+                mid = len(words) // 2
+                wrapped_labels.append(' '.join(words[:mid]) + '\n' + ' '.join(words[mid:]))
+            else:
+                wrapped_labels.append(label)
+        
+        ax2.set_yticks(x)
+        ax2.set_yticklabels(wrapped_labels, fontsize=9)
+        ax2.set_xlabel('Percentage (%)', fontsize=11, fontweight='bold')
+        ax2.set_title('Sentiment by Community', fontsize=13, fontweight='bold', pad=15)
+        ax2.legend(loc='lower right', fontsize=10)
+        ax2.set_xlim(0, 100)
+        ax2.grid(axis='x', alpha=0.3)
+        
+        # Panel 3: Community Sizes
+        ax3 = plt.subplot(2, 2, 3)
+        sizes_data = [comm['size'] for comm in results['communities']]
+        ax3.bar(range(len(communities)), sizes_data, color='#3498db', alpha=0.85, edgecolor='navy', linewidth=1.5)
+        ax3.set_xticks(range(len(communities)))
+        ax3.set_xticklabels([f'C{i+1}' for i in range(len(communities))], fontsize=11, fontweight='bold')
+        ax3.set_ylabel('Number of Keywords', fontsize=11, fontweight='bold')
+        ax3.set_title('Community Sizes (Agriculture-Focused Only)', fontsize=13, fontweight='bold', pad=15)
+        ax3.grid(axis='y', alpha=0.3)
+        
+        # Add value labels on bars
+        for i, v in enumerate(sizes_data):
+            ax3.text(i, v + 3, str(v), ha='center', va='bottom', fontweight='bold', fontsize=10)
+        
+        # Panel 4: Top Keywords by Sentiment
+        ax4 = plt.subplot(2, 2, 4)
+        
+        # Get top keywords overall
+        keyword_freqs = results['keyword_frequencies']
+        top_keywords = sorted(keyword_freqs.items(), key=lambda x: x[1], reverse=True)[:10]
+        
+        # Get sentiment for each top keyword from graph
+        keyword_sentiments = []
+        for kw, freq in top_keywords:
+            if kw in self.graph.nodes() and 'sentiment' in self.graph.nodes[kw]:
+                sent_dist = self.graph.nodes[kw]['sentiment']
+                # Determine dominant sentiment
+                if sent_dist['positive'] > sent_dist['negative'] and sent_dist['positive'] > sent_dist['neutral']:
+                    keyword_sentiments.append('positive')
+                elif sent_dist['negative'] > sent_dist['positive']:
+                    keyword_sentiments.append('negative')
+                else:
+                    keyword_sentiments.append('neutral')
+            else:
+                keyword_sentiments.append('neutral')
+        
+        kw_colors = [colors[s] for s in keyword_sentiments]
+        kw_labels = [kw for kw, _ in top_keywords]
+        kw_values = [freq for _, freq in top_keywords]
+        
+        y_pos = range(len(kw_labels))
+        ax4.barh(y_pos, kw_values, color=kw_colors, alpha=0.85, edgecolor='black', linewidth=1)
+        ax4.set_yticks(y_pos)
+        ax4.set_yticklabels(kw_labels, fontsize=10, fontweight='bold')
+        ax4.set_xlabel('Frequency', fontsize=11, fontweight='bold')
+        ax4.set_title('Top 10 Keywords by Sentiment', fontsize=13, fontweight='bold', pad=15)
+        ax4.grid(axis='x', alpha=0.3)
+        
+        # Add value labels
+        for i, v in enumerate(kw_values):
+            ax4.text(v + 1, i, str(v), ha='left', va='center', fontsize=9)
+        
+        plt.suptitle('Sentiment Analysis Overview: Smart Farm Technology & AI in Livestock\n' +
+                    '4 Agriculture-Focused Communities | 2018-2026',
+                    fontsize=16, fontweight='bold', y=0.98)
+        
+        plt.tight_layout(rect=[0, 0, 1, 0.96])
+        plt.savefig(output_file, dpi=300, bbox_inches='tight', facecolor='white')
+        print(f"Sentiment overview saved to: {output_file}")
+        plt.close()
+    
     def generate_all_visualizations(self, results):
         """Generate all visualization outputs"""
         viz_dir = 'visualizations'
@@ -407,6 +533,7 @@ class NetworkVisualizer:
         self.visualize_centrality(results, output_file=f'{viz_dir}/keyword_centrality.png')
         self.visualize_community_sentiments(results, output_file=f'{viz_dir}/community_sentiments.png')
         self.visualize_individual_communities(results, output_prefix='community')
+        self.visualize_sentiment_overview(output_file=f'{viz_dir}/sentiment_overview.png')
         print("Done!")
 
 

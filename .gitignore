@@ -1,18 +1,18 @@
-# Data Files (Large JSON outputs - do not commit)
-*.json
-!requirements.json
-!package.json
+# Data Files - Client requested data and analysis be uploaded
+# *.json (commented out - client wants data)
+# !requirements.json
+# !package.json
 
-# Model Files (Binary, regeneratable)
-*.pkl
+# Model Files - Client requested analysis be uploaded
+# *.pkl (commented out - client wants models)
 
-# Visualizations (Generated outputs)
-visualizations/
-*.png
+# Visualizations - Client requested analysis be uploaded
+# visualizations/ (commented out - client wants visualizations)
+# *.png (commented out - client wants visualizations)
 
-# Text Reports (Generated outputs)
-*.txt
-!requirements.txt
+# Text Reports - Client requested analysis be uploaded
+# *.txt (commented out - client wants reports)
+# !requirements.txt (commented out - client wants reports)
 
 # macOS
 .DS_Store

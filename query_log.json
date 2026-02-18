@@ -1,0 +1,422 @@
+[
+  {
+    "timestamp": "2026-02-18T11:39:48.397382",
+    "query": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
+    "subreddit": "AgTech",
+    "parameters": {
+      "q": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/AgTech for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:39:51.861590",
+    "query": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
+    "subreddit": "farming",
+    "parameters": {
+      "q": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/farming for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:39:57.120134",
+    "query": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
+    "subreddit": "agriculture",
+    "parameters": {
+      "q": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/agriculture for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:00.341279",
+    "query": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
+    "subreddit": "dairy",
+    "parameters": {
+      "q": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/dairy for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:03.668906",
+    "query": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
+    "subreddit": "livestock",
+    "parameters": {
+      "q": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/livestock for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:08.895726",
+    "query": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
+    "subreddit": "precisionag",
+    "parameters": {
+      "q": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/precisionag for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:12.119010",
+    "query": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
+    "subreddit": "AgTech",
+    "parameters": {
+      "q": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/AgTech for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:15.342175",
+    "query": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
+    "subreddit": "farming",
+    "parameters": {
+      "q": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/farming for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:18.564418",
+    "query": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
+    "subreddit": "agriculture",
+    "parameters": {
+      "q": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/agriculture for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:21.754960",
+    "query": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
+    "subreddit": "dairy",
+    "parameters": {
+      "q": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/dairy for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:24.964667",
+    "query": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
+    "subreddit": "livestock",
+    "parameters": {
+      "q": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/livestock for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:28.176155",
+    "query": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
+    "subreddit": "precisionag",
+    "parameters": {
+      "q": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/precisionag for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:31.385716",
+    "query": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
+    "subreddit": "AgTech",
+    "parameters": {
+      "q": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/AgTech for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:34.601134",
+    "query": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
+    "subreddit": "farming",
+    "parameters": {
+      "q": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/farming for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:37.789357",
+    "query": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
+    "subreddit": "agriculture",
+    "parameters": {
+      "q": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/agriculture for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:40.990100",
+    "query": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
+    "subreddit": "dairy",
+    "parameters": {
+      "q": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/dairy for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:44.190695",
+    "query": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
+    "subreddit": "livestock",
+    "parameters": {
+      "q": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/livestock for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:47.387579",
+    "query": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
+    "subreddit": "precisionag",
+    "parameters": {
+      "q": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/precisionag for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:50.661593",
+    "query": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
+    "subreddit": "AgTech",
+    "parameters": {
+      "q": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/AgTech for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:53.852209",
+    "query": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
+    "subreddit": "farming",
+    "parameters": {
+      "q": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/farming for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:40:57.323790",
+    "query": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
+    "subreddit": "agriculture",
+    "parameters": {
+      "q": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/agriculture for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:41:00.568945",
+    "query": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
+    "subreddit": "dairy",
+    "parameters": {
+      "q": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/dairy for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:41:04.147087",
+    "query": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
+    "subreddit": "livestock",
+    "parameters": {
+      "q": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/livestock for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:41:07.516611",
+    "query": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
+    "subreddit": "precisionag",
+    "parameters": {
+      "q": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/precisionag for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:41:10.763299",
+    "query": "(data OR analytics OR prediction) farm agriculture livestock",
+    "subreddit": "AgTech",
+    "parameters": {
+      "q": "(data OR analytics OR prediction) farm agriculture livestock",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/AgTech for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:41:13.968891",
+    "query": "(data OR analytics OR prediction) farm agriculture livestock",
+    "subreddit": "farming",
+    "parameters": {
+      "q": "(data OR analytics OR prediction) farm agriculture livestock",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/farming for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:41:19.202348",
+    "query": "(data OR analytics OR prediction) farm agriculture livestock",
+    "subreddit": "agriculture",
+    "parameters": {
+      "q": "(data OR analytics OR prediction) farm agriculture livestock",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/agriculture for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:41:24.488437",
+    "query": "(data OR analytics OR prediction) farm agriculture livestock",
+    "subreddit": "dairy",
+    "parameters": {
+      "q": "(data OR analytics OR prediction) farm agriculture livestock",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/dairy for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:41:27.697374",
+    "query": "(data OR analytics OR prediction) farm agriculture livestock",
+    "subreddit": "livestock",
+    "parameters": {
+      "q": "(data OR analytics OR prediction) farm agriculture livestock",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/livestock for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-02-18T11:41:32.953948",
+    "query": "(data OR analytics OR prediction) farm agriculture livestock",
+    "subreddit": "precisionag",
+    "parameters": {
+      "q": "(data OR analytics OR prediction) farm agriculture livestock",
+      "limit": 100,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "rationale": "Searching r/precisionag for agricultural technology discourse",
+    "api_tier": "Reddit JSON API (public)"
+  }
+]

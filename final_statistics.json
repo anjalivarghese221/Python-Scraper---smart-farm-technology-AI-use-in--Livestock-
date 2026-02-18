@@ -1,0 +1,47 @@
+{
+  "collection_date": "2026-02-18",
+  "temporal_scope": "2018-01-01 to 2026-02-18",
+  "total_posts": 2811,
+  "date_range": {
+    "min": "2018-01-03",
+    "max": "2026-02-18"
+  },
+  "sentiment_distribution": {
+    "negative": 1000,
+    "positive": 1351,
+    "neutral": 460
+  },
+  "unique_subreddits": 1113,
+  "top_subreddits": {
+    "HFY": 150,
+    "Agriculture": 78,
+    "farming": 72,
+    "dairy": 55,
+    "homestead": 51,
+    "agtech": 50,
+    "Homesteading": 49,
+    "smallbusiness": 42,
+    "BestofRedditorUpdates": 41,
+    "technology": 38
+  },
+  "text_length": {
+    "min": 5,
+    "max": 8120,
+    "median": 116,
+    "mean": 911.6154393454286
+  },
+  "engagement": {
+    "mean_score": 3494.8893632159375,
+    "median_score": 382,
+    "mean_comments": 322.9690501600854,
+    "median_comments": 75
+  },
+  "attrition_table": {
+    "N0_collected": 4035,
+    "N1_language": 4035,
+    "N2_deduplicated": 3753,
+    "N3_length": 2928,
+    "N4_final": 2811,
+    "retention_rate": 69.66542750929368
+  }
+}
