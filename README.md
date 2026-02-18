@@ -6,7 +6,7 @@ Reddit sentiment analysis for smart farming technology and AI use in livestock m
 
 **Peer-Reviewed Research Pipeline:**
 1. **Data Collection** - Reddit posts from 2018+ (2,811 posts from 1,113 subreddits)
-2. **Preprocessing** - Phase 2 compliant cleaning (69.7% retention)
+2. **Preprocessing** - Phase 2 compliant cleaning (86.4% retention)
 3. **Sentiment Analysis** - 3-class classification (positive/negative/neutral)
 4. **Network Analysis** - 4 agriculture-focused topic communities
 5. **Temporal Analysis** - Trend detection and spike identification
@@ -25,7 +25,7 @@ Reddit sentiment analysis for smart farming technology and AI use in livestock m
 - MD5 hash deduplication (7% attrition)
 - Length filtering (≥5 words)
 - Lemmatization with SpaCy
-- 69.7% retention rate (2,811 final posts)
+- 86.4% retention rate (2,811 final posts)
 
 ### Sentiment Classification
 - Logistic Regression with TF-IDF (150 training examples)

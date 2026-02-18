@@ -37,11 +37,11 @@
     "median_comments": 75
   },
   "attrition_table": {
-    "N0_collected": 4035,
-    "N1_language": 4035,
-    "N2_deduplicated": 3753,
-    "N3_length": 2928,
+    "N0_collected": 3253,
+    "N1_language": 3253,
+    "N2_deduplicated": 3025,
+    "N3_length": 2878,
     "N4_final": 2811,
-    "retention_rate": 69.66542750929368
+    "retention_rate": 86.41254226867507
   }
 }

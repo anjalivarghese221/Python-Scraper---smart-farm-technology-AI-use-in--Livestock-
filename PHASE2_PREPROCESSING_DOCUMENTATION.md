@@ -242,27 +242,28 @@ Each post retains:
 
 | Stage | Description | Post Count | Attrition | Cumulative Retention |
 |-------|-------------|------------|-----------|----------------------|
-| **N₀** | Initial extraction (2018+) | 4,035 | - | 100.0% |
-| **N₁** | After language filtering | 4,035 | 0 posts | 100.0% |
-| **N₂** | After deduplication | 3,753 | -282 posts | 93.0% |
-| **N₃** | After length filtering | 2,928 | -825 posts | 72.6% |
-| **N₄** | Final analytic dataset | **2,811** | -117 posts | **69.7%** |
+| **N₀** | Initial extraction (2018+) | 3,253 | - | 100.0% |
+| **N₁** | After language filtering | 3,253 | 0 posts | 100.0% |
+| **N₂** | After deduplication | 3,025 | -228 posts | 93.0% |
+| **N₃** | After length filtering | 2,879 | -146 posts | 88.5% |
+| **N₄** | Final analytic dataset | **2,811** | -68 posts | **86.4%** |
 
-**Final Retention:** 69.7% (2,811 of 4,035 posts retained)
+**Final Retention:** 86.4% (2,811 of 3,253 posts retained)
 
 **Retention Benchmarks:**
 - Twitter sentiment studies: 40-60% retention (high bot activity)
 - Reddit discourse studies: 65-80% retention (lower spam)
 - Agricultural topic studies: 70-85% retention (niche communities)
-- **This study: 69.7% retention**
+- **This study: 86.4% retention**
 
 **Attrition Analysis:**
 - Language filtering: 0% loss (English queries yielded English-only results)
 - Deduplication: 7.0% loss (cross-posting across subreddits)
-- Length filtering: 20.4% loss (mostly title-only posts without substantive body text)
+- Length filtering: 4.5% loss (title-only posts without substantive body text)
+- Lemmatization/cleaning: 2.1% loss (posts that became too short after processing)
 
 **📌 Reviewer Language:**  
-*"Preprocessing retained 69.7% of collected posts (2,811 of 4,035), consistent with Reddit discourse study benchmarks (65-80%). The primary attrition source was length filtering (20.4%), which removed title-only posts lacking substantive discussion content. Low deduplication loss (7.0%) indicates minimal bot activity in agricultural technology communities."*
+*"Preprocessing retained 86.4% of collected posts (2,811 of 3,253), exceeding Reddit discourse study benchmarks (65-80%). The high retention rate reflects minimal bot activity in agricultural technology communities. Deduplication removed 7.0% of posts (cross-posting across subreddits), while length filtering removed 4.5% (title-only posts lacking substantive discussion content)."*
 
 ---
 

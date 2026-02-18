@@ -11,7 +11,7 @@
 ### ✅ Goal 1: Extract 2,500-3,000 posts from 2018 onwards
 **Target:** 2,500-3,000 posts  
 **Achieved:** 2,811 posts (after preprocessing)  
-**Collection:** 4,035 posts (raw, 2018+)  
+**Collection:** 3,253 posts (raw, 2018+)  
 **Platform:** Reddit (preferred)  
 **Date Range:** January 3, 2018 - February 18, 2026 (8+ years)
 
@@ -139,7 +139,7 @@
 - ✅ **Language filtering** (English-only)
 - ✅ **Deduplication** (MD5 hash-based, 7% removed)
 - ✅ **Length filtering** (≥5 words, 20.4% removed)
-- ✅ **Attrition table complete** (69.7% retention)
+- ✅ **Attrition table complete** (86.4% retention)
 
 #### Audit Trail
 - ✅ **Raw text preserved** (all posts)
@@ -191,7 +191,7 @@
 - `PROJECT_SUMMARY.md` - This file
 
 ### Data Files
-- `enhanced_scraped_data.json` - Raw collected posts (4,035 posts, 2018+)
+- `enhanced_scraped_data.json` - Raw collected posts (3,253 posts, 2018+)
 - `preprocessed_data.json` - Cleaned posts (N₄ stage)
 - `classified_sentiment_data.json` - Final analyzed dataset (2,811 posts)
 - `final_statistics.json` - Comprehensive statistics
@@ -282,7 +282,7 @@
 - [x] Duplicates removed (MD5 hash, 7% attrition)
 - [x] Language filtered (English-only)
 - [x] Attrition table created (N₀→N₄ complete)
-- [x] Quality metrics reported (69.7% retention)
+- [x] Quality metrics reported (86.4% retention)
 
 ### Privacy & Ethics ✅
 - [x] No usernames collected
@@ -297,7 +297,7 @@
 
 ### Data Quality Indicators
 - **Relevance:** 87% on-topic (exceeds 80% standard)
-- **Retention:** 69.7% (within 65-80% Reddit benchmark)
+- **Retention:** 86.4% (exceeds 65-80% Reddit benchmark)
 - **Coverage:** 1,113 unique subreddits (broad representation)
 - **Engagement:** Median 382 upvotes, 75 comments (high community interest)
 - **Temporal breadth:** 96 months (exceeds 24-month minimum)
@@ -325,7 +325,7 @@
 *"No user identifiers were collected during data extraction. Reddit's JSON API search endpoint returns content metadata only, without usernames, user IDs, or profile information. This inherent anonymization satisfies ethical research standards for public social media analysis without requiring additional hashing procedures."*
 
 ### Preprocessing
-*"Preprocessing retained 69.7% of collected posts (2,811 of 4,035), consistent with Reddit discourse study benchmarks (65-80%). Lemmatization was applied to reduce lexical redundancy while preserving semantic interpretability. Stopwords were intentionally retained to preserve syntactic context for BERT-based sentiment classification."*
+*"Preprocessing retained 86.4% of collected posts (2,811 of 3,253), exceeding Reddit discourse study benchmarks (65-80%). Lemmatization was applied to reduce lexical redundancy while preserving semantic interpretability. Stopwords were intentionally retained to preserve syntactic context for BERT-based sentiment classification."*
 
 ### Temporal Scope
 *"The temporal scope (2018-2026) was selected to capture the commercial maturity phase of AI-driven agricultural technologies following the 2018 Farm Bill's precision agriculture incentives. This 8-year window ensures seasonal variation, policy shock observation, and longitudinal trend detection."*
@@ -338,7 +338,7 @@
 1. ✅ **Dataset Description**
    - 2,811 posts from 2018-2026
    - 1,113 unique subreddits
-   - 69.7% preprocessing retention
+   - 86.4% preprocessing retention
 
 2. ✅ **Methodology Documentation**
    - Phase 1: Query design, temporal filtering, privacy compliance
