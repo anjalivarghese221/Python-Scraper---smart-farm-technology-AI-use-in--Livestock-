@@ -240,6 +240,11 @@ class KeywordNetworkAnalyzer:
             
             topic_label = self.infer_topic_label(top_keywords)
             
+            # Skip mixed topics communities
+            if topic_label is None:
+                print(f"  Skipping community {i} (mixed topics - no clear agricultural focus)")
+                continue
+            
             community_analysis.append({
                 'community_id': community_id,
                 'size': len(keywords),
@@ -257,25 +262,34 @@ class KeywordNetworkAnalyzer:
         return community_analysis
     
     def infer_topic_label(self, top_keywords):
-        """Infer topic label from top keywords"""
+        """Infer topic label from top keywords - returns None for mixed topics to filter them out"""
         keywords_list = [k for k, _ in top_keywords[:5]]
         keywords_str = ' '.join(keywords_list)
         
-        # Simple heuristic-based labeling
+        # Hierarchical heuristic-based labeling - most specific first
         if any(word in keywords_str for word in ['dairy', 'milk', 'cow', 'cattle', 'herd']):
             return 'Dairy & Livestock Management'
+        elif any(word in keywords_str for word in ['automated', 'automation', 'robot', 'machine']):
+            if any(word in keywords_str for word in ['livestock', 'farm', 'agtech', 'food']):
+                return 'Farm Automation & AgTech'
+            else:
+                return 'Automation & Robotics'
+        elif any(word in keywords_str for word in ['data', 'system', 'software', 'app', 'platform']):
+            if any(word in keywords_str for word in ['farmers', 'farm']):
+                return 'Data-Driven Agriculture & Policy'
+            else:
+                return 'Data Systems & Software'
+        elif any(word in keywords_str for word in ['precision', 'smart', 'digital', 'intelligent']):
+            if any(word in keywords_str for word in ['agriculture', 'market', 'nature']):
+                return 'Precision Agriculture & Markets'
+            else:
+                return 'Precision & Smart Farming'
         elif any(word in keywords_str for word in ['sensor', 'monitor', 'device', 'iot', 'technology']):
             return 'Sensors & Monitoring Technology'
         elif any(word in keywords_str for word in ['farm', 'agriculture', 'crop', 'field', 'land']):
             return 'General Farming & Agriculture'
-        elif any(word in keywords_str for word in ['data', 'system', 'software', 'app', 'platform']):
-            return 'Data Systems & Software'
-        elif any(word in keywords_str for word in ['automation', 'robot', 'machine', 'automated']):
-            return 'Automation & Robotics'
-        elif any(word in keywords_str for word in ['precision', 'smart', 'digital', 'intelligent']):
-            return 'Precision & Smart Farming'
         else:
-            return 'Mixed Topics'
+            return None  # Mixed topics - will be filtered out
     
     def get_network_statistics(self):
         """Calculate network-level statistics"""

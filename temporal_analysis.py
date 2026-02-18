@@ -47,13 +47,19 @@ class TemporalSentimentAnalyzer:
         temporal_posts = []
         
         for post in self.posts:
-            # Check for required temporal field
-            if 'created_at' in post or 'created_utc' in post:
+            # Check for required temporal field (try multiple field names)
+            if 'created_at' in post or 'created_utc' in post or 'created_date' in post:
                 try:
                     # Parse datetime
                     if 'created_at' in post:
                         if isinstance(post['created_at'], str):
                             dt = datetime.fromisoformat(post['created_at'].replace('Z', '+00:00'))
+                        else:
+                            continue
+                    elif 'created_date' in post:
+                        # Parse YYYY-MM-DD format
+                        if isinstance(post['created_date'], str):
+                            dt = datetime.strptime(post['created_date'], '%Y-%m-%d')
                         else:
                             continue
                     else:
@@ -297,7 +303,7 @@ class TemporalSentimentAnalyzer:
         print(f"  [SAVED] {output_dir}/temporal_trends_monthly.png")
         plt.close()
         
-        # Figure 2: Quarterly trends (stacked bar chart)
+        # Figure 2: Quarterly trends (line chart)
         quarters = sorted(quarterly_trends.keys())
         pos_q = [quarterly_trends[q]['positive_pct'] for q in quarters]
         neu_q = [quarterly_trends[q]['neutral_pct'] for q in quarters]
@@ -306,9 +312,10 @@ class TemporalSentimentAnalyzer:
         fig, ax = plt.subplots(figsize=(12, 6))
         x = np.arange(len(quarters))
         
-        ax.bar(x, pos_q, label='Positive', color='#2ecc71', alpha=0.8)
-        ax.bar(x, neu_q, bottom=pos_q, label='Neutral', color='#95a5a6', alpha=0.8)
-        ax.bar(x, neg_q, bottom=np.array(pos_q) + np.array(neu_q), label='Negative', color='#e74c3c', alpha=0.8)
+        # Line chart with markers
+        ax.plot(x, pos_q, marker='o', linewidth=2.5, label='Positive', color='#2ecc71', markersize=6)
+        ax.plot(x, neu_q, marker='s', linewidth=2.5, label='Neutral', color='#95a5a6', markersize=6)
+        ax.plot(x, neg_q, marker='^', linewidth=2.5, label='Negative', color='#e74c3c', markersize=6)
         
         ax.set_xticks(x)
         ax.set_xticklabels(quarters, rotation=45)
@@ -316,7 +323,8 @@ class TemporalSentimentAnalyzer:
         ax.set_ylabel('Sentiment Distribution (%)', fontsize=12)
         ax.set_title('Quarterly Sentiment Distribution', fontsize=14, fontweight='bold')
         ax.legend(loc='best')
-        ax.grid(True, alpha=0.3, axis='y')
+        ax.grid(True, alpha=0.3)
+        ax.set_ylim(0, 100)
         
         plt.tight_layout()
         plt.savefig(f'{output_dir}/temporal_trends_quarterly.png', dpi=300, bbox_inches='tight')
