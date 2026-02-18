@@ -255,13 +255,13 @@ class EnhancedScientificScraper:
             {
                 'primary': ['AI', 'artificial intelligence', 'machine learning'],
                 'contextual': ['livestock', 'cattle', 'dairy'],
-                'exclude': ['trump', 'election', 'tariff', 'trade war'],
+                'exclude': [],
                 'rationale': 'Core AI + livestock intersection'
             },
             {
                 'primary': ['smart farm', 'precision agriculture', 'precision livestock'],
                 'contextual': ['technology', 'sensor', 'monitoring'],
-                'exclude': ['trump', 'politics'],
+                'exclude': [],
                 'rationale': 'Smart farming technology focus'
             },
             {
@@ -279,7 +279,7 @@ class EnhancedScientificScraper:
             {
                 'primary': ['data', 'analytics', 'prediction'],
                 'contextual': ['farm', 'agriculture', 'livestock'],
-                'exclude': ['stock market', 'crypto'],
+                'exclude': [],
                 'rationale': 'Data-driven farming'
             }
         ]
