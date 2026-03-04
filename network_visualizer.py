@@ -430,15 +430,28 @@ class NetworkVisualizer:
         # Panel 2: Sentiment by Community (Stacked Bar)
         ax2 = plt.subplot(2, 2, 2)
         communities = [comm['topic_label'] for comm in results['communities']]
-        pos_pcts = [comm['sentiment_distribution']['positive'] for comm in results['communities']]
-        neu_pcts = [comm['sentiment_distribution']['neutral'] for comm in results['communities']]
-        neg_pcts = [comm['sentiment_distribution']['negative'] for comm in results['communities']]
+        
+        # Convert raw counts to percentages
+        pos_neg_neu = []
+        for comm in results['communities']:
+            pos = comm['sentiment_distribution']['positive']
+            neg = comm['sentiment_distribution']['negative']
+            neu = comm['sentiment_distribution']['neutral']
+            total = pos + neg + neu
+            if total > 0:
+                pos_neg_neu.append((pos/total*100, neg/total*100, neu/total*100))
+            else:
+                pos_neg_neu.append((0, 0, 0))
+        
+        pos_pcts = [pnn[0] for pnn in pos_neg_neu]
+        neg_pcts = [pnn[1] for pnn in pos_neg_neu]
+        neu_pcts = [pnn[2] for pnn in pos_neg_neu]
         
         x = range(len(communities))
         ax2.barh(x, pos_pcts, color='#2ecc71', label='Positive', alpha=0.85)
-        ax2.barh(x, neu_pcts, left=pos_pcts, color='#95a5a6', label='Neutral', alpha=0.85)
-        ax2.barh(x, neg_pcts, left=[p+n for p, n in zip(pos_pcts, neu_pcts)], 
-                color='#e74c3c', label='Negative', alpha=0.85)
+        ax2.barh(x, neg_pcts, left=pos_pcts, color='#e74c3c', label='Negative', alpha=0.85)
+        ax2.barh(x, neu_pcts, left=[p+n for p, n in zip(pos_pcts, neg_pcts)], 
+                color='#95a5a6', label='Neutral', alpha=0.85)
         
         # Wrap long labels
         wrapped_labels = []
