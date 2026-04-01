@@ -425,7 +425,7 @@ class NetworkVisualizer:
         
         ax1.pie(sizes, labels=labels, colors=pie_colors, autopct='', startangle=90,
                textprops={'fontsize': 11, 'weight': 'bold'})
-        ax1.set_title('Overall Sentiment Distribution\n2,811 Posts', fontsize=13, fontweight='bold', pad=15)
+        ax1.set_title(f'Overall Sentiment Distribution\n{len(data):,} Posts', fontsize=13, fontweight='bold', pad=15)
         
         # Panel 2: Sentiment by Community (Stacked Bar)
         ax2 = plt.subplot(2, 2, 2)

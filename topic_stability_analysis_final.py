@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 COMPREHENSIVE TOPIC MODELING STABILITY & COHERENCE ANALYSIS
-Dataset: classified_sentiment_data.json (N=2811 filtered posts)
+Dataset: classified_sentiment_data_clean.json (N=1856 clean posts)
 Uses existing coherence results and adds stability + semantic driver analysis
 """
 
@@ -12,7 +12,7 @@ from datetime import datetime
 
 print("=" * 80)
 print("TOPIC MODELING STABILITY & COHERENCE REPORT")
-print("Dataset: N=2811 filtered posts")
+print("Dataset: clean posts (auto-selected input)")
 print("=" * 80)
 
 # ============================================================================
@@ -73,19 +73,65 @@ print(f"  Interpretation: {stability_interp}")
 print("\n[3/3] Semantic Drivers of Sentiment...")
 print("-" * 80)
 
-# Load sentiment data
-with open('classified_sentiment_data.json', 'r') as f:
-    sentiment_data = json.load(f)
+# Load sentiment data (contamination-filtered / expanded)
+input_candidates = [
+    'classified_sentiment_data_clean_expanded.json',
+    'classified_sentiment_data_clean.json',
+    'classified_sentiment_data.json'
+]
+sentiment_data = None
+selected_input = None
+for candidate in input_candidates:
+    try:
+        with open(candidate, 'r') as f:
+            sentiment_data = json.load(f)
+        selected_input = candidate
+        break
+    except FileNotFoundError:
+        continue
 
-print(f"Total documents: {len(sentiment_data)}")
+if sentiment_data is None:
+    raise FileNotFoundError("No input dataset found. Expected one of: " + ", ".join(input_candidates))
+
+print(f"Total documents: {len(sentiment_data)} from {selected_input}")
 
 # Tokenize and categorize by sentiment
 positive_words = []
 negative_words = []
 neutral_words = []
 
-stopwords = {'like', 'would', 'could', 'should', 'make', 'really', 'just',
-             'know', 'think', 'want', 'need', 'going', 'getting', 'also'}
+stopwords = {
+    # Generic function words
+    'like', 'would', 'could', 'should', 'make', 'really', 'just',
+    'know', 'think', 'want', 'need', 'going', 'getting', 'also',
+    'good', 'great', 'well', 'even', 'still', 'back', 'much', 'many',
+    'more', 'most', 'very', 'only', 'some', 'such', 'same', 'than',
+    # Generic verbs / connectives
+    'said', 'says', 'saying', 'seem', 'seems', 'feel', 'feels',
+    'look', 'looks', 'come', 'goes', 'went', 'came', 'made', 'take',
+    'took', 'give', 'gave', 'give', 'seen', 'done', 'does', 'doing',
+    'help', 'helps', 'helped', 'find', 'found', 'finds', 'keep', 'kept',
+    # Months / calendar noise
+    'january', 'february', 'march', 'april', 'june', 'july',
+    'august', 'september', 'october', 'november', 'december',
+    # Academic / exam noise (student subreddits)
+    'exam', 'exams', 'homework', 'proctored', 'examplify', 'proctoring',
+    'honorlock', 'teas', 'calculus', 'online', 'statistics',
+    'university', 'college', 'course', 'class', 'professor', 'grade',
+    'semester', 'student', 'students', 'school', 'study', 'studying',
+    # Nursing / medical exam spam
+    'hesi', 'nursing', 'cheat', 'cheating', 'comp', 'guys',
+    'nclex', 'ati', 'pharmacology', 'dosage', 'medication',
+    # Social-media / forum noise
+    'post', 'posts', 'reddit', 'comment', 'comments', 'thread',
+    'upvote', 'downvote', 'share', 'link', 'click', 'read', 'reading',
+    # Proper names / brands not ag-related
+    'caroline', 'barry', 'emilia', 'dora', 'oneplus', 'oppo',
+    'bambu', 'bitcoin', 'snap', 'snapchat', 'tiktok',
+    # Generic descriptors
+    'historical', 'cognitive', 'maximizing', 'cognitive',
+    'without', 'within', 'around', 'between', 'through', 'after',
+}
 
 for item in sentiment_data:
     sentiment = item.get('sentiment', 'neutral')
@@ -112,21 +158,32 @@ print(f"  Negative: {total_neg:,} tokens")
 print(f"  Neutral: {total_neu:,} tokens")
 
 # Compute log-odds ratios with Laplace smoothing
+# Require a word appears >= MIN_FREQ times in its dominant class AND
+# at least MIN_BOTH times in the other class to avoid rare-word noise.
 if total_pos > 0 and total_neg > 0:
-    alpha_smooth = 0.01
+    alpha_smooth = 1.0   # stronger smoothing to penalise rare words
+    MIN_DOMINANT = 20    # must appear ≥20 times in the dominant sentiment class
+    MIN_OTHER    = 5     # must appear ≥5 times in the other class
+
     log_odds = {}
-    
     all_words = set(pos_counts.keys()) | set(neg_counts.keys())
     vocab_size = len(all_words)
-    
+
     for word in all_words:
-        pos_prob = (pos_counts[word] + alpha_smooth) / (total_pos + alpha_smooth * vocab_size)
-        neg_prob = (neg_counts[word] + alpha_smooth) / (total_neg + alpha_smooth * vocab_size)
-        
+        pf = pos_counts[word]
+        nf = neg_counts[word]
+        # Skip unless the word meets the minimum frequency requirement
+        if max(pf, nf) < MIN_DOMINANT:
+            continue
+        if min(pf, nf) < MIN_OTHER:
+            continue
+
+        pos_prob = (pf + alpha_smooth) / (total_pos + alpha_smooth * vocab_size)
+        neg_prob = (nf + alpha_smooth) / (total_neg + alpha_smooth * vocab_size)
         log_odds[word] = np.log(pos_prob / neg_prob)
-    
+
     sorted_drivers = sorted(log_odds.items(), key=lambda x: x[1])
-    
+
     negative_drivers = sorted_drivers[:10]
     positive_drivers = sorted_drivers[-10:][::-1]
     
@@ -168,7 +225,7 @@ print("=" * 80)
 report = {
     'metadata': {
         'analysis_date': datetime.now().isoformat(),
-        'dataset': 'classified_sentiment_data.json',
+        'dataset': selected_input,
         'n_documents': len(sentiment_data),
         'source_coherence_analysis': 'lda_coherence_results.json',
         'analysis_type': 'Stability and Semantic Driver Analysis'
@@ -210,7 +267,7 @@ report = {
             {'rank': i+1, 'word': word, 'log_odds': float(score), 'frequency': pos_counts[word]}
             for i, (word, score) in enumerate(positive_drivers)
         ],
-        'methodology': 'Log-odds ratio with Laplace smoothing (α=0.01)'
+        'methodology': 'Log-odds ratio with Laplace smoothing (α=1.0); min dominant-class freq=20, min other-class freq=5'
     },
     'optimal_model_topics': optimal_topics,
     'statistical_reporting': {
@@ -245,7 +302,7 @@ print(f"\n✓ Report saved: {output_file}")
 print("\n" + "=" * 80)
 print("ANALYSIS COMPLETE - SUMMARY")
 print("=" * 80)
-print(f"\n✓ Dataset: N = {len(sentiment_data)} documents (2811 filtered)")
+print(f"\n✓ Dataset: N = {len(sentiment_data)} documents (contamination-filtered)")
 print(f"✓ Vocabulary: {existing_results['preprocessing']['vocabulary_size']} terms")
 print(f"✓ Optimal topics: k = {optimal_k}")
 print(f"✓ C_v Coherence: {optimal_cv:.4f} ({report['sensitivity_analysis']['interpretation']})")

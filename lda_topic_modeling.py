@@ -33,8 +33,27 @@ except ImportError:
 
 # Load data
 print("\nLoading preprocessed data...")
-with open('classified_sentiment_data.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
+input_candidates = [
+    'classified_sentiment_data_clean_expanded.json',
+    'classified_sentiment_data_clean.json',
+    'classified_sentiment_data.json'
+]
+
+data = None
+selected_input = None
+for candidate in input_candidates:
+    try:
+        with open(candidate, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        selected_input = candidate
+        break
+    except FileNotFoundError:
+        continue
+
+if data is None:
+    raise FileNotFoundError("No input dataset found. Expected one of: " + ", ".join(input_candidates))
+
+print(f"Using dataset: {selected_input}")
 
 print(f"Loaded {len(data)} documents")
 
@@ -42,7 +61,7 @@ print(f"Loaded {len(data)} documents")
 print("\nTokenizing documents...")
 documents = []
 for item in data:
-    text = item.get('cleaned_text', '') or item.get('title', '') + ' ' + item.get('selftext', '')
+    text = item.get('cleaned_text', '') or item.get('clean_text', '') or item.get('title', '') + ' ' + item.get('selftext', '') + ' ' + item.get('text', '')
     # Simple tokenization - split and filter
     tokens = [word.lower() for word in text.split() if len(word) > 3 and word.isalpha()]
     if len(tokens) > 5:  # Only include documents with enough tokens
@@ -80,7 +99,6 @@ BETA = 'symmetric'   # Default: 1/k for each word
 PASSES = 3  # Reduced for faster execution
 ITERATIONS = 50  # Reduced for faster execution
 RANDOM_SEED = 42
-WORKERS = 1  # Single-threaded for stability
 
 print(f"\nHyperparameters:")
 print(f"  α (alpha): {ALPHA}")
@@ -106,7 +124,6 @@ for k in k_values:
         alpha=ALPHA,
         eta=BETA,
         per_word_topics=False,  # Disable for speed
-        workers=WORKERS,
         minimum_probability=0.01
     )
     

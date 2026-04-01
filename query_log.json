@@ -1,422 +1,4354 @@
 [
   {
-    "timestamp": "2026-02-18T11:39:48.397382",
-    "query": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
+    "timestamp": "2026-04-01T11:35:51.429673",
+    "query": "livestock ai",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
     "subreddit": "AgTech",
     "parameters": {
-      "q": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
-      "limit": 100,
+      "limit": 75,
       "sort": "relevance",
       "t": "all",
       "restrict_sr": "on"
     },
-    "rationale": "Searching r/AgTech for agricultural technology discourse",
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
     "api_tier": "Reddit JSON API (public)"
   },
   {
-    "timestamp": "2026-02-18T11:39:51.861590",
-    "query": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
-    "subreddit": "farming",
-    "parameters": {
-      "q": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/farming for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:39:57.120134",
-    "query": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
-    "subreddit": "agriculture",
-    "parameters": {
-      "q": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/agriculture for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:40:00.341279",
-    "query": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
-    "subreddit": "dairy",
-    "parameters": {
-      "q": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/dairy for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:40:03.668906",
-    "query": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
-    "subreddit": "livestock",
-    "parameters": {
-      "q": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/livestock for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:40:08.895726",
-    "query": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
-    "subreddit": "precisionag",
-    "parameters": {
-      "q": "(AI OR artificial intelligence OR machine learning) livestock cattle dairy",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/precisionag for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:40:12.119010",
-    "query": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
+    "timestamp": "2026-04-01T11:35:52.671236",
+    "query": "livestock artificial intelligence",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
     "subreddit": "AgTech",
     "parameters": {
-      "q": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
-      "limit": 100,
+      "limit": 75,
       "sort": "relevance",
       "t": "all",
       "restrict_sr": "on"
     },
-    "rationale": "Searching r/AgTech for agricultural technology discourse",
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 1,
     "api_tier": "Reddit JSON API (public)"
   },
   {
-    "timestamp": "2026-02-18T11:40:15.342175",
-    "query": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
-    "subreddit": "farming",
-    "parameters": {
-      "q": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/farming for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:40:18.564418",
-    "query": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
-    "subreddit": "agriculture",
-    "parameters": {
-      "q": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/agriculture for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:40:21.754960",
-    "query": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
-    "subreddit": "dairy",
-    "parameters": {
-      "q": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/dairy for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:40:24.964667",
-    "query": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
-    "subreddit": "livestock",
-    "parameters": {
-      "q": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/livestock for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:40:28.176155",
-    "query": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
-    "subreddit": "precisionag",
-    "parameters": {
-      "q": "(smart farm OR precision agriculture OR precision livestock) technology sensor monitoring",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/precisionag for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:40:31.385716",
-    "query": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
+    "timestamp": "2026-04-01T11:35:54.321059",
+    "query": "livestock smart farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
     "subreddit": "AgTech",
     "parameters": {
-      "q": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
-      "limit": 100,
+      "limit": 75,
       "sort": "relevance",
       "t": "all",
       "restrict_sr": "on"
     },
-    "rationale": "Searching r/AgTech for agricultural technology discourse",
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 1,
     "api_tier": "Reddit JSON API (public)"
   },
   {
-    "timestamp": "2026-02-18T11:40:34.601134",
-    "query": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
-    "subreddit": "farming",
-    "parameters": {
-      "q": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/farming for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:40:37.789357",
-    "query": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
-    "subreddit": "agriculture",
-    "parameters": {
-      "q": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/agriculture for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:40:40.990100",
-    "query": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
-    "subreddit": "dairy",
-    "parameters": {
-      "q": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/dairy for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:40:44.190695",
-    "query": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
-    "subreddit": "livestock",
-    "parameters": {
-      "q": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/livestock for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:40:47.387579",
-    "query": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
-    "subreddit": "precisionag",
-    "parameters": {
-      "q": "(automated OR automation OR robot) farm dairy milking feeding -layoff -unemployment",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/precisionag for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:40:50.661593",
-    "query": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
+    "timestamp": "2026-04-01T11:35:55.780609",
+    "query": "livestock precision livestock farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
     "subreddit": "AgTech",
     "parameters": {
-      "q": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
-      "limit": 100,
+      "limit": 75,
       "sort": "relevance",
       "t": "all",
       "restrict_sr": "on"
     },
-    "rationale": "Searching r/AgTech for agricultural technology discourse",
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
     "api_tier": "Reddit JSON API (public)"
   },
   {
-    "timestamp": "2026-02-18T11:40:53.852209",
-    "query": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
-    "subreddit": "farming",
-    "parameters": {
-      "q": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/farming for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:40:57.323790",
-    "query": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
-    "subreddit": "agriculture",
-    "parameters": {
-      "q": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/agriculture for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:41:00.568945",
-    "query": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
-    "subreddit": "dairy",
-    "parameters": {
-      "q": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/dairy for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:41:04.147087",
-    "query": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
-    "subreddit": "livestock",
-    "parameters": {
-      "q": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/livestock for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:41:07.516611",
-    "query": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
-    "subreddit": "precisionag",
-    "parameters": {
-      "q": "(IoT OR sensor OR camera OR tracking) livestock cattle herd animal",
-      "limit": 100,
-      "sort": "relevance",
-      "t": "all",
-      "restrict_sr": "on"
-    },
-    "rationale": "Searching r/precisionag for agricultural technology discourse",
-    "api_tier": "Reddit JSON API (public)"
-  },
-  {
-    "timestamp": "2026-02-18T11:41:10.763299",
-    "query": "(data OR analytics OR prediction) farm agriculture livestock",
+    "timestamp": "2026-04-01T11:35:57.014425",
+    "query": "livestock automation",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
     "subreddit": "AgTech",
     "parameters": {
-      "q": "(data OR analytics OR prediction) farm agriculture livestock",
-      "limit": 100,
+      "limit": 75,
       "sort": "relevance",
       "t": "all",
       "restrict_sr": "on"
     },
-    "rationale": "Searching r/AgTech for agricultural technology discourse",
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 1,
     "api_tier": "Reddit JSON API (public)"
   },
   {
-    "timestamp": "2026-02-18T11:41:13.968891",
-    "query": "(data OR analytics OR prediction) farm agriculture livestock",
+    "timestamp": "2026-04-01T11:35:58.252974",
+    "query": "livestock sensor",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:35:59.491927",
+    "query": "livestock machine learning",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:01.162705",
+    "query": "livestock computer vision",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 2,
+    "kept_after_relevance_filter": 2,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:02.379353",
+    "query": "dairy ai",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:03.612360",
+    "query": "dairy artificial intelligence",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:04.838233",
+    "query": "dairy smart farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 1,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:06.123424",
+    "query": "dairy precision livestock farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:07.334013",
+    "query": "ai livestock monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 2,
+    "kept_after_relevance_filter": 1,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:08.536315",
+    "query": "ai livestock health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:09.729564",
+    "query": "ai dairy monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:10.930889",
+    "query": "ai dairy health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:12.223043",
+    "query": "ai cattle monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 2,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:13.475035",
+    "query": "ai cattle health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:14.800508",
+    "query": "ai beef monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:16.157908",
+    "query": "ai beef health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:17.525576",
+    "query": "artificial intelligence livestock monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:18.994446",
+    "query": "artificial intelligence livestock health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:20.396832",
+    "query": "artificial intelligence dairy monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:21.852309",
+    "query": "artificial intelligence dairy health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:23.226458",
+    "query": "ai in livestock farming",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:24.561544",
+    "query": "smart farming livestock",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:25.925898",
+    "query": "precision livestock farming ai",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:27.316504",
+    "query": "computer vision cattle monitoring",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:28.726750",
+    "query": "iot sensors dairy farm",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:29.997822",
+    "query": "robotics dairy automation",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:31.372202",
+    "query": "machine learning livestock health",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:32.767584",
+    "query": "smart dairy farm technology",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:34.134294",
+    "query": "ai animal welfare monitoring",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:35.424206",
+    "query": "digital livestock farming",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "AgTech",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:36.719421",
+    "query": "livestock ai",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
     "subreddit": "farming",
     "parameters": {
-      "q": "(data OR analytics OR prediction) farm agriculture livestock",
-      "limit": 100,
+      "limit": 75,
       "sort": "relevance",
       "t": "all",
       "restrict_sr": "on"
     },
-    "rationale": "Searching r/farming for agricultural technology discourse",
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
     "api_tier": "Reddit JSON API (public)"
   },
   {
-    "timestamp": "2026-02-18T11:41:19.202348",
-    "query": "(data OR analytics OR prediction) farm agriculture livestock",
+    "timestamp": "2026-04-01T11:36:37.968705",
+    "query": "livestock artificial intelligence",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 2,
+    "kept_after_relevance_filter": 2,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:39.960124",
+    "query": "livestock smart farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 62,
+    "kept_after_relevance_filter": 50,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:41.212598",
+    "query": "livestock precision livestock farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 2,
+    "kept_after_relevance_filter": 1,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:42.435740",
+    "query": "livestock automation",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:43.704440",
+    "query": "livestock sensor",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:45.540326",
+    "query": "livestock machine learning",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 46,
+    "kept_after_relevance_filter": 37,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:46.827942",
+    "query": "livestock computer vision",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 4,
+    "kept_after_relevance_filter": 2,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:48.079634",
+    "query": "dairy ai",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 4,
+    "kept_after_relevance_filter": 4,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:49.385131",
+    "query": "dairy artificial intelligence",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 5,
+    "kept_after_relevance_filter": 1,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:51.609261",
+    "query": "dairy smart farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 63,
+    "kept_after_relevance_filter": 53,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:53.099894",
+    "query": "dairy precision livestock farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 11,
+    "kept_after_relevance_filter": 5,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:54.406949",
+    "query": "ai livestock monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 5,
+    "kept_after_relevance_filter": 3,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:55.631987",
+    "query": "ai livestock health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 3,
+    "kept_after_relevance_filter": 2,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:56.913756",
+    "query": "ai dairy monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 8,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:58.184732",
+    "query": "ai dairy health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 3,
+    "kept_after_relevance_filter": 1,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:36:59.503485",
+    "query": "ai cattle monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 7,
+    "kept_after_relevance_filter": 3,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:00.779956",
+    "query": "ai cattle health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 4,
+    "kept_after_relevance_filter": 3,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:02.061625",
+    "query": "ai beef monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 3,
+    "kept_after_relevance_filter": 1,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:03.344740",
+    "query": "ai beef health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 2,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:04.515221",
+    "query": "artificial intelligence livestock monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:06.003007",
+    "query": "artificial intelligence livestock health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 3,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:07.200260",
+    "query": "artificial intelligence dairy monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:08.706593",
+    "query": "artificial intelligence dairy health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 3,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:09.965484",
+    "query": "ai in livestock farming",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:11.906340",
+    "query": "smart farming livestock",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 62,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:13.164634",
+    "query": "precision livestock farming ai",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 6,
+    "kept_after_relevance_filter": 2,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:14.388186",
+    "query": "computer vision cattle monitoring",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:15.653274",
+    "query": "iot sensors dairy farm",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 3,
+    "kept_after_relevance_filter": 2,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:16.998978",
+    "query": "robotics dairy automation",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 8,
+    "kept_after_relevance_filter": 5,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:18.403666",
+    "query": "machine learning livestock health",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 2,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:19.718939",
+    "query": "smart dairy farm technology",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 5,
+    "kept_after_relevance_filter": 1,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:20.975176",
+    "query": "ai animal welfare monitoring",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 1,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:23.088362",
+    "query": "digital livestock farming",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "farming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 63,
+    "kept_after_relevance_filter": 6,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:24.336172",
+    "query": "livestock ai",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
     "subreddit": "agriculture",
     "parameters": {
-      "q": "(data OR analytics OR prediction) farm agriculture livestock",
-      "limit": 100,
+      "limit": 75,
       "sort": "relevance",
       "t": "all",
       "restrict_sr": "on"
     },
-    "rationale": "Searching r/agriculture for agricultural technology discourse",
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 1,
     "api_tier": "Reddit JSON API (public)"
   },
   {
-    "timestamp": "2026-02-18T11:41:24.488437",
-    "query": "(data OR analytics OR prediction) farm agriculture livestock",
-    "subreddit": "dairy",
+    "timestamp": "2026-04-01T11:37:25.828162",
+    "query": "livestock artificial intelligence",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "agriculture",
     "parameters": {
-      "q": "(data OR analytics OR prediction) farm agriculture livestock",
-      "limit": 100,
+      "limit": 75,
       "sort": "relevance",
       "t": "all",
       "restrict_sr": "on"
     },
-    "rationale": "Searching r/dairy for agricultural technology discourse",
+    "http_status": 200,
+    "retrieved": 13,
+    "kept_after_relevance_filter": 13,
     "api_tier": "Reddit JSON API (public)"
   },
   {
-    "timestamp": "2026-02-18T11:41:27.697374",
-    "query": "(data OR analytics OR prediction) farm agriculture livestock",
+    "timestamp": "2026-04-01T11:37:27.804589",
+    "query": "livestock smart farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 58,
+    "kept_after_relevance_filter": 48,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:29.069213",
+    "query": "livestock precision livestock farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:30.299496",
+    "query": "livestock automation",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 2,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:31.592890",
+    "query": "livestock sensor",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 1,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:33.154932",
+    "query": "livestock machine learning",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 18,
+    "kept_after_relevance_filter": 13,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:34.575196",
+    "query": "livestock computer vision",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 6,
+    "kept_after_relevance_filter": 5,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:35.771302",
+    "query": "dairy ai",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:37.149949",
+    "query": "dairy artificial intelligence",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 12,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:39.122756",
+    "query": "dairy smart farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 51,
+    "kept_after_relevance_filter": 30,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:40.402077",
+    "query": "dairy precision livestock farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 6,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:41.673138",
+    "query": "ai livestock monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 7,
+    "kept_after_relevance_filter": 4,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:42.918643",
+    "query": "ai livestock health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:44.180950",
+    "query": "ai dairy monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 7,
+    "kept_after_relevance_filter": 1,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:45.414593",
+    "query": "ai dairy health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 2,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:46.697878",
+    "query": "ai cattle monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 8,
+    "kept_after_relevance_filter": 1,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:47.952438",
+    "query": "ai cattle health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 2,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:49.209782",
+    "query": "ai beef monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 5,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:50.428572",
+    "query": "ai beef health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:51.636263",
+    "query": "artificial intelligence livestock monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:53.209537",
+    "query": "artificial intelligence livestock health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 2,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:54.495520",
+    "query": "artificial intelligence dairy monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:55.947811",
+    "query": "artificial intelligence dairy health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 2,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:57.203886",
+    "query": "ai in livestock farming",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:37:59.062344",
+    "query": "smart farming livestock",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 58,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:00.342198",
+    "query": "precision livestock farming ai",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 6,
+    "kept_after_relevance_filter": 2,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:01.596642",
+    "query": "computer vision cattle monitoring",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:02.830765",
+    "query": "iot sensors dairy farm",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 3,
+    "kept_after_relevance_filter": 1,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:04.126859",
+    "query": "robotics dairy automation",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 9,
+    "kept_after_relevance_filter": 4,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:05.375173",
+    "query": "machine learning livestock health",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:06.846849",
+    "query": "smart dairy farm technology",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 11,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:07.948345",
+    "query": "ai animal welfare monitoring",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:09.049210",
+    "query": "digital livestock farming",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "agriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:10.158504",
+    "query": "livestock ai",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
     "subreddit": "livestock",
     "parameters": {
-      "q": "(data OR analytics OR prediction) farm agriculture livestock",
-      "limit": 100,
+      "limit": 75,
       "sort": "relevance",
       "t": "all",
       "restrict_sr": "on"
     },
-    "rationale": "Searching r/livestock for agricultural technology discourse",
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
     "api_tier": "Reddit JSON API (public)"
   },
   {
-    "timestamp": "2026-02-18T11:41:32.953948",
-    "query": "(data OR analytics OR prediction) farm agriculture livestock",
-    "subreddit": "precisionag",
+    "timestamp": "2026-04-01T11:38:11.267102",
+    "query": "livestock artificial intelligence",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "livestock",
     "parameters": {
-      "q": "(data OR analytics OR prediction) farm agriculture livestock",
-      "limit": 100,
+      "limit": 75,
       "sort": "relevance",
       "t": "all",
       "restrict_sr": "on"
     },
-    "rationale": "Searching r/precisionag for agricultural technology discourse",
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:12.370391",
+    "query": "livestock smart farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:13.494700",
+    "query": "livestock precision livestock farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:14.610643",
+    "query": "livestock automation",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:15.722811",
+    "query": "livestock sensor",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:16.831450",
+    "query": "livestock machine learning",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:17.939001",
+    "query": "livestock computer vision",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:19.046668",
+    "query": "dairy ai",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:20.163892",
+    "query": "dairy artificial intelligence",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:21.270375",
+    "query": "dairy smart farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:22.375839",
+    "query": "dairy precision livestock farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:23.481914",
+    "query": "ai livestock monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:24.591259",
+    "query": "ai livestock health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:25.695298",
+    "query": "ai dairy monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:26.797799",
+    "query": "ai dairy health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:27.971127",
+    "query": "ai cattle monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:29.081798",
+    "query": "ai cattle health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:30.196887",
+    "query": "ai beef monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:31.309667",
+    "query": "ai beef health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:32.415984",
+    "query": "artificial intelligence livestock monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:33.537615",
+    "query": "artificial intelligence livestock health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:34.642708",
+    "query": "artificial intelligence dairy monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:35.757245",
+    "query": "artificial intelligence dairy health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:36.863000",
+    "query": "ai in livestock farming",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:37.975180",
+    "query": "smart farming livestock",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:39.090130",
+    "query": "precision livestock farming ai",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:40.199826",
+    "query": "computer vision cattle monitoring",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:41.307405",
+    "query": "iot sensors dairy farm",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:42.412603",
+    "query": "robotics dairy automation",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:43.529654",
+    "query": "machine learning livestock health",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:44.645729",
+    "query": "smart dairy farm technology",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:45.763284",
+    "query": "ai animal welfare monitoring",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:46.867674",
+    "query": "digital livestock farming",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "livestock",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:47.976282",
+    "query": "livestock ai",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:49.084610",
+    "query": "livestock artificial intelligence",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:50.201831",
+    "query": "livestock smart farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:51.315429",
+    "query": "livestock precision livestock farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:52.411824",
+    "query": "livestock automation",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:53.518221",
+    "query": "livestock sensor",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:54.626281",
+    "query": "livestock machine learning",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:55.737593",
+    "query": "livestock computer vision",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:56.841712",
+    "query": "dairy ai",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:57.950174",
+    "query": "dairy artificial intelligence",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:38:59.070699",
+    "query": "dairy smart farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:00.189099",
+    "query": "dairy precision livestock farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:01.368509",
+    "query": "ai livestock monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:02.484456",
+    "query": "ai livestock health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:03.590414",
+    "query": "ai dairy monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:04.703605",
+    "query": "ai dairy health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:05.808527",
+    "query": "ai cattle monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:06.921386",
+    "query": "ai cattle health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:08.062542",
+    "query": "ai beef monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:09.166861",
+    "query": "ai beef health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:10.277594",
+    "query": "artificial intelligence livestock monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:11.385512",
+    "query": "artificial intelligence livestock health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:12.501200",
+    "query": "artificial intelligence dairy monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:13.606910",
+    "query": "artificial intelligence dairy health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:14.716594",
+    "query": "ai in livestock farming",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:15.845587",
+    "query": "smart farming livestock",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:16.962222",
+    "query": "precision livestock farming ai",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:18.065217",
+    "query": "computer vision cattle monitoring",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:19.179630",
+    "query": "iot sensors dairy farm",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:20.287503",
+    "query": "robotics dairy automation",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:21.405592",
+    "query": "machine learning livestock health",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:22.521165",
+    "query": "smart dairy farm technology",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:23.639809",
+    "query": "ai animal welfare monitoring",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:24.759933",
+    "query": "digital livestock farming",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "dairyfarming",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:25.888272",
+    "query": "livestock ai",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:27.008336",
+    "query": "livestock artificial intelligence",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:28.115861",
+    "query": "livestock smart farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:29.225184",
+    "query": "livestock precision livestock farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:30.334479",
+    "query": "livestock automation",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:31.449010",
+    "query": "livestock sensor",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:32.557416",
+    "query": "livestock machine learning",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:33.670872",
+    "query": "livestock computer vision",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:34.780297",
+    "query": "dairy ai",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:35.895724",
+    "query": "dairy artificial intelligence",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:37.005840",
+    "query": "dairy smart farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:38.112752",
+    "query": "dairy precision livestock farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:39.225091",
+    "query": "ai livestock monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:40.339506",
+    "query": "ai livestock health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:41.458449",
+    "query": "ai dairy monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:42.576185",
+    "query": "ai dairy health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:43.682350",
+    "query": "ai cattle monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:44.801922",
+    "query": "ai cattle health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:45.912211",
+    "query": "ai beef monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:47.015759",
+    "query": "ai beef health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:48.152556",
+    "query": "artificial intelligence livestock monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:49.259504",
+    "query": "artificial intelligence livestock health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:50.365268",
+    "query": "artificial intelligence dairy monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:51.469817",
+    "query": "artificial intelligence dairy health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:52.583731",
+    "query": "ai in livestock farming",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:53.693290",
+    "query": "smart farming livestock",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:54.803661",
+    "query": "precision livestock farming ai",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:55.914555",
+    "query": "computer vision cattle monitoring",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:57.018942",
+    "query": "iot sensors dairy farm",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:58.126781",
+    "query": "robotics dairy automation",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:39:59.231021",
+    "query": "machine learning livestock health",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 429,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:00.511643",
+    "query": "smart dairy farm technology",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:01.737401",
+    "query": "ai animal welfare monitoring",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:02.963991",
+    "query": "digital livestock farming",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "precisionagriculture",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:04.161347",
+    "query": "livestock ai",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:06.598431",
+    "query": "livestock artificial intelligence",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 64,
+    "kept_after_relevance_filter": 54,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:07.860816",
+    "query": "livestock smart farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 4,
+    "kept_after_relevance_filter": 3,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:09.124457",
+    "query": "livestock precision livestock farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:10.315954",
+    "query": "livestock automation",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:11.504801",
+    "query": "livestock sensor",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:13.703304",
+    "query": "livestock machine learning",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 72,
+    "kept_after_relevance_filter": 71,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:16.260685",
+    "query": "livestock computer vision",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 72,
+    "kept_after_relevance_filter": 68,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:17.464675",
+    "query": "dairy ai",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:19.829648",
+    "query": "dairy artificial intelligence",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 64,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:21.199722",
+    "query": "dairy smart farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 5,
+    "kept_after_relevance_filter": 1,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:22.395167",
+    "query": "dairy precision livestock farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:24.899611",
+    "query": "ai livestock monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 74,
+    "kept_after_relevance_filter": 66,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:26.454676",
+    "query": "ai livestock health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 13,
+    "kept_after_relevance_filter": 9,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:29.100523",
+    "query": "ai dairy monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 74,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:30.579703",
+    "query": "ai dairy health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 13,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:33.336107",
+    "query": "ai cattle monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 74,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:34.847724",
+    "query": "ai cattle health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 13,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:37.199961",
+    "query": "ai beef monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 73,
+    "kept_after_relevance_filter": 3,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:38.742647",
+    "query": "ai beef health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 13,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:40.408663",
+    "query": "artificial intelligence livestock monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 16,
+    "kept_after_relevance_filter": 8,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:42.862388",
+    "query": "artificial intelligence livestock health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 63,
+    "kept_after_relevance_filter": 44,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:44.391428",
+    "query": "artificial intelligence dairy monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 16,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:46.777201",
+    "query": "artificial intelligence dairy health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 63,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:47.982893",
+    "query": "ai in livestock farming",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:49.253981",
+    "query": "smart farming livestock",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 4,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:50.464752",
+    "query": "precision livestock farming ai",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:52.172786",
+    "query": "computer vision cattle monitoring",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 25,
+    "kept_after_relevance_filter": 10,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:53.370916",
+    "query": "iot sensors dairy farm",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:55.145552",
+    "query": "robotics dairy automation",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 45,
+    "kept_after_relevance_filter": 36,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:57.321869",
+    "query": "machine learning livestock health",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 61,
+    "kept_after_relevance_filter": 41,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:58.536779",
+    "query": "smart dairy farm technology",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:40:59.731129",
+    "query": "ai animal welfare monitoring",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:01.003074",
+    "query": "digital livestock farming",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "MachineLearning",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 2,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:02.223031",
+    "query": "livestock ai",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:04.320431",
+    "query": "livestock artificial intelligence",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 75,
+    "kept_after_relevance_filter": 71,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:05.743936",
+    "query": "livestock smart farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 6,
+    "kept_after_relevance_filter": 6,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:07.026812",
+    "query": "livestock precision livestock farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:08.212888",
+    "query": "livestock automation",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:09.403136",
+    "query": "livestock sensor",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:12.022439",
+    "query": "livestock machine learning",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 73,
+    "kept_after_relevance_filter": 69,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:14.683267",
+    "query": "livestock computer vision",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 74,
+    "kept_after_relevance_filter": 71,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:15.907336",
+    "query": "dairy ai",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 1,
+    "kept_after_relevance_filter": 1,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:18.061173",
+    "query": "dairy artificial intelligence",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 75,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:19.405718",
+    "query": "dairy smart farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 6,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:20.625695",
+    "query": "dairy precision livestock farming",
+    "strategy": "subreddit_restricted_lexical_expansion_livestock_x_ai",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:22.863018",
+    "query": "ai livestock monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 69,
+    "kept_after_relevance_filter": 62,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:24.510723",
+    "query": "ai livestock health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 22,
+    "kept_after_relevance_filter": 16,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:26.728633",
+    "query": "ai dairy monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 69,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:28.290061",
+    "query": "ai dairy health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 22,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:30.521425",
+    "query": "ai cattle monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 69,
+    "kept_after_relevance_filter": 2,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:32.086904",
+    "query": "ai cattle health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 23,
+    "kept_after_relevance_filter": 1,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:34.382559",
+    "query": "ai beef monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 68,
+    "kept_after_relevance_filter": 3,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:35.899434",
+    "query": "ai beef health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 22,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:38.100877",
+    "query": "artificial intelligence livestock monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 63,
+    "kept_after_relevance_filter": 49,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:40.817404",
+    "query": "artificial intelligence livestock health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 67,
+    "kept_after_relevance_filter": 53,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:42.781266",
+    "query": "artificial intelligence dairy monitoring",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 63,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:45.785369",
+    "query": "artificial intelligence dairy health tracking",
+    "strategy": "subreddit_restricted_tech_context_expansion",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 67,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:47.005897",
+    "query": "ai in livestock farming",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:48.362111",
+    "query": "smart farming livestock",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 6,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:49.783004",
+    "query": "precision livestock farming ai",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 3,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:51.196103",
+    "query": "computer vision cattle monitoring",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 11,
+    "kept_after_relevance_filter": 2,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:52.477539",
+    "query": "iot sensors dairy farm",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 0,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:55.157673",
+    "query": "robotics dairy automation",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 70,
+    "kept_after_relevance_filter": 57,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:56.980389",
+    "query": "machine learning livestock health",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 43,
+    "kept_after_relevance_filter": 27,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:58.331368",
+    "query": "smart dairy farm technology",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 3,
+    "kept_after_relevance_filter": 0,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:41:59.724114",
+    "query": "ai animal welfare monitoring",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 8,
+    "kept_after_relevance_filter": 4,
+    "api_tier": "Reddit JSON API (public)"
+  },
+  {
+    "timestamp": "2026-04-01T11:42:01.121820",
+    "query": "digital livestock farming",
+    "strategy": "subreddit_restricted_phrase_targeted_queries",
+    "subreddit": "artificial",
+    "parameters": {
+      "limit": 75,
+      "sort": "relevance",
+      "t": "all",
+      "restrict_sr": "on"
+    },
+    "http_status": 200,
+    "retrieved": 5,
+    "kept_after_relevance_filter": 3,
     "api_tier": "Reddit JSON API (public)"
   }
 ]

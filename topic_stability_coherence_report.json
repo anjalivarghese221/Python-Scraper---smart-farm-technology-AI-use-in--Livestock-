@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "analysis_date": "2026-02-25T14:42:29.093691",
-    "dataset": "classified_sentiment_data.json",
-    "n_documents": 2811,
+    "analysis_date": "2026-03-18T09:38:21.220508",
+    "dataset": "classified_sentiment_data_clean_expanded.json",
+    "n_documents": 2635,
     "source_coherence_analysis": "lda_coherence_results.json",
     "analysis_type": "Stability and Semantic Driver Analysis"
   },
@@ -15,11 +15,11 @@
   },
   "preprocessing": {
     "vocabulary_size": 400,
-    "corpus_size": 2754,
+    "corpus_size": 2577,
     "min_word_freq": 10,
     "max_word_freq_percent": 50,
     "min_tokens_per_doc": 5,
-    "avg_tokens_per_doc": 301.8957879448076
+    "avg_tokens_per_doc": 104.49049282110981
   },
   "sensitivity_analysis": {
     "k_values_tested": [
@@ -30,26 +30,26 @@
     "coherence_scores": [
       {
         "k": 4,
-        "cv_coherence": 0.9172835198073905
+        "cv_coherence": 0.8292547038971715
       },
       {
         "k": 5,
-        "cv_coherence": 0.9168792897917423
+        "cv_coherence": 0.8494058942515232
       },
       {
         "k": 6,
-        "cv_coherence": 0.9225288967030417
+        "cv_coherence": 0.8592540559213091
       }
     ],
     "optimal_k": 6,
-    "optimal_cv_coherence": 0.9225288967030417,
+    "optimal_cv_coherence": 0.8592540559213091,
     "interpretation": "STRONG - Highly coherent topics with clear semantic structure"
   },
   "stability_testing": {
     "coherence_variance": {
-      "mean_cv": 0.9188972354340582,
-      "std_cv": 0.002573269406269534,
-      "cv_coefficient_percent": 0.2800388669200863,
+      "mean_cv": 0.845971551356668,
+      "std_cv": 0.012485626771254877,
+      "cv_coefficient_percent": 1.4758920381225493,
       "interpretation": "HIGHLY STABLE - Coherence consistent across topic counts",
       "n_configurations": 3
     },
@@ -60,296 +60,296 @@
     ]
   },
   "semantic_drivers": {
-    "total_positive_tokens": 457574,
-    "total_negative_tokens": 433966,
-    "total_neutral_tokens": 246718,
+    "total_positive_tokens": 169752,
+    "total_negative_tokens": 121823,
+    "total_neutral_tokens": 51817,
     "top_negative_drivers": [
       {
         "rank": 1,
-        "word": "jakob",
-        "log_odds": -9.78805155326934,
-        "frequency": 169
+        "word": "certification",
+        "log_odds": -2.0253327742203084,
+        "frequency": 39
       },
       {
         "rank": 2,
-        "word": "riley",
-        "log_odds": -9.682039976655131,
-        "frequency": 152
+        "word": "printers",
+        "log_odds": -1.8628138447225333,
+        "frequency": 33
       },
       {
         "rank": 3,
-        "word": "marcel",
-        "log_odds": -9.486487402601677,
-        "frequency": 125
+        "word": "inflation",
+        "log_odds": -1.8405080872082349,
+        "frequency": 37
       },
       {
         "rank": 4,
-        "word": "clive",
-        "log_odds": -9.437301191693553,
-        "frequency": 119
+        "word": "island",
+        "log_odds": -1.6911306861336344,
+        "frequency": 44
       },
       {
         "rank": 5,
-        "word": "sheloran",
-        "log_odds": -9.135544112884924,
-        "frequency": 88
+        "word": "funds",
+        "log_odds": -1.6911306861336344,
+        "frequency": 44
       },
       {
         "rank": 6,
-        "word": "surah",
-        "log_odds": -9.064934859547524,
-        "frequency": 82
+        "word": "cluster",
+        "log_odds": -1.622137814646683,
+        "frequency": 41
       },
       {
         "rank": 7,
-        "word": "kolshians",
-        "log_odds": -9.052666272341604,
-        "frequency": 81
+        "word": "chatgpt",
+        "log_odds": -1.6173645358940254,
+        "frequency": 56
       },
       {
         "rank": 8,
-        "word": "quran",
-        "log_odds": -8.988958579077153,
-        "frequency": 76
+        "word": "billions",
+        "log_odds": -1.6114994164416272,
+        "frequency": 33
       },
       {
         "rank": 9,
-        "word": "gloria",
-        "log_odds": -8.93489866675998,
-        "frequency": 72
+        "word": "wave",
+        "log_odds": -1.581646453291946,
+        "frequency": 21
       },
       {
         "rank": 10,
-        "word": "uncharles",
-        "log_odds": -8.718709077977177,
-        "frequency": 58
+        "word": "insurance",
+        "log_odds": -1.535126437657053,
+        "frequency": 34
       }
     ],
     "top_positive_drivers": [
       {
         "rank": 1,
-        "word": "herod",
-        "log_odds": 9.589264238847353,
-        "frequency": 154
+        "word": "moisture",
+        "log_odds": 2.2603627515151414,
+        "frequency": 88
       },
       {
         "rank": 2,
-        "word": "sonny",
-        "log_odds": 8.92182113021162,
-        "frequency": 79
-      },
-      {
-        "rank": 3,
-        "word": "ekret",
-        "log_odds": 8.869868141458523,
+        "word": "iron",
+        "log_odds": 2.1024597220693324,
         "frequency": 75
       },
       {
+        "rank": 3,
+        "word": "arduino",
+        "log_odds": 2.0326441438309177,
+        "frequency": 80
+      },
+      {
         "rank": 4,
-        "word": "vuxten",
-        "log_odds": 8.856446922686354,
-        "frequency": 74
+        "word": "farmonaut",
+        "log_odds": 1.9648715287491956,
+        "frequency": 122
       },
       {
         "rank": 5,
-        "word": "oneplus",
-        "log_odds": 8.71128602463089,
-        "frequency": 64
+        "word": "herd",
+        "log_odds": 1.9306094651426733,
+        "frequency": 63
       },
       {
         "rank": 6,
-        "word": "rhidi",
-        "log_odds": 8.679542365838765,
-        "frequency": 62
+        "word": "precision",
+        "log_odds": 1.8699394207830224,
+        "frequency": 369
       },
       {
         "rank": 7,
-        "word": "oppo",
-        "log_odds": 8.6467579184784,
-        "frequency": 60
+        "word": "wireless",
+        "log_odds": 1.8478503978915741,
+        "frequency": 100
       },
       {
         "rank": 8,
-        "word": "commulative",
-        "log_odds": 8.6467579184784,
-        "frequency": 60
+        "word": "africa",
+        "log_odds": 1.7760246633203185,
+        "frequency": 46
       },
       {
         "rank": 9,
-        "word": "emilia",
-        "log_odds": 8.559761690364345,
-        "frequency": 55
+        "word": "optimizing",
+        "log_odds": 1.7545184580993547,
+        "frequency": 45
       },
       {
         "rank": 10,
-        "word": "tawtchee",
-        "log_odds": 8.336663584299979,
-        "frequency": 44
+        "word": "optimal",
+        "log_odds": 1.7420182953351233,
+        "frequency": 52
       }
     ],
-    "methodology": "Log-odds ratio with Laplace smoothing (α=0.01)"
+    "methodology": "Log-odds ratio with Laplace smoothing (α=1.0); min dominant-class freq=20, min other-class freq=5"
   },
   "optimal_model_topics": [
     {
       "topic_id": 0,
       "top_words": [
-        "human",
-        "humans",
-        "eyes",
-        "never",
-        "against",
-        "turned",
-        "another",
-        "without",
-        "once",
-        "away"
+        "system",
+        "data",
+        "systems",
+        "control",
+        "power",
+        "digital",
+        "model",
+        "content",
+        "create",
+        "building"
       ],
       "top_word_probs": [
-        0.019483203068375587,
-        0.015860246494412422,
-        0.012620282359421253,
-        0.011361220851540565,
-        0.010116848163306713,
-        0.009968013502657413,
-        0.009226546622812748,
-        0.008987429551780224,
-        0.008462581783533096,
-        0.00828591175377369
+        0.015056795440614223,
+        0.014011409133672714,
+        0.01087426207959652,
+        0.009917264804244041,
+        0.008433204144239426,
+        0.008166211657226086,
+        0.007996675558388233,
+        0.007942679338157177,
+        0.007598045747727156,
+        0.007553781382739544
       ]
     },
     {
       "topic_id": 1,
       "top_words": [
-        "game",
-        "issue",
-        "market",
-        "added",
+        "watch",
+        "full",
         "money",
-        "world",
-        "system",
-        "dairy",
-        "power",
-        "company"
+        "recent",
+        "company",
+        "business",
+        "product",
+        "food",
+        "support",
+        "features"
       ],
       "top_word_probs": [
-        0.020864548161625862,
-        0.014414498582482338,
-        0.013840111903846264,
-        0.013455525040626526,
-        0.012908966280519962,
-        0.012381892651319504,
-        0.009584089741110802,
-        0.00873346533626318,
-        0.00867729727178812,
-        0.008277656510472298
+        0.030606431886553764,
+        0.010998327285051346,
+        0.010340201668441296,
+        0.009573663584887981,
+        0.009321250952780247,
+        0.00891290046274662,
+        0.008736824616789818,
+        0.008600173518061638,
+        0.008284399285912514,
+        0.008144347928464413
       ]
     },
     {
       "topic_id": 2,
       "top_words": [
-        "started",
-        "family",
-        "work",
-        "never",
-        "since",
-        "getting",
-        "keep",
-        "enough",
-        "everyone",
-        "anything"
+        "agricultural",
+        "farming",
+        "farmers",
+        "water",
+        "soil",
+        "farm",
+        "plant",
+        "data",
+        "climate",
+        "crop"
       ],
       "top_word_probs": [
-        0.012718000449240208,
-        0.011700841598212719,
-        0.010747470892965794,
-        0.010713323950767517,
-        0.009984792210161686,
-        0.009902131743729115,
-        0.00955873727798462,
-        0.008682629093527794,
-        0.00867458712309599,
-        0.008296993561089039
+        0.017076656222343445,
+        0.016625262796878815,
+        0.016142243519425392,
+        0.013590123504400253,
+        0.013356294482946396,
+        0.012387429364025593,
+        0.012240619398653507,
+        0.011962531134486198,
+        0.010682271793484688,
+        0.010394396260380745
       ]
     },
     {
       "topic_id": 3,
       "top_words": [
-        "help",
-        "food",
-        "machine",
-        "cattle",
-        "towards",
-        "public",
-        "once",
-        "small",
-        "quickly",
-        "almost"
+        "market",
+        "dairy",
+        "milk",
+        "industry",
+        "size",
+        "intelligence",
+        "analysis",
+        "global",
+        "artificial",
+        "report"
       ],
       "top_word_probs": [
-        0.012461747042834759,
-        0.01169311348348856,
-        0.011130855418741703,
-        0.011040632613003254,
-        0.009977247565984726,
-        0.009558823890984058,
-        0.009483126923441887,
-        0.0091265719383955,
-        0.008703773841261864,
-        0.008302995003759861
+        0.10036773979663849,
+        0.09558543562889099,
+        0.035822343081235886,
+        0.03302730619907379,
+        0.025875531136989594,
+        0.024515420198440552,
+        0.021369926631450653,
+        0.019299905747175217,
+        0.01779300346970558,
+        0.015339459292590618
       ]
     },
     {
       "topic_id": 4,
       "top_words": [
+        "water",
+        "data",
+        "trump",
+        "million",
+        "american",
+        "china",
+        "cattle",
+        "farmers",
         "farm",
-        "watch",
-        "game",
-        "smart",
-        "work",
-        "actually",
-        "farming",
-        "play",
-        "list",
-        "million"
+        "higher"
       ],
       "top_word_probs": [
-        0.02878684736788273,
-        0.027001775801181793,
-        0.01569998450577259,
-        0.01116755697876215,
-        0.010379892773926258,
-        0.01017824001610279,
-        0.009732688777148724,
-        0.009590797126293182,
-        0.008666046895086765,
-        0.008439137600362301
+        0.03424300625920296,
+        0.03313496708869934,
+        0.019264305010437965,
+        0.014307886362075806,
+        0.014234344474971294,
+        0.013865294866263866,
+        0.012335533276200294,
+        0.01157824881374836,
+        0.010789819993078709,
+        0.009900218807160854
       ]
     },
     {
       "topic_id": 5,
       "top_words": [
-        "data",
-        "farmers",
-        "help",
-        "technology",
-        "systems",
+        "font",
+        "nbsp",
+        "color",
+        "target",
+        "href",
+        "agriculture",
         "farming",
-        "business",
-        "management",
-        "health",
-        "global"
+        "digital",
+        "dairy",
+        "learning"
       ],
       "top_word_probs": [
-        0.028169848024845123,
-        0.0185412485152483,
-        0.015469195321202278,
-        0.01527030672878027,
-        0.01436339970678091,
-        0.013100728392601013,
-        0.012754324823617935,
-        0.011472388170659542,
-        0.011459138244390488,
-        0.011361918412148952
+        0.13385902345180511,
+        0.13382436335086823,
+        0.06715836375951767,
+        0.06697654724121094,
+        0.06691547483205795,
+        0.06208620220422745,
+        0.02419435977935791,
+        0.022065913304686546,
+        0.021221661940217018,
+        0.020166663452982903
       ]
     }
   ],
@@ -361,12 +361,12 @@
       "strong": "> 0.6"
     },
     "current_performance": {
-      "optimal_coherence": 0.9225288967030417,
+      "optimal_coherence": 0.8592540559213091,
       "classification": "STRONG"
     }
   },
   "recommendations": [
-    "Topic model with k=6 provides best coherence (C_v=0.9225)",
+    "Topic model with k=6 provides best coherence (C_v=0.8593)",
     "Consider alternative algorithms (BERTopic) if C_v < 0.5",
     "Semantic drivers reveal substantive mechanisms behind sentiment patterns",
     "Stability metrics demonstrate reproducibility of topic structure"

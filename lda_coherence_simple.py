@@ -31,9 +31,26 @@ def main():
 
     # Load data
     print("\nLoading data...")
-    with open('classified_sentiment_data.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    print(f"Loaded {len(data)} documents")
+    input_candidates = [
+        'classified_sentiment_data_clean_expanded.json',
+        'classified_sentiment_data_clean.json',
+        'classified_sentiment_data.json'
+    ]
+    data = None
+    selected_input = None
+    for candidate in input_candidates:
+        try:
+            with open(candidate, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            selected_input = candidate
+            break
+        except FileNotFoundError:
+            continue
+
+    if data is None:
+        raise FileNotFoundError("No input dataset found. Expected one of: " + ", ".join(input_candidates))
+
+    print(f"Loaded {len(data)} documents from {selected_input}")
 
     # Comprehensive stopwords - aggressive filtering for domain-specific topics
     stopwords = set([
@@ -71,7 +88,20 @@ def main():
         # Generic narrative words
         'said', 'say', 'says', 'saying', 'look', 'looked', 'looking', 'give', 'gave', 'given',
         # Generic web/social media words
-        'link', 'click', 'post', 'posted', 'comment', 'comments', 'share', 'shared'
+        'link', 'click', 'post', 'posted', 'comment', 'comments', 'share', 'shared',
+        'reddit', 'subreddit', 'upvote', 'downvote', 'karma', 'thread',
+        # Generic narrative / noise that slips through
+        'game', 'games', 'gaming', 'player', 'players', 'level', 'levels',
+        'life', 'lives', 'real', 'online', 'part', 'early', 'never', 'love',
+        'loved', 'loves', 'help', 'actually', 'already', 'often', 'however',
+        'someone', 'everyone', 'anyone', 'nothing', 'everything', 'anything',
+        'without', 'within', 'again', 'once', 'quite', 'ever', 'never',
+        'world', 'story', 'stories', 'human', 'humans', 'species',
+        'different', 'another', 'another', 'number', 'since', 'though',
+        'thought', 'feel', 'feels', 'feeling', 'talking', 'talk', 'talks',
+        'look', 'looks', 'looking', 'seem', 'seems', 'seemed', 'seem',
+        'going', 'getting', 'makes', 'making', 'doing', 'working', 'work',
+        'works', 'come', 'comes', 'coming', 'help', 'helps', 'helped'
     ])
 
     # Tokenize with enhanced stopwords and minimum word length
@@ -94,8 +124,8 @@ def main():
     print("\nCreating dictionary...")
     dictionary = corpora.Dictionary(documents)
     print(f"Dictionary size before filtering: {len(dictionary)}")
-    # More selective filtering: words must appear in at least 15 docs, max 40% of corpus
-    dictionary.filter_extremes(no_below=15, no_above=0.4, keep_n=400)
+    # Words must appear in at least 10 docs (~0.55% of 1810-doc corpus), max 40%
+    dictionary.filter_extremes(no_below=10, no_above=0.4, keep_n=400)
     print(f"Dictionary size after filtering: {len(dictionary)}")
     
     corpus = [dictionary.doc2bow(doc) for doc in documents]
@@ -258,7 +288,7 @@ Model Parameters:
 Preprocessing:
   - Vocabulary size: {len(dictionary)} words
   - Corpus size: {len(corpus)} documents
-  - Min word frequency: 10 documents
+  - Min word frequency: 10 documents (≥0.55% of corpus)
   - Max word frequency: 50% of documents
   - Min tokens per document: 5
 

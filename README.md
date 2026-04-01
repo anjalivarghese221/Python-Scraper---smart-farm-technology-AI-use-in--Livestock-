@@ -16,7 +16,9 @@ Reddit sentiment analysis for smart farming technology and AI use in livestock m
 
 ### Phase 1: Data Extraction (2018+)
 - Reddit JSON API with 2018+ temporal filtering
-- 35 keyword queries + 15 subreddits
+- Multiple query strategies (lexical expansion + targeted phrase queries + subreddit-restricted passes)
+- Query optimization for livestock-emissions relevance (e.g., dairy/livestock + methane/emission)
+- Reddit-only source collection (no BlueSky/news for this phase)
 - Privacy compliant (no usernames/IDs collected)
 - 8-year temporal coverage (2018-2026)
 
@@ -53,7 +55,7 @@ pip3 install -r requirements.txt
 
 **Complete Analysis Pipeline:**
 ```bash
-# Step 1: Data Collection (2018+)
+# Step 1: Data Collection (Reddit-only, multi-query strategies)
 python3 simple_collector.py
 
 # Step 2: Preprocessing
@@ -62,17 +64,34 @@ python3 enhanced_preprocessing.py
 # Step 3: Sentiment Classification
 python3 sentiment_classifier.py
 
-# Step 4: Network Analysis
+# Step 4: Phase 1 quality checks
+# - keywords by positive/negative/neutral labels
+# - manual review sample (20 posts)
+python3 phase1_quality_check.py
+
+# Step 5: Network Analysis
 python3 network_analysis.py
 
-# Step 5: Temporal Analysis
+# Step 6: Temporal Analysis
 python3 temporal_analysis.py
 
-# Step 6: Generate Visualizations
+# Step 7: Generate Visualizations
 python3 network_visualizer.py
 
-# Step 7: Final Statistics
+# Step 8: Final Statistics
 python3 generate_statistics.py
+
+# Step 9: Policy Milestone Hypothesis Test (Before vs After 2024)
+python3 policy_milestone_hypothesis.py
+
+# Step 10: Topic-Specific Hypotheses (Livestock vs Non-livestock; Pre-surge vs Surge)
+python3 smart_farming_hypothesis.py
+
+# Step 11: Region-Proxy Hypothesis Test
+python3 regional_hypothesis_proxy.py
+
+# Step 12: Robustness & Sensitivity Checks
+python3 robustness_sensitivity_analysis.py
 ```
 
 ## Project Structure
@@ -81,6 +100,7 @@ python3 generate_statistics.py
 ├── simple_collector.py           # Data collection (2018+ Reddit API)
 ├── enhanced_preprocessing.py     # Phase 2 cleaning pipeline
 ├── sentiment_classifier.py       # 3-class sentiment classification
+├── phase1_quality_check.py       # Keyword extraction + manual review sample (n=20)
 ├── network_analysis.py           # Community detection (4 topics)
 ├── temporal_analysis.py          # Trend and spike detection
 ├── network_visualizer.py         # Generate all visualizations
