@@ -398,8 +398,17 @@ class NetworkVisualizer:
         print("\nGenerating sentiment overview...")
         
         # Load classified data for overall sentiment distribution
-        with open('classified_sentiment_data.json', 'r', encoding='utf-8') as f:
+        input_candidates = [
+            'classified_sentiment_data_domain_smart_farming_livestock.json',
+            'classified_sentiment_data.json'
+        ]
+        input_file = next((p for p in input_candidates if os.path.exists(p)), None)
+        if input_file is None:
+            raise FileNotFoundError("No classified dataset found. Expected one of: " + ", ".join(input_candidates))
+
+        with open(input_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
+        print(f"  Using sentiment overview dataset: {input_file} ({len(data)} posts)")
         
         # Load network analysis results for community data
         with open('network_analysis_results.json', 'r', encoding='utf-8') as f:
@@ -418,7 +427,7 @@ class NetworkVisualizer:
         pie_colors = []
         for sent in ['positive', 'negative', 'neutral']:
             count = sentiment_counts.get(sent, 0)
-            pct = count / len(data) * 100
+            pct = (count / len(data) * 100) if len(data) > 0 else 0
             labels.append(f'{sent.capitalize()}\n{count} ({pct:.1f}%)')
             sizes.append(count)
             pie_colors.append(colors[sent])
@@ -523,8 +532,15 @@ class NetworkVisualizer:
         for i, v in enumerate(kw_values):
             ax4.text(v + 1, i, str(v), ha='left', va='center', fontsize=9)
         
+        date_values = [d.get('created_date') for d in data if d.get('created_date')]
+        if date_values:
+            years = [int(d.split('-')[0]) for d in date_values if isinstance(d, str) and len(d) >= 4 and d[:4].isdigit()]
+            period = f"{min(years)}-{max(years)}" if years else "2018-2026"
+        else:
+            period = "2018-2026"
+
         plt.suptitle('Sentiment Analysis Overview: Smart Farm Technology & AI in Livestock\n' +
-                    '4 Agriculture-Focused Communities | 2018-2026',
+                    f"{len(results['communities'])} Agriculture-Focused Communities | {period}",
                     fontsize=16, fontweight='bold', y=0.98)
         
         plt.tight_layout(rect=[0, 0, 1, 0.96])

@@ -387,12 +387,21 @@ def main():
     # Lower thresholds for more connections (was 8, 4)
     analyzer = KeywordNetworkAnalyzer(min_keyword_freq=3, min_cooccurrence=2)
     
-    input_file = 'classified_sentiment_data.json'
-    if not os.path.exists(input_file):
-        print(f"\nERROR: {input_file} not found. Run Step 2 first.")
+    input_candidates = [
+        'classified_sentiment_data_domain_smart_farming_livestock.json',
+        'classified_sentiment_data.json'
+    ]
+    input_file = None
+    for candidate in input_candidates:
+        if os.path.exists(candidate):
+            input_file = candidate
+            break
+
+    if input_file is None:
+        print("\nERROR: No classified dataset found. Expected one of: " + ", ".join(input_candidates))
         return
     
-    print(f"\nLoading data...")
+    print(f"\nLoading data from: {input_file}")
     data = analyzer.load_classified_data(input_file)
     
     print("Building network...")

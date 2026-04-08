@@ -12,6 +12,7 @@ Features:
 """
 
 import json
+import os
 import numpy as np
 import matplotlib.pyplot as plt
 from datetime import datetime
@@ -418,7 +419,16 @@ class TemporalSentimentAnalyzer:
 
 def main():
     """Run temporal analysis on classified sentiment data"""
-    analyzer = TemporalSentimentAnalyzer('classified_sentiment_data.json')
+    input_candidates = [
+        'classified_sentiment_data_domain_smart_farming_livestock.json',
+        'classified_sentiment_data.json'
+    ]
+    input_file = next((p for p in input_candidates if os.path.exists(p)), None)
+    if input_file is None:
+        raise FileNotFoundError("No classified dataset found. Expected one of: " + ", ".join(input_candidates))
+
+    print(f"[INPUT] Using dataset: {input_file}")
+    analyzer = TemporalSentimentAnalyzer(input_file)
     analyzer.run_full_analysis()
 
 

@@ -132,7 +132,8 @@ for k in k_values:
         model=lda_model,
         texts=documents,
         dictionary=dictionary,
-        coherence='c_v'
+        coherence='c_v',
+        processes=1
     )
     cv_score = coherence_model.get_coherence()
     
@@ -274,7 +275,7 @@ output = {
     'benchmark_comparison': {
         'cv_threshold_strong': 0.6,
         'cv_threshold_acceptable': 0.5,
-        'cv_pass': best_cv > 0.5
+        'cv_pass': bool(best_cv > 0.5)
     }
 }
 

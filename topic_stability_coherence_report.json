@@ -1,8 +1,10 @@
 {
   "metadata": {
-    "analysis_date": "2026-03-18T09:38:21.220508",
-    "dataset": "classified_sentiment_data_clean_expanded.json",
-    "n_documents": 2635,
+    "analysis_date": "2026-04-08T16:14:45.495061",
+    "dataset": "classified_sentiment_data.json",
+    "n_documents": 887,
+    "n_documents_before_domain_filter": 2525,
+    "n_documents_after_domain_filter": 887,
     "source_coherence_analysis": "lda_coherence_results.json",
     "analysis_type": "Stability and Semantic Driver Analysis"
   },
@@ -60,134 +62,134 @@
     ]
   },
   "semantic_drivers": {
-    "total_positive_tokens": 169752,
-    "total_negative_tokens": 121823,
-    "total_neutral_tokens": 51817,
+    "total_positive_tokens": 4384,
+    "total_negative_tokens": 1569,
+    "total_neutral_tokens": 533,
     "top_negative_drivers": [
       {
         "rank": 1,
-        "word": "certification",
-        "log_odds": -2.0253327742203084,
-        "frequency": 39
+        "word": "insurance",
+        "log_odds": -2.4820451287796477,
+        "frequency": 30
       },
       {
         "rank": 2,
-        "word": "printers",
-        "log_odds": -1.8628138447225333,
-        "frequency": 33
+        "word": "costs",
+        "log_odds": -1.1391500831943127,
+        "frequency": 36
       },
       {
         "rank": 3,
-        "word": "inflation",
-        "log_odds": -1.8405080872082349,
-        "frequency": 37
-      },
-      {
-        "rank": 4,
-        "word": "island",
-        "log_odds": -1.6911306861336344,
-        "frequency": 44
-      },
-      {
-        "rank": 5,
-        "word": "funds",
-        "log_odds": -1.6911306861336344,
-        "frequency": 44
-      },
-      {
-        "rank": 6,
-        "word": "cluster",
-        "log_odds": -1.622137814646683,
-        "frequency": 41
-      },
-      {
-        "rank": 7,
-        "word": "chatgpt",
-        "log_odds": -1.6173645358940254,
-        "frequency": 56
-      },
-      {
-        "rank": 8,
-        "word": "billions",
-        "log_odds": -1.6114994164416272,
+        "word": "robot",
+        "log_odds": -0.8567669518363299,
         "frequency": 33
       },
       {
+        "rank": 4,
+        "word": "risk",
+        "log_odds": -0.8067565312616685,
+        "frequency": 33
+      },
+      {
+        "rank": 5,
+        "word": "investment",
+        "log_odds": -0.7621664592924904,
+        "frequency": 22
+      },
+      {
+        "rank": 6,
+        "word": "emissions",
+        "log_odds": -0.6938634808994768,
+        "frequency": 19
+      },
+      {
+        "rank": 7,
+        "word": "farms",
+        "log_odds": -0.570153826573454,
+        "frequency": 35
+      },
+      {
+        "rank": 8,
+        "word": "robotics",
+        "log_odds": -0.5190744588098875,
+        "frequency": 50
+      },
+      {
         "rank": 9,
-        "word": "wave",
-        "log_odds": -1.581646453291946,
-        "frequency": 21
+        "word": "farm",
+        "log_odds": -0.4915991596020477,
+        "frequency": 94
       },
       {
         "rank": 10,
-        "word": "insurance",
-        "log_odds": -1.535126437657053,
-        "frequency": 34
+        "word": "digital",
+        "log_odds": -0.4756236171697968,
+        "frequency": 52
       }
     ],
     "top_positive_drivers": [
       {
         "rank": 1,
         "word": "moisture",
-        "log_odds": 2.2603627515151414,
+        "log_odds": 1.5487581473270118,
         "frequency": 88
       },
       {
         "rank": 2,
-        "word": "iron",
-        "log_odds": 2.1024597220693324,
-        "frequency": 75
+        "word": "dairy",
+        "log_odds": 1.4909385764381853,
+        "frequency": 215
       },
       {
         "rank": 3,
-        "word": "arduino",
-        "log_odds": 2.0326441438309177,
-        "frequency": 80
-      },
-      {
-        "rank": 4,
-        "word": "farmonaut",
-        "log_odds": 1.9648715287491956,
-        "frequency": 122
-      },
-      {
-        "rank": 5,
-        "word": "herd",
-        "log_odds": 1.9306094651426733,
-        "frequency": 63
-      },
-      {
-        "rank": 6,
-        "word": "precision",
-        "log_odds": 1.8699394207830224,
-        "frequency": 369
-      },
-      {
-        "rank": 7,
-        "word": "wireless",
-        "log_odds": 1.8478503978915741,
-        "frequency": 100
-      },
-      {
-        "rank": 8,
-        "word": "africa",
-        "log_odds": 1.7760246633203185,
+        "word": "cameras",
+        "log_odds": 1.0644200591321886,
         "frequency": 46
       },
       {
+        "rank": 4,
+        "word": "precision",
+        "log_odds": 0.9297189389207884,
+        "frequency": 177
+      },
+      {
+        "rank": 5,
+        "word": "monitor",
+        "log_odds": 0.8778341035517764,
+        "frequency": 64
+      },
+      {
+        "rank": 6,
+        "word": "camera",
+        "log_odds": 0.7977913958782402,
+        "frequency": 47
+      },
+      {
+        "rank": 7,
+        "word": "drone",
+        "log_odds": 0.7825239237474516,
+        "frequency": 64
+      },
+      {
+        "rank": 8,
+        "word": "efficiency",
+        "log_odds": 0.7352710388969063,
+        "frequency": 61
+      },
+      {
         "rank": 9,
-        "word": "optimizing",
-        "log_odds": 1.7545184580993547,
-        "frequency": 45
+        "word": "automation",
+        "log_odds": 0.5233545501764798,
+        "frequency": 113
       },
       {
         "rank": 10,
-        "word": "optimal",
-        "log_odds": 1.7420182953351233,
-        "frequency": 52
+        "word": "barn",
+        "log_odds": 0.5101093234264592,
+        "frequency": 44
       }
     ],
-    "methodology": "Log-odds ratio with Laplace smoothing (α=1.0); min dominant-class freq=20, min other-class freq=5"
+    "methodology": "Domain-filtered corpus (requires livestock/agriculture + AI/technology terms), then log-odds ratio with Laplace smoothing (α=1.0); min dominant-class freq=20, min other-class freq=5"
   },
   "optimal_model_topics": [
     {

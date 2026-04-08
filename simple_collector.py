@@ -45,6 +45,12 @@ def build_query_plan():
     ]
     practice_terms = ['monitoring', 'health tracking', 'feeding optimization', 'farm management']
 
+    # Boolean logic examples used in this pipeline:
+    # 1) (livestock OR dairy OR cattle) AND (ai OR artificial intelligence OR machine learning)
+    # 2) (livestock OR dairy) AND (smart farming OR precision livestock farming OR automation)
+    # 3) (cattle OR dairy) AND (computer vision OR sensor OR iot) AND (monitoring OR health tracking)
+    # 4) (beef OR poultry OR livestock) AND (ai OR smart farming) AND (farm management OR feeding optimization)
+
     # Strategy A: explicit lexical expansion for
     # (livestock OR dairy ...) AND (AI/smart-farming term)
     strategy_a = [f'{l} {t}' for l, t in product(livestock_terms, technology_terms)]

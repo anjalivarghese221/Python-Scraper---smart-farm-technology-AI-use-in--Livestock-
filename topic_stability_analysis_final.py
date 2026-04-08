@@ -6,9 +6,52 @@ Uses existing coherence results and adds stability + semantic driver analysis
 """
 
 import json
+import re
 import numpy as np
 from collections import Counter
 from datetime import datetime
+
+
+def is_domain_relevant(row):
+    """Return True if a row is clearly about AI/smart farming in livestock."""
+    text = (
+        (row.get('cleaned_text', '') or '') + ' ' +
+        (row.get('clean_text', '') or '') + ' ' +
+        (row.get('title', '') or '') + ' ' +
+        (row.get('text', '') or '') + ' ' +
+        (row.get('raw_text', '') or '')
+    ).lower()
+
+    # Token-level matching avoids substring false positives (e.g., 'ai' inside unrelated words)
+    tokens = set(re.findall(r"\b[a-z]{2,}\b", text))
+
+    livestock_token_terms = {
+        'livestock', 'cattle', 'cow', 'cows', 'dairy', 'beef', 'ruminant',
+        'sheep', 'goat', 'goats', 'swine', 'pig', 'pigs', 'poultry',
+        'broiler', 'layer', 'farm', 'farming', 'agriculture', 'agricultural',
+        'ranch', 'ranching', 'herd'
+    }
+
+    tech_token_terms = {
+        'ai', 'ml', 'sensor', 'sensors', 'iot', 'wearable', 'wearables',
+        'camera', 'cameras', 'automation', 'robot', 'robots', 'robotics',
+        'algorithm', 'algorithms', 'predictive', 'drone', 'drones'
+    }
+
+    livestock_phrase_terms = {
+        'precision livestock', 'precision agriculture', 'smart farming'
+    }
+
+    tech_phrase_terms = {
+        'artificial intelligence', 'machine learning', 'computer vision',
+        'deep learning', 'digital twin'
+    }
+
+    has_livestock = bool(tokens & livestock_token_terms) or any(p in text for p in livestock_phrase_terms)
+    has_tech = bool(tokens & tech_token_terms) or any(p in text for p in tech_phrase_terms)
+
+    # Strict domain gate: must mention both agriculture/livestock and AI/technology
+    return has_livestock and has_tech
 
 print("=" * 80)
 print("TOPIC MODELING STABILITY & COHERENCE REPORT")
@@ -73,11 +116,11 @@ print(f"  Interpretation: {stability_interp}")
 print("\n[3/3] Semantic Drivers of Sentiment...")
 print("-" * 80)
 
-# Load sentiment data (contamination-filtered / expanded)
+# Load sentiment data (prefer current Reddit-only classified dataset)
 input_candidates = [
-    'classified_sentiment_data_clean_expanded.json',
+    'classified_sentiment_data.json',
     'classified_sentiment_data_clean.json',
-    'classified_sentiment_data.json'
+    'classified_sentiment_data_clean_expanded.json'
 ]
 sentiment_data = None
 selected_input = None
@@ -93,7 +136,27 @@ for candidate in input_candidates:
 if sentiment_data is None:
     raise FileNotFoundError("No input dataset found. Expected one of: " + ", ".join(input_candidates))
 
-print(f"Total documents: {len(sentiment_data)} from {selected_input}")
+# Enforce Reddit-only rows when source metadata is present
+reddit_only = [row for row in sentiment_data if row.get('source', 'reddit') == 'reddit']
+if reddit_only:
+    sentiment_data = reddit_only
+
+pre_filter_n = len(sentiment_data)
+sentiment_data = [row for row in sentiment_data if is_domain_relevant(row)]
+post_filter_n = len(sentiment_data)
+
+domain_filtered_file = 'classified_sentiment_data_domain_smart_farming_livestock.json'
+with open(domain_filtered_file, 'w', encoding='utf-8') as f:
+    json.dump(sentiment_data, f, indent=2, ensure_ascii=False)
+
+print(f"Total documents loaded: {pre_filter_n} from {selected_input}")
+print(f"Domain-relevant documents retained: {post_filter_n} ({(post_filter_n / pre_filter_n * 100):.1f}% of loaded)")
+print(f"Domain-filtered dataset saved: {domain_filtered_file}")
+
+if post_filter_n == 0:
+    raise ValueError(
+        "Domain filter returned 0 documents. Expand domain keywords in is_domain_relevant()."
+    )
 
 # Tokenize and categorize by sentiment
 positive_words = []
@@ -133,10 +196,37 @@ stopwords = {
     'without', 'within', 'around', 'between', 'through', 'after',
 }
 
+# Keep only domain-relevant unigrams for driver extraction
+domain_driver_vocab = {
+    # Livestock / farming core
+    'livestock', 'dairy', 'cattle', 'cows', 'cow', 'beef', 'sheep', 'goat', 'goats',
+    'swine', 'pigs', 'pig', 'poultry', 'herd', 'farm', 'farms', 'farming',
+    'agriculture', 'agricultural', 'ranch', 'ranching', 'barn', 'pasture', 'grazing',
+    'calving', 'rumination', 'mastitis', 'estrus', 'welfare', 'health', 'disease',
+    'feeding', 'feed', 'milk', 'yield',
+    # Smart farming / AI technology
+    'sensor', 'sensors', 'wearable', 'wearables', 'collar', 'collars', 'rfid',
+    'camera', 'cameras', 'vision', 'drone', 'drones', 'robot', 'robots', 'robotics',
+    'automation', 'smart', 'precision', 'digital', 'monitor', 'monitoring',
+    'analytics', 'algorithm', 'algorithms', 'predictive', 'prediction', 'predictions',
+    'detection', 'diagnosis', 'alerts', 'wireless', 'moisture',
+    # Operational / adoption sentiment in domain
+    'efficiency', 'productive', 'productivity', 'accurate', 'accuracy', 'optimal',
+    'optimizing', 'deployment', 'adoption', 'pricing', 'inflation', 'insurance',
+    'cost', 'costs', 'funds', 'investment', 'investments', 'risk', 'risks',
+    'sustainability', 'emissions', 'traceability', 'compliance'
+}
+
 for item in sentiment_data:
     sentiment = item.get('sentiment', 'neutral')
     text = item.get('cleaned_text', item.get('clean_text', '')) or item.get('title', '') + ' ' + item.get('text', '')
-    tokens = [w.lower() for w in text.split() if len(w) > 3 and w.isalpha() and w.lower() not in stopwords]
+    tokens = [
+        w.lower() for w in text.split()
+        if len(w) > 3
+        and w.isalpha()
+        and w.lower() not in stopwords
+        and w.lower() in domain_driver_vocab
+    ]
     
     if sentiment in ['positive', 'POSITIVE']:
         positive_words.extend(tokens)
@@ -227,6 +317,8 @@ report = {
         'analysis_date': datetime.now().isoformat(),
         'dataset': selected_input,
         'n_documents': len(sentiment_data),
+        'n_documents_before_domain_filter': pre_filter_n,
+        'n_documents_after_domain_filter': post_filter_n,
         'source_coherence_analysis': 'lda_coherence_results.json',
         'analysis_type': 'Stability and Semantic Driver Analysis'
     },
@@ -267,7 +359,7 @@ report = {
             {'rank': i+1, 'word': word, 'log_odds': float(score), 'frequency': pos_counts[word]}
             for i, (word, score) in enumerate(positive_drivers)
         ],
-        'methodology': 'Log-odds ratio with Laplace smoothing (α=1.0); min dominant-class freq=20, min other-class freq=5'
+        'methodology': 'Domain-filtered corpus (requires livestock/agriculture + AI/technology terms), then log-odds ratio with Laplace smoothing (α=1.0); min dominant-class freq=20, min other-class freq=5'
     },
     'optimal_model_topics': optimal_topics,
     'statistical_reporting': {
