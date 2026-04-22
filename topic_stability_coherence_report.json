@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "analysis_date": "2026-04-08T16:14:45.495061",
-    "dataset": "classified_sentiment_data.json",
-    "n_documents": 887,
-    "n_documents_before_domain_filter": 2525,
-    "n_documents_after_domain_filter": 887,
+    "analysis_date": "2026-04-22T14:43:20.699580",
+    "dataset": "classified_sentiment_data_clean_high_coverage.json",
+    "n_documents": 2640,
+    "n_documents_before_domain_filter": 2640,
+    "n_documents_after_domain_filter": 2640,
     "source_coherence_analysis": "lda_coherence_results.json",
     "analysis_type": "Stability and Semantic Driver Analysis"
   },
@@ -62,134 +62,134 @@
     ]
   },
   "semantic_drivers": {
-    "total_positive_tokens": 4384,
-    "total_negative_tokens": 1569,
-    "total_neutral_tokens": 533,
+    "total_positive_tokens": 6730,
+    "total_negative_tokens": 2771,
+    "total_neutral_tokens": 948,
     "top_negative_drivers": [
       {
         "rank": 1,
-        "word": "insurance",
-        "log_odds": -2.4820451287796477,
-        "frequency": 30
+        "word": "inflation",
+        "log_odds": -2.5611766769494513,
+        "frequency": 37
       },
       {
         "rank": 2,
-        "word": "costs",
-        "log_odds": -1.1391500831943127,
-        "frequency": 36
+        "word": "pricing",
+        "log_odds": -2.004480599117363,
+        "frequency": 27
       },
       {
         "rank": 3,
-        "word": "robot",
-        "log_odds": -0.8567669518363299,
-        "frequency": 33
+        "word": "funds",
+        "log_odds": -1.7024097892134826,
+        "frequency": 22
       },
       {
         "rank": 4,
-        "word": "risk",
-        "log_odds": -0.8067565312616685,
-        "frequency": 33
+        "word": "costs",
+        "log_odds": -1.051822223072333,
+        "frequency": 59
       },
       {
         "rank": 5,
         "word": "investment",
-        "log_odds": -0.7621664592924904,
-        "frequency": 22
+        "log_odds": -0.9182908304478105,
+        "frequency": 62
       },
       {
         "rank": 6,
-        "word": "emissions",
-        "log_odds": -0.6938634808994768,
-        "frequency": 19
+        "word": "risk",
+        "log_odds": -0.8163908409644303,
+        "frequency": 54
       },
       {
         "rank": 7,
-        "word": "farms",
-        "log_odds": -0.570153826573454,
-        "frequency": 35
+        "word": "cows",
+        "log_odds": -0.7582750311681542,
+        "frequency": 33
       },
       {
         "rank": 8,
-        "word": "robotics",
-        "log_odds": -0.5190744588098875,
-        "frequency": 50
+        "word": "wearable",
+        "log_odds": -0.7297387239032198,
+        "frequency": 19
       },
       {
         "rank": 9,
-        "word": "farm",
-        "log_odds": -0.4915991596020477,
-        "frequency": 94
+        "word": "robot",
+        "log_odds": -0.7118717220747954,
+        "frequency": 40
       },
       {
         "rank": 10,
-        "word": "digital",
-        "log_odds": -0.4756236171697968,
-        "frequency": 52
+        "word": "feeding",
+        "log_odds": -0.687179109484424,
+        "frequency": 19
       }
     ],
     "top_positive_drivers": [
       {
         "rank": 1,
         "word": "moisture",
-        "log_odds": 1.5487581473270118,
-        "frequency": 88
+        "log_odds": 1.8046479831481501,
+        "frequency": 86
       },
       {
         "rank": 2,
-        "word": "dairy",
-        "log_odds": 1.4909385764381853,
-        "frequency": 215
+        "word": "precision",
+        "log_odds": 1.2488097443008304,
+        "frequency": 340
       },
       {
         "rank": 3,
-        "word": "cameras",
-        "log_odds": 1.0644200591321886,
-        "frequency": 46
+        "word": "accurate",
+        "log_odds": 1.2305601626041929,
+        "frequency": 48
       },
       {
         "rank": 4,
-        "word": "precision",
-        "log_odds": 0.9297189389207884,
-        "frequency": 177
+        "word": "wireless",
+        "log_odds": 1.1564521904504712,
+        "frequency": 90
       },
       {
         "rank": 5,
-        "word": "monitor",
-        "log_odds": 0.8778341035517764,
-        "frequency": 64
+        "word": "optimal",
+        "log_odds": 1.1164148173906339,
+        "frequency": 50
       },
       {
         "rank": 6,
-        "word": "camera",
-        "log_odds": 0.7977913958782402,
-        "frequency": 47
+        "word": "optimizing",
+        "log_odds": 1.0999399801871288,
+        "frequency": 42
       },
       {
         "rank": 7,
-        "word": "drone",
-        "log_odds": 0.7825239237474516,
-        "frequency": 64
+        "word": "dairy",
+        "log_odds": 0.9176184233931741,
+        "frequency": 429
       },
       {
         "rank": 8,
-        "word": "efficiency",
-        "log_odds": 0.7352710388969063,
-        "frequency": 61
+        "word": "cameras",
+        "log_odds": 0.903566669937524,
+        "frequency": 52
       },
       {
         "rank": 9,
-        "word": "automation",
-        "log_odds": 0.5233545501764798,
-        "frequency": 113
+        "word": "agriculture",
+        "log_odds": 0.7624101020077805,
+        "frequency": 674
       },
       {
         "rank": 10,
-        "word": "barn",
-        "log_odds": 0.5101093234264592,
-        "frequency": 44
+        "word": "drone",
+        "log_odds": 0.7399372461557218,
+        "frequency": 64
       }
     ],
-    "methodology": "Domain-filtered corpus (requires livestock/agriculture + AI/technology terms), then log-odds ratio with Laplace smoothing (α=1.0); min dominant-class freq=20, min other-class freq=5"
+    "methodology": "High-coverage cleaned corpus (spam/noise blacklist incl. island), domain-relevant driver vocabulary, then log-odds ratio with Laplace smoothing (α=1.0); min dominant-class freq=20, min other-class freq=5"
   },
   "optimal_model_topics": [
     {
@@ -207,16 +207,16 @@
         "building"
       ],
       "top_word_probs": [
-        0.015056795440614223,
-        0.014011409133672714,
-        0.01087426207959652,
-        0.009917264804244041,
+        0.015056834556162357,
+        0.0140114426612854,
+        0.010874256491661072,
+        0.009917263872921467,
         0.008433204144239426,
         0.008166211657226086,
         0.007996675558388233,
-        0.007942679338157177,
-        0.007598045747727156,
-        0.007553781382739544
+        0.007942678406834602,
+        0.007598047144711018,
+        0.0075537823140621185
       ]
     },
     {
@@ -234,16 +234,16 @@
         "features"
       ],
       "top_word_probs": [
-        0.030606431886553764,
-        0.010998327285051346,
-        0.010340201668441296,
-        0.009573663584887981,
-        0.009321250952780247,
-        0.00891290046274662,
-        0.008736824616789818,
-        0.008600173518061638,
-        0.008284399285912514,
-        0.008144347928464413
+        0.030606484040617943,
+        0.010998333804309368,
+        0.010340211912989616,
+        0.009573675692081451,
+        0.009321256540715694,
+        0.00891290232539177,
+        0.008736830204725266,
+        0.008600176312029362,
+        0.008284405805170536,
+        0.008144356310367584
       ]
     },
     {
@@ -261,16 +261,16 @@
         "crop"
       ],
       "top_word_probs": [
-        0.017076656222343445,
-        0.016625262796878815,
-        0.016142243519425392,
-        0.013590123504400253,
-        0.013356294482946396,
-        0.012387429364025593,
-        0.012240619398653507,
-        0.011962531134486198,
-        0.010682271793484688,
-        0.010394396260380745
+        0.01707664504647255,
+        0.01662525162100792,
+        0.0161422286182642,
+        0.013590112328529358,
+        0.01335628516972065,
+        0.012387409806251526,
+        0.012240611016750336,
+        0.011962520889937878,
+        0.010682263411581516,
+        0.010394386015832424
       ]
     },
     {
@@ -288,16 +288,16 @@
         "report"
       ],
       "top_word_probs": [
-        0.10036773979663849,
-        0.09558543562889099,
-        0.035822343081235886,
+        0.1003677248954773,
+        0.09558527916669846,
+        0.03582235053181648,
         0.03302730619907379,
-        0.025875531136989594,
-        0.024515420198440552,
-        0.021369926631450653,
-        0.019299905747175217,
-        0.01779300346970558,
-        0.015339459292590618
+        0.025875521823763847,
+        0.02451532706618309,
+        0.021369919180870056,
+        0.01929991878569126,
+        0.01779291033744812,
+        0.01533945370465517
       ]
     },
     {
@@ -315,16 +315,16 @@
         "higher"
       ],
       "top_word_probs": [
-        0.03424300625920296,
-        0.03313496708869934,
-        0.019264305010437965,
-        0.014307886362075806,
-        0.014234344474971294,
-        0.013865294866263866,
-        0.012335533276200294,
-        0.01157824881374836,
-        0.010789819993078709,
-        0.009900218807160854
+        0.034242987632751465,
+        0.0331348292529583,
+        0.01926426962018013,
+        0.014307876117527485,
+        0.014234326779842377,
+        0.013865204527974129,
+        0.0123353973031044,
+        0.01157824695110321,
+        0.010789832100272179,
+        0.009900219738483429
       ]
     },
     {
@@ -344,14 +344,14 @@
       "top_word_probs": [
         0.13385902345180511,
         0.13382436335086823,
-        0.06715836375951767,
-        0.06697654724121094,
-        0.06691547483205795,
+        0.06715835630893707,
+        0.06697653234004974,
+        0.06691545993089676,
         0.06208620220422745,
-        0.02419435977935791,
-        0.022065913304686546,
-        0.021221661940217018,
-        0.020166663452982903
+        0.02419435791671276,
+        0.022065911442041397,
+        0.021221671253442764,
+        0.020166661590337753
       ]
     }
   ],

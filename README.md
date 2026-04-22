@@ -64,6 +64,12 @@ python3 enhanced_preprocessing.py
 # Step 3: Sentiment Classification
 python3 sentiment_classifier.py
 
+# Optional alternatives:
+# - RoBERTa classifier output: classified_sentiment_data_roberta.json
+python3 sentiment_classifier_roberta.py
+# - VADER classifier output: classified_sentiment_data_vader.json
+python3 sentiment_classifier_vader.py
+
 # Step 4: Phase 1 quality checks
 # - keywords by positive/negative/neutral labels
 # - manual review sample (20 posts)
@@ -92,6 +98,10 @@ python3 regional_hypothesis_proxy.py
 
 # Step 12: Robustness & Sensitivity Checks
 python3 robustness_sensitivity_analysis.py
+
+# One-command variant pipelines:
+python3 run_full_pipeline_roberta.py
+python3 run_full_pipeline_vader.py
 ```
 
 ## Project Structure

@@ -398,9 +398,11 @@ class NetworkVisualizer:
         print("\nGenerating sentiment overview...")
         
         # Load classified data for overall sentiment distribution
+        # Prefer full classified dataset for model-to-model comparability.
         input_candidates = [
+            'classified_sentiment_data.json',
+            'classified_sentiment_data_clean_high_coverage.json',
             'classified_sentiment_data_domain_smart_farming_livestock.json',
-            'classified_sentiment_data.json'
         ]
         input_file = next((p for p in input_candidates if os.path.exists(p)), None)
         if input_file is None:
@@ -409,6 +411,14 @@ class NetworkVisualizer:
         with open(input_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
         print(f"  Using sentiment overview dataset: {input_file} ({len(data)} posts)")
+
+        total_classified_count = None
+        if os.path.exists('classified_sentiment_data.json'):
+            try:
+                with open('classified_sentiment_data.json', 'r', encoding='utf-8') as f:
+                    total_classified_count = len(json.load(f))
+            except Exception:
+                total_classified_count = None
         
         # Load network analysis results for community data
         with open('network_analysis_results.json', 'r', encoding='utf-8') as f:
@@ -434,7 +444,9 @@ class NetworkVisualizer:
         
         ax1.pie(sizes, labels=labels, colors=pie_colors, autopct='', startangle=90,
                textprops={'fontsize': 11, 'weight': 'bold'})
-        ax1.set_title(f'Overall Sentiment Distribution\n{len(data):,} Posts', fontsize=13, fontweight='bold', pad=15)
+        classified_n = total_classified_count if total_classified_count is not None else len(data)
+        panel_title = f'Overall Sentiment Distribution\n{classified_n:,} Classified Posts'
+        ax1.set_title(panel_title, fontsize=13, fontweight='bold', pad=15)
         
         # Panel 2: Sentiment by Community (Stacked Bar)
         ax2 = plt.subplot(2, 2, 2)

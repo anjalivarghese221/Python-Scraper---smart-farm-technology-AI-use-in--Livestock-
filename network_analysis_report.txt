@@ -6,61 +6,46 @@ Smart Farm Technology - Topic Clustering & Relationships
 ----------------------------------------------------------------------
 NETWORK OVERVIEW
 ----------------------------------------------------------------------
-Keywords: 391 | Connections: 1807
-Density: 0.024 | Clustering: 0.622
+Keywords: 1080 | Connections: 5508
+Density: 0.009 | Clustering: 0.580
 
 ----------------------------------------------------------------------
 TOP 10 KEYWORDS (by connections)
 ----------------------------------------------------------------------
-   1. agriculture          (0.451)
-   2. farming              (0.346)
-   3. learning             (0.241)
-   4. machine              (0.231)
-   5. agricultural         (0.226)
-   6. smart                (0.208)
-   7. precision            (0.205)
-   8. farm                 (0.203)
-   9. dairy                (0.203)
-  10. livestock            (0.177)
+   1. agriculture          (0.329)
+   2. farming              (0.208)
+   3. dairy                (0.171)
+   4. precision            (0.167)
+   5. farm                 (0.160)
+   6. livestock            (0.154)
+   7. agricultural         (0.143)
+   8. learning             (0.141)
+   9. machine              (0.140)
+  10. smart                (0.124)
 
 ----------------------------------------------------------------------
 TOPIC COMMUNITIES
 ----------------------------------------------------------------------
 
-Community 1: Dairy & Livestock Management
-  Keywords: 94 | Frequency: 1104
-  Top: dairy, livestock, farm, future, data
-  Sentiment: 75% pos | 19% neg | 6% neutral
+Community 1: Precision Agriculture & Markets
+  Keywords: 258 | Frequency: 3299
+  Top: agriculture, precision, agricultural, digital, agtech
+  Sentiment: 71% pos | 22% neg | 8% neutral
 
-Community 2: Automation & Robotics
-  Keywords: 77 | Frequency: 768
-  Top: learning, machine, agricultural, vision, computer
-  Sentiment: 74% pos | 20% neg | 6% neutral
+Community 2: Farm Automation & AgTech
+  Keywords: 243 | Frequency: 3023
+  Top: farming, learning, smart, machine, data
+  Sentiment: 66% pos | 23% neg | 10% neutral
 
-Community 3: Farm Automation & AgTech
-  Keywords: 63 | Frequency: 606
-  Top: precision, robotics, system, sensors, farmonaut
-  Sentiment: 74% pos | 22% neg | 3% neutral
+Community 3: Dairy & Livestock Management
+  Keywords: 220 | Frequency: 2391
+  Top: dairy, livestock, technology, monitoring, cattle
+  Sentiment: 63% pos | 28% neg | 10% neutral
 
-Community 4: Precision Agriculture & Markets
-  Keywords: 50 | Frequency: 484
-  Top: agriculture, digital, guide, innovation, innovations
-  Sentiment: 81% pos | 16% neg | 3% neutral
-
-Community 5: General Farming & Agriculture
-  Keywords: 47 | Frequency: 345
-  Top: farming, solutions, tools, analytics, environmental
-  Sentiment: 68% pos | 27% neg | 5% neutral
-
-Community 6: Data Systems & Software
-  Keywords: 29 | Frequency: 287
-  Top: smart, applications, based, irrigation, weather
-  Sentiment: 76% pos | 22% neg | 2% neutral
-
-Community 7: Data Systems & Software
-  Keywords: 11 | Frequency: 77
-  Top: building, software, agtech, start, years
-  Sentiment: 42% pos | 32% neg | 26% neutral
+Community 4: Farm Automation & AgTech
+  Keywords: 150 | Frequency: 1435
+  Top: farm, farmers, automation, software, trade
+  Sentiment: 46% pos | 36% neg | 18% neutral
 
 ======================================================================
 END OF REPORT

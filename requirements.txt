@@ -4,3 +4,7 @@ pandas==2.1.4
 numpy==1.26.2
 networkx==3.2.1
 matplotlib==3.8.2
+transformers==4.44.2
+torch==2.4.1
+tqdm==4.66.5
+vaderSentiment==3.3.2

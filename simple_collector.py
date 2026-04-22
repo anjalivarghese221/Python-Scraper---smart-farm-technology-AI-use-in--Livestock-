@@ -26,8 +26,28 @@ MAX_QUERIES_PER_STRATEGY = 12
 TARGET_MIN_ITEMS = 2600
 MAX_COMMENT_THREADS = 450
 MAX_COMMENTS_PER_THREAD = 5
+ENABLE_DOMAIN_COMMENT_ENRICHMENT = True
+DOMAIN_COMMENT_THREADS = 300
+DOMAIN_MAX_COMMENTS_PER_THREAD = 8
 REUSE_EXISTING_BASE = True
 RELEVANT_SUBREDDITS = {'agtech', 'farming', 'agriculture', 'livestock', 'dairyfarming', 'precisionagriculture'}
+
+LIVESTOCK_TERMS = ['dairy', 'livestock', 'cattle', 'beef', 'ruminant', 'goat', 'sheep', 'cow', 'herd', 'farm']
+TECH_TERMS = [
+    'ai',
+    'artificial intelligence',
+    'smart farming',
+    'precision livestock',
+    'automation',
+    'robot',
+    'sensor',
+    'iot',
+    'machine learning',
+    'computer vision',
+    'algorithm',
+    'predictive',
+]
+PRACTICE_TERMS = ['monitor', 'monitoring', 'welfare', 'disease', 'health', 'feeding', 'productivity', 'traceability']
 
 
 def build_query_plan():
@@ -262,24 +282,8 @@ def is_relevant(post):
         f"{post.get('subreddit', '')}"
     ).lower()
 
-    livestock_terms = ['dairy', 'livestock', 'cattle', 'beef', 'ruminant', 'goat', 'sheep']
-    tech_terms = [
-        'ai',
-        'artificial intelligence',
-        'smart farming',
-        'precision livestock',
-        'automation',
-        'robot',
-        'sensor',
-        'iot',
-        'machine learning',
-        'computer vision',
-        'algorithm',
-        'predictive',
-    ]
-
-    livestock_hits = sum(1 for term in livestock_terms if re.search(rf"\b{re.escape(term)}\b", text))
-    tech_hits = sum(1 for term in tech_terms if re.search(rf"\b{re.escape(term)}\b", text))
+    livestock_hits = sum(1 for term in LIVESTOCK_TERMS if re.search(rf"\b{re.escape(term)}\b", text))
+    tech_hits = sum(1 for term in TECH_TERMS if re.search(rf"\b{re.escape(term)}\b", text))
 
     score = livestock_hits + tech_hits
 
@@ -294,6 +298,31 @@ def is_relevant(post):
         score += 1
 
     return score >= 2
+
+
+def is_relevant_comment(comment, parent_post):
+    """Domain-aware comment relevance check for corpus enrichment."""
+    comment_text = (comment.get('text', '') or '').lower()
+    parent_text = (
+        f"{parent_post.get('title', '')} "
+        f"{parent_post.get('text', '')} "
+        f"{parent_post.get('subreddit', '')}"
+    ).lower()
+    full_text = f"{comment_text} {parent_text}"
+
+    livestock_hits = sum(1 for term in LIVESTOCK_TERMS if re.search(rf"\b{re.escape(term)}\b", full_text))
+    tech_hits = sum(1 for term in TECH_TERMS if re.search(rf"\b{re.escape(term)}\b", full_text))
+    practice_hits = sum(1 for term in PRACTICE_TERMS if re.search(rf"\b{re.escape(term)}\b", full_text))
+
+    # Strict path: directly mentions both livestock and AI/tech context.
+    if livestock_hits >= 1 and tech_hits >= 1:
+        return True
+
+    # Contextual path: parent thread is relevant + comment contributes domain detail.
+    if is_relevant(parent_post) and (livestock_hits + tech_hits + practice_hits) >= 2:
+        return True
+
+    return False
 
 
 def main():
@@ -365,8 +394,9 @@ def main():
                 print(f'  retrieved={len(posts)} | kept={kept} | running_total={len(all_posts)}')
                 time.sleep(1)
 
-    # Comment expansion pass: use replies from the strongest threads to push the corpus over the target size.
-    if len(all_posts) < TARGET_MIN_ITEMS:
+    # Comment expansion pass: use replies from strong threads.
+    # Run either to reach baseline target or to explicitly enrich domain corpus with comments.
+    if len(all_posts) < TARGET_MIN_ITEMS or ENABLE_DOMAIN_COMMENT_ENRICHMENT:
         candidate_posts = [
             p for p in all_posts
             if p.get('item_type', 'post') == 'post'
@@ -389,18 +419,24 @@ def main():
             key=lambda x: (int(x.get('num_comments', 0)), int(x.get('score', 0))),
             reverse=True,
         )
-        comment_threads = candidate_posts[:MAX_COMMENT_THREADS]
+        thread_limit = DOMAIN_COMMENT_THREADS if ENABLE_DOMAIN_COMMENT_ENRICHMENT else MAX_COMMENT_THREADS
+        comment_threads = candidate_posts[:thread_limit]
         print(f"\nComment expansion pass: {len(comment_threads)} threads (target total: {TARGET_MIN_ITEMS})")
 
         comment_count = 0
         for idx, post in enumerate(comment_threads, 1):
-            if len(all_posts) + comment_count >= TARGET_MIN_ITEMS:
+            if len(all_posts) + comment_count >= TARGET_MIN_ITEMS and not ENABLE_DOMAIN_COMMENT_ENRICHMENT:
                 break
 
             print(f"[{idx}/{len(comment_threads)}] comments from r/{post.get('subreddit', '')} :: '{post.get('title', '')[:80]}'")
-            comments, status_code = scrape_reddit_comments(post, max_comments=MAX_COMMENTS_PER_THREAD)
+            per_thread_limit = DOMAIN_MAX_COMMENTS_PER_THREAD if ENABLE_DOMAIN_COMMENT_ENRICHMENT else MAX_COMMENTS_PER_THREAD
+            comments, status_code = scrape_reddit_comments(post, max_comments=per_thread_limit)
             kept = 0
             for comment in comments:
+                if not is_relevant_comment(comment, post):
+                    continue
+                if len((comment.get('text') or '').split()) < 5:
+                    continue
                 if comment.get('url') and comment.get('url') in seen_urls:
                     continue
                 if comment.get('url'):
@@ -414,10 +450,10 @@ def main():
             query_log.append({
                 'timestamp': datetime.now().isoformat(),
                 'query': post.get('url', ''),
-                'strategy': 'comment_expansion_top_threads',
+                'strategy': 'comment_expansion_top_threads_domain_filtered' if ENABLE_DOMAIN_COMMENT_ENRICHMENT else 'comment_expansion_top_threads',
                 'subreddit': post.get('subreddit', ''),
                 'parameters': {
-                    'limit': MAX_COMMENTS_PER_THREAD,
+                    'limit': per_thread_limit,
                     'sort': 'top',
                     'depth': 2,
                 },

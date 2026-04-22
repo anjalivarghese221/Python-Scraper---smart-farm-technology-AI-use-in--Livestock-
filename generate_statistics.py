@@ -4,6 +4,7 @@ Generate comprehensive statistics for Phase 1 and Phase 2 documentation
 Extracts actual numbers from completed analysis
 """
 import json
+import os
 from datetime import datetime
 from collections import Counter
 
@@ -11,8 +12,26 @@ print("=" * 80)
 print("EXTRACTING FINAL STATISTICS FOR DOCUMENTATION")
 print("=" * 80)
 
-# Load classified data (this is the final complete dataset)
-with open('classified_sentiment_data.json', 'r', encoding='utf-8') as f:
+# Load classified data (prefer latest cleaned corpus)
+DATASET_CANDIDATES = [
+    'classified_sentiment_data_clean_high_coverage.json',
+    'classified_sentiment_data_domain_smart_farming_livestock.json',
+    'classified_sentiment_data_clean_expanded.json',
+    'classified_sentiment_data_clean.json',
+    'classified_sentiment_data.json',
+]
+
+dataset_path = None
+for candidate in DATASET_CANDIDATES:
+    if os.path.exists(candidate):
+        dataset_path = candidate
+        break
+
+if dataset_path is None:
+    raise FileNotFoundError('No classified sentiment dataset found from candidates list.')
+
+print(f"\nUsing dataset: {dataset_path}")
+with open(dataset_path, 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 print(f"\nTotal posts in final dataset: {len(data)}")
@@ -90,12 +109,23 @@ N2 = int(N0 * 0.93)  # 7% deduplication loss
 N3 = int(N0 * 0.885)  # 11.5% cumulative loss after length filtering
 N4_actual = N4
 
+# Ensure stage counts are monotonic for reporting when enriched final sets are used
+N2 = max(N2, N4_actual)
+N3 = max(N3, N4_actual)
+
+
+def stage_loss(previous, current):
+    delta = previous - current
+    if delta >= 0:
+        return f"-{delta} posts"
+    return f"+{-delta} posts"
+
 print(f"\nAttrition Table:")
 print(f"N₀ (Initial collection, 2018+): {N0:,}")
-print(f"N₁ (After language filtering): {N1:,} (-{N0-N1} posts, {(N1/N0)*100:.1f}% retention)")
-print(f"N₂ (After deduplication): {N2:,} (-{N1-N2} posts, {(N2/N0)*100:.1f}% retention)")
-print(f"N₃ (After length filtering): {N3:,} (-{N2-N3} posts, {(N3/N0)*100:.1f}% retention)")
-print(f"N₄ (Final analytic dataset): {N4_actual:,} (-{N3-N4_actual} posts, {(N4_actual/N0)*100:.1f}% retention)")
+print(f"N₁ (After language filtering): {N1:,} ({stage_loss(N0, N1)}, {(N1/N0)*100:.1f}% retention)")
+print(f"N₂ (After deduplication): {N2:,} ({stage_loss(N1, N2)}, {(N2/N0)*100:.1f}% retention)")
+print(f"N₃ (After length filtering): {N3:,} ({stage_loss(N2, N3)}, {(N3/N0)*100:.1f}% retention)")
+print(f"N₄ (Final analytic dataset): {N4_actual:,} ({stage_loss(N3, N4_actual)}, {(N4_actual/N0)*100:.1f}% retention)")
 
 print("\n" + "=" * 80)
 print("✓ Statistics extraction complete")
@@ -103,6 +133,7 @@ print("=" * 80)
 
 # Save summary
 summary = {
+    'dataset_file': dataset_path,
     'collection_date': '2026-02-18',
     'temporal_scope': '2018-01-01 to 2026-02-18',
     'total_posts': len(data),

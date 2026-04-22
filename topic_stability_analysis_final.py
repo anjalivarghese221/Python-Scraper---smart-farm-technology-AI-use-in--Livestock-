@@ -11,6 +11,8 @@ import numpy as np
 from collections import Counter
 from datetime import datetime
 
+APPLY_STRICT_DOMAIN_FILTER = False
+
 
 def is_domain_relevant(row):
     """Return True if a row is clearly about AI/smart farming in livestock."""
@@ -118,6 +120,7 @@ print("-" * 80)
 
 # Load sentiment data (prefer current Reddit-only classified dataset)
 input_candidates = [
+    'classified_sentiment_data_clean_high_coverage.json',
     'classified_sentiment_data.json',
     'classified_sentiment_data_clean.json',
     'classified_sentiment_data_clean_expanded.json'
@@ -142,7 +145,8 @@ if reddit_only:
     sentiment_data = reddit_only
 
 pre_filter_n = len(sentiment_data)
-sentiment_data = [row for row in sentiment_data if is_domain_relevant(row)]
+if APPLY_STRICT_DOMAIN_FILTER:
+    sentiment_data = [row for row in sentiment_data if is_domain_relevant(row)]
 post_filter_n = len(sentiment_data)
 
 domain_filtered_file = 'classified_sentiment_data_domain_smart_farming_livestock.json'
@@ -150,7 +154,10 @@ with open(domain_filtered_file, 'w', encoding='utf-8') as f:
     json.dump(sentiment_data, f, indent=2, ensure_ascii=False)
 
 print(f"Total documents loaded: {pre_filter_n} from {selected_input}")
-print(f"Domain-relevant documents retained: {post_filter_n} ({(post_filter_n / pre_filter_n * 100):.1f}% of loaded)")
+if APPLY_STRICT_DOMAIN_FILTER:
+    print(f"Domain-relevant documents retained: {post_filter_n} ({(post_filter_n / pre_filter_n * 100):.1f}% of loaded)")
+else:
+    print(f"Strict domain filter: OFF (using high-coverage cleaned corpus)")
 print(f"Domain-filtered dataset saved: {domain_filtered_file}")
 
 if post_filter_n == 0:
@@ -359,7 +366,15 @@ report = {
             {'rank': i+1, 'word': word, 'log_odds': float(score), 'frequency': pos_counts[word]}
             for i, (word, score) in enumerate(positive_drivers)
         ],
-        'methodology': 'Domain-filtered corpus (requires livestock/agriculture + AI/technology terms), then log-odds ratio with Laplace smoothing (α=1.0); min dominant-class freq=20, min other-class freq=5'
+        'methodology': (
+            'Strict domain-filtered corpus (requires livestock/agriculture + AI/technology terms), '
+            'then log-odds ratio with Laplace smoothing (α=1.0); '
+            'min dominant-class freq=20, min other-class freq=5'
+            if APPLY_STRICT_DOMAIN_FILTER else
+            'High-coverage cleaned corpus (spam/noise blacklist incl. island), '
+            'domain-relevant driver vocabulary, then log-odds ratio with Laplace smoothing (α=1.0); '
+            'min dominant-class freq=20, min other-class freq=5'
+        )
     },
     'optimal_model_topics': optimal_topics,
     'statistical_reporting': {

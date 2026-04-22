@@ -1,47 +1,48 @@
 {
+  "dataset_file": "classified_sentiment_data_clean_high_coverage.json",
   "collection_date": "2026-02-18",
   "temporal_scope": "2018-01-01 to 2026-02-18",
-  "total_posts": 2525,
+  "total_posts": 2640,
   "date_range": {
     "min": "2018-01-03",
     "max": "2026-03-16"
   },
   "sentiment_distribution": {
-    "positive": 1458,
-    "negative": 741,
-    "neutral": 326
+    "positive": 1500,
+    "negative": 785,
+    "neutral": 355
   },
-  "unique_subreddits": 774,
+  "unique_subreddits": 750,
   "top_subreddits": {
-    "news": 691,
+    "news": 689,
     "Agriculture": 78,
-    "farming": 72,
+    "farming": 73,
     "dairy": 55,
+    "Homesteading": 52,
     "homestead": 51,
     "agtech": 50,
-    "Homesteading": 49,
     "smallbusiness": 42,
-    "technology": 38,
-    "startups": 37
+    "Futurology": 38,
+    "technology": 38
   },
   "text_length": {
     "min": 5,
     "max": 6975,
     "median": 35,
-    "mean": 310.7330693069307
+    "mean": 269.57007575757575
   },
   "engagement": {
-    "mean_score": 2791.8293069306933,
-    "median_score": 5,
-    "mean_comments": 212.64079207920793,
-    "median_comments": 4
+    "mean_score": 2664.5098484848486,
+    "median_score": 6,
+    "mean_comments": 197.11515151515152,
+    "median_comments": 2
   },
   "attrition_table": {
-    "N0_collected": 2635,
-    "N1_language": 2635,
-    "N2_deduplicated": 2450,
-    "N3_length": 2331,
-    "N4_final": 2525,
-    "retention_rate": 95.82542694497154
+    "N0_collected": 2797,
+    "N1_language": 2797,
+    "N2_deduplicated": 2640,
+    "N3_length": 2640,
+    "N4_final": 2640,
+    "retention_rate": 94.38684304612084
   }
 }

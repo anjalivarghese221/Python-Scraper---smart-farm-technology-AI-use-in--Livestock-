@@ -388,6 +388,7 @@ def main():
     analyzer = KeywordNetworkAnalyzer(min_keyword_freq=3, min_cooccurrence=2)
     
     input_candidates = [
+        'classified_sentiment_data_clean_high_coverage.json',
         'classified_sentiment_data_domain_smart_farming_livestock.json',
         'classified_sentiment_data.json'
     ]
