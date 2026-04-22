@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "input_file": "classified_sentiment_data.json",
+    "total_posts_used": 544,
+    "sentiment_counts": {
+      "positive": 377,
+      "negative": 63,
+      "neutral": 104
+    },
+    "method": "CountVectorizer unigram+bigram (stopwords removed, min_df=2)"
+  },
+  "keywords_by_sentiment": {
+    "positive": [
+      {
+        "term": "ai",
+        "count": 1090
+      },
+      {
+        "term": "data",
+        "count": 634
+      },
+      {
+        "term": "like",
+        "count": 631
+      },
+      {
+        "term": "amp",
+        "count": 601
+      },
+      {
+        "term": "arduino",
+        "count": 541
+      },
+      {
+        "term": "time",
+        "count": 502
+      },
+      {
+        "term": "reddit",
+        "count": 494
+      },
+      {
+        "term": "water",
+        "count": 463
+      },
+      {
+        "term": "exam",
+        "count": 438
+      },
+      {
+        "term": "comments",
+        "count": 435
+      },
+      {
+        "term": "farming",
+        "count": 429
+      },
+      {
+        "term": "systems",
+        "count": 429
+      },
+      {
+        "term": "agriculture",
+        "count": 408
+      },
+      {
+        "term": "arduino comments",
+        "count": 389
+      },
+      {
+        "term": "real",
+        "count": 373
+      },
+      {
+        "term": "use",
+        "count": 366
+      },
+      {
+        "term": "just",
+        "count": 348
+      },
+      {
+        "term": "farmers",
+        "count": 334
+      },
+      {
+        "term": "10",
+        "count": 326
+      },
+      {
+        "term": "livestock",
+        "count": 315
+      }
+    ],
+    "negative": [
+      {
+        "term": "ai",
+        "count": 150
+      },
+      {
+        "term": "gt",
+        "count": 140
+      },
+      {
+        "term": "like",
+        "count": 113
+      },
+      {
+        "term": "just",
+        "count": 111
+      },
+      {
+        "term": "people",
+        "count": 111
+      },
+      {
+        "term": "time",
+        "count": 99
+      },
+      {
+        "term": "water",
+        "count": 82
+      },
+      {
+        "term": "milk",
+        "count": 79
+      },
+      {
+        "term": "food",
+        "count": 77
+      },
+      {
+        "term": "make",
+        "count": 71
+      },
+      {
+        "term": "level",
+        "count": 70
+      },
+      {
+        "term": "year",
+        "count": 67
+      },
+      {
+        "term": "10",
+        "count": 63
+      },
+      {
+        "term": "don",
+        "count": 61
+      },
+      {
+        "term": "said",
+        "count": 61
+      },
+      {
+        "term": "jobs",
+        "count": 58
+      },
+      {
+        "term": "amp",
+        "count": 57
+      },
+      {
+        "term": "use",
+        "count": 53
+      },
+      {
+        "term": "000",
+        "count": 52
+      },
+      {
+        "term": "health",
+        "count": 51
+      }
+    ],
+    "neutral": [
+      {
+        "term": "font",
+        "count": 156
+      },
+      {
+        "term": "nbsp",
+        "count": 156
+      },
+      {
+        "term": "ai",
+        "count": 142
+      },
+      {
+        "term": "dairy",
+        "count": 103
+      },
+      {
+        "term": "6f6f6f",
+        "count": 78
+      },
+      {
+        "term": "_blank",
+        "count": 78
+      },
+      {
+        "term": "color",
+        "count": 78
+      },
+      {
+        "term": "color 6f6f6f",
+        "count": 78
+      },
+      {
+        "term": "font color",
+        "count": 78
+      },
+      {
+        "term": "href",
+        "count": 78
+      },
+      {
+        "term": "href target",
+        "count": 78
+      },
+      {
+        "term": "nbsp font",
+        "count": 78
+      },
+      {
+        "term": "nbsp nbsp",
+        "count": 78
+      },
+      {
+        "term": "target",
+        "count": 78
+      },
+      {
+        "term": "target _blank",
+        "count": 78
+      },
+      {
+        "term": "livestock",
+        "count": 53
+      },
+      {
+        "term": "farming",
+        "count": 26
+      },
+      {
+        "term": "cattle",
+        "count": 24
+      },
+      {
+        "term": "learning",
+        "count": 24
+      },
+      {
+        "term": "agriculture",
+        "count": 18
+      }
+    ]
+  }
+}

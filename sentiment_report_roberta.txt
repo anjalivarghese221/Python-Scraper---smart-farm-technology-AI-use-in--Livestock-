@@ -1,0 +1,25 @@
+============================================================
+ROBERTA SENTIMENT ANALYSIS REPORT
+Smart Farm Technology - Social Media Opinions
+============================================================
+
+Model: cardiffnlp/twitter-roberta-base-sentiment-latest
+Total Posts Analyzed: 2684
+Average Confidence: 0.7302
+
+------------------------------------------------------------
+SENTIMENT DISTRIBUTION
+------------------------------------------------------------
+
+POSITIVE  :  545 posts (20.31%)
+             ██████████
+
+NEGATIVE  :  450 posts (16.77%)
+             ████████
+
+NEUTRAL   : 1689 posts (62.93%)
+             ███████████████████████████████
+
+============================================================
+END OF REPORT
+============================================================

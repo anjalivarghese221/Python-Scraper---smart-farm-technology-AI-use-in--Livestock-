@@ -1,0 +1,34 @@
+
+==========================================================================================
+NEGATIVE
+date: 2025-09-05
+subreddit: Agriculture
+confidence: 0.9593124389648438
+title: This is the most self-inflicted economic calamity ever. Arkansas, you gave your electoral votes to a dumbass who willfully crashed the economy (again), fucked over our farmers (again), killed American exports, and has gold soaring and the job market crumbling.
+content:
+This is the most self-inflicted economic calamity ever. Arkansas, you gave your electoral votes to a dumbass who willfully crashed the economy (again), fucked over our farmers (again), killed American exports, and has gold soaring and the job market crumbling.
+url: https://i.redd.it/6dr04zhyucnf1.jpeg
+
+==========================================================================================
+POSITIVE
+date: 2021-11-30
+subreddit: Yogscast
+confidence: 0.9917961359024048
+title: Jingle Jam 2021: Schedule and Links!
+content:
+FIRST!
+
+&#x200B;
+
+Good job Lewis, I can't wait! Very exciting!
+url: https://www.reddit.com/r/Yogscast/comments/r5tg29/jingle_jam_2021_schedule_and_links/hmowdu6/
+
+==========================================================================================
+NEUTRAL
+date: 2020-09-16
+subreddit: livestock
+confidence: 0.9529074430465698
+title: White headed Dorper x Damara ewe lamb and black headed x white headed Dorper ram lamb from today.
+content:
+White headed Dorper x Damara ewe lamb and black headed x white headed Dorper ram lamb from today.
+url: https://www.reddit.com/gallery/ituosq

@@ -1,0 +1,122 @@
+{
+  "analysis_date": "2026-03-18T09:54:09.695716",
+  "dataset": "classified_sentiment_data_clean_expanded.json",
+  "corpus_size": 2635,
+  "sentiment_distribution": {
+    "positive": 1549,
+    "negative": 757,
+    "neutral": 329
+  },
+  "hypothesis_1": {
+    "hypothesis": "H1_sentiment_vs_engagement",
+    "H0": "No difference in engagement between positive and negative posts",
+    "H1": "Positive posts show different engagement from negative posts",
+    "n_positive": 1549,
+    "n_negative": 757,
+    "mean_positive": 1498.757,
+    "mean_negative": 3911.034,
+    "std_positive": 9274.193,
+    "std_negative": 14702.367,
+    "normality_positive": {
+      "skewness": 10.7831,
+      "kurtosis_excess": 130.058,
+      "is_normal": false
+    },
+    "normality_negative": {
+      "skewness": 6.1516,
+      "kurtosis_excess": 40.0885,
+      "is_normal": false
+    },
+    "normality_assumption": false,
+    "test_used": "Mann-Whitney U test",
+    "test_statistic": "U = 334323.0,  z = -16.7822",
+    "p_value": 0.0,
+    "cohens_d": -0.2126,
+    "effect_size": "small",
+    "ci_95": [
+      -3556.9477,
+      -1267.6064
+    ],
+    "reject_H0": true
+  },
+  "hypothesis_2": {
+    "hypothesis": "H2_ag_vs_tech_sentiment",
+    "n_ag": 449,
+    "n_tech": 206,
+    "mean_ag": 0.1893,
+    "mean_tech": -0.0388,
+    "test_used": "Welch's independent t-test",
+    "test_statistic": "t(385) = 2.9957",
+    "p_value": 0.002756,
+    "cohens_d": 0.2555,
+    "effect_size": "small",
+    "ci_95": [
+      0.0789,
+      0.3774
+    ],
+    "reject_H0": true
+  },
+  "bias_analysis": {
+    "geographic_bias": {
+      "us_proxy_posts": 240,
+      "us_proxy_pct": 9.11,
+      "assessment": "High — corpus dominated by US/UK/AU English-language subreddits. Findings not generalisable to Africa, Asia, or Latin America."
+    },
+    "algorithm_bias": {
+      "viral_threshold": 2963,
+      "viral_posts": 264,
+      "viral_positive_pct": 32.95,
+      "corpus_positive_pct": 58.79,
+      "assessment": "Moderate — high-score posts are over-represented via upvoting; may skew sentiment toward emotionally engaging content."
+    },
+    "time_window_bias": {
+      "start": "2018-01-03",
+      "end": "2026-03-16",
+      "span_days": 2994,
+      "busiest_months": [
+        [
+          "2025-09",
+          162
+        ],
+        [
+          "2026-02",
+          159
+        ],
+        [
+          "2026-01",
+          152
+        ]
+      ],
+      "assessment": "Moderate — data collected within a finite window. Seasonal patterns and discrete events (disease outbreaks, tech announcements) may not capture long-term sentiment trends."
+    },
+    "active_user_bias": {
+      "assessment": "No author field; top subreddits used as proxy",
+      "top_subreddits": [
+        [
+          "news",
+          801
+        ],
+        [
+          "agriculture",
+          78
+        ],
+        [
+          "farming",
+          72
+        ]
+      ]
+    }
+  },
+  "sensitivity_analysis": {
+    "reduced_n": 2503,
+    "test_used": "Mann-Whitney U",
+    "test_statistic": "U = 305900.0,  z = -15.8725",
+    "p_value": 0.0,
+    "cohens_d": -0.3881,
+    "ci_95": [
+      -620.4475,
+      -364.7226
+    ],
+    "robust": true
+  }
+}

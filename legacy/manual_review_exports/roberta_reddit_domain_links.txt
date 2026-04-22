@@ -1,0 +1,51 @@
+
+=== NEGATIVE ===
+[1] conf=0.8436 date=2025-09-29 sub=r/PersonalFinanceNZ
+title: NZ’s Economy Isn’t Broken Because of Politics... It’s Broken Because of Us
+url: https://www.reddit.com/r/PersonalFinanceNZ/comments/1nu04ix/nzs_economy_isnt_broken_because_of_politics_its/
+[2] conf=0.8235 date=2026-02-07 sub=r/Epstein
+title: Our system is protecting pedophiles. Here’s a plan to stop this.
+url: https://www.reddit.com/r/Epstein/comments/1qym0h4/our_system_is_protecting_pedophiles_heres_a_plan/
+[3] conf=0.7734 date=2021-03-12 sub=r/mongolia
+title: Climate change has impacted many countries in a big way. In Mongolia, where half of the population rely on animal husbandry for their livelihood, droughts, sandstorms and heavy snow have left livestock with little grass to feed on. (Photos by Da Ai TV)
+url: https://www.reddit.com/gallery/m3dbd0
+[4] conf=0.7687 date=2020-10-20 sub=r/RaftTheGame
+title: How to mitigate livestock AI/glitchiness?
+url: https://www.reddit.com/r/RaftTheGame/comments/jf1mi0/how_to_mitigate_livestock_aiglitchiness/
+[5] conf=0.7687 date=2025-02-11 sub=r/TargetedSolutions
+title: the end of gangstalking.
+url: https://www.reddit.com/r/TargetedSolutions/comments/1inh34e/the_end_of_gangstalking/
+
+=== POSITIVE ===
+[1] conf=0.9284 date=2025-02-05 sub=r/bevelhealth
+title: Bevel 2.0 - Introducing the Nutrition Score
+url: https://www.reddit.com/r/bevelhealth/comments/1iieu5i/bevel_20_introducing_the_nutrition_score/
+[2] conf=0.9260 date=2025-11-17 sub=r/MMORPG
+title: Sword of Justice is the BEST MMO you'll NEVER play (100+hr review)
+url: https://www.reddit.com/r/MMORPG/comments/1ozvz1j/sword_of_justice_is_the_best_mmo_youll_never_play/
+[3] conf=0.9223 date=2022-12-07 sub=r/wheresthebeef
+title: A good layperson's introduction to the concepts of genetic modification, and precision fermented dairy. Some good visual story-telling too.
+url: https://www.reddit.com/r/wheresthebeef/comments/zfdmh8/a_good_laypersons_introduction_to_the_concepts_of/
+[4] conf=0.8885 date=2025-12-02 sub=r/couchtuner
+title: Best Gift Ideas for Her (Wife/Girlfriend)
+url: https://www.reddit.com/r/couchtuner/comments/1pckwi0/best_gift_ideas_for_her_wifegirlfriend/
+[5] conf=0.8871 date=2018-04-11 sub=r/Dbrain
+title: Our CTO Alexey Hahunov brings in an extensive experience in machine learning and robotics. Prior to Dbrain, Alexey founded R-SEPT, a startup developing robotic dairy farm and connectome.ai, a Machine Learning and Computer Vision company.
+url: https://www.reddit.com/r/Dbrain/comments/8bff27/our_cto_alexey_hahunov_brings_in_an_extensive/
+
+=== NEUTRAL ===
+[1] conf=0.9072 date=2025-06-30 sub=r/OpenAI
+title: Anthropic Had Claude Run an Actual Store for a Month - Here's What Happened
+url: https://www.reddit.com/r/OpenAI/comments/1lnzg0d/anthropic_had_claude_run_an_actual_store_for_a/
+[2] conf=0.9055 date=2025-08-20 sub=r/SaintMeghanMarkle
+title: Is Masaka Kids Africana a Legitimate Charity?
+url: https://www.reddit.com/r/SaintMeghanMarkle/comments/1mvxhnc/is_masaka_kids_africana_a_legitimate_charity/
+[3] conf=0.8750 date=2023-10-07 sub=r/ArtificialInteligence
+title: Using an AI to generate Livestock breed/pedigree statistics
+url: https://www.reddit.com/r/ArtificialInteligence/comments/17250q5/using_an_ai_to_generate_livestock_breedpedigree/
+[4] conf=0.8731 date=2025-01-13 sub=r/CellularAgriculture
+title: $144M for Seed Gene-Editing, Major Precision-Fermented Dairy Partnership, and $8.8M for UV-Sterilized Bioreactors
+url: https://www.reddit.com/r/CellularAgriculture/comments/1i0fz90/144m_for_seed_geneediting_major/
+[5] conf=0.8692 date=2025-12-10 sub=r/WorldbuildingWithAI
+title: Building a "mundane" tech-tree. (tried to make it as abstract as possible) (1-11)
+url: https://www.reddit.com/r/WorldbuildingWithAI/comments/1pj768b/building_a_mundane_techtree_tried_to_make_it_as/

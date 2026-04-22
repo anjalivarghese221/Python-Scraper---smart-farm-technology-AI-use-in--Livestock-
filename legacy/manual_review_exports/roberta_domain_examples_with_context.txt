@@ -1,0 +1,45 @@
+
+===== NEGATIVE (DOMAIN-MATCHED) =====
+date: 2025-03-29
+subreddit: changemyview
+confidence: 0.8964279890060425
+title: CMV: American soft power is being steadily wiped out
+content:
+As we all know, American soft power is currently in the dumps, with many people outside the country either viewing it as a laughingstock or trembling in fear of it. Few people seem to actually respect and want to cooperate with it anymore.
+
+A big reason of course is Donald Trump. Not only has he alienated the rest of the democratic world by withdrawing support from Ukraine and cozying up with autocrats, but by threatening to conquer Canada and Greenland he has made the people of these countries see the US as an aggressive monster. And America’s international reputation won’t be repaired after he leaves, since everyone will know that every election the US has a 50% chance of electing a capricious Republican. Hell, America’s reputation is arguably still damaged from the Bush II administration.
+
+But it goes beyond Donald Trump. Already the US is seen as a laughingstock due to our lack of universal healthcare, poor labor and food safety standards, lack of walkability, and now our regression on social issues. It has gone as far as when people consider immigrating to the US (eg in r/IWantOut) the default response is “no don’t come here it’s too dangerous and it sucks compared to other developed nations.”
+
+And American companies are losing influence too. Most prominently, the US auto industry is fated to become like the East German auto industry. Coddled by tariffs, they are being bodied by the Chinese auto industry on the world stage. Chinese electrical vehicle brands like BYD are dominating in places as diverse as Southeast Asia and Australia and are making massive inroads into Europe. Soon, American cars will only be viable in the American domestic market. Just look at the number of posts lamenting the lack of affordable Chinese cars in r/electricvehicles in the US. Similar things can be said about the American drones (nonexistent), renewables (threatened by Trump and was behind China beforehand), or AI (which seemed like a bright spot until Deepseek showed up).
+
+And soon, even the most prominent manifestation of American soft power - Hollywood and the arts - will be on the decline. The reason I actually made this CMV is because there is currently massive drama surrounding the SAG-AFTRA voice actor guild. Originally American VAs have been striking for AI protections, leading to games like Genshin Impact to be unvoiced for months. However, people realized that it wasn’t just about AI protections; SAG-AFTRA also wanted to maintain a monopoly on VA work, where only union members can work on projects. This came to a head when Hoyoverse (the Chinese company behind Genshin) hired a Japan-based VA to replace a striking American VA, causing him to be denounced as a scab by SAG-AFTRA VAs and putting the Genshin community in turmoil (just search “SAG-AFTRA controversy” in r/Genshin_Impact).
+
+Now, people are predicting that Hoyoverse and other international companies will avoid hiring American VAs like the plague, in order to avoid SAG-AFTRA’s monopoly. Already, most new English voices in Genshin and Wuthering Waves (another Chinese video game) have been from the UK. Furthermore, people are using this opportunity to highlighting how backwards the US is in general, from the general nastiness of both US labor laws and labor unions, to China having stronger AI protections (despite Chinese people being more AI-friendly than Americans).
+
+So the trend is unmistakable: the international community, in both the political and economic spheres, are increasingly shunning the US. By the end of Trump’s term, I predict the US will look like Russia: a hated, isolated country whose most prominent exports are agricultural and petrochemical products, which arms sales if we’re lucky. Meanwhile, China, buoyed by its national champions like BYD and Hoyoverse, is set to take its place as the world’s global superpower.
+url: https://www.reddit.com/r/changemyview/comments/1jmt165/cmv_american_soft_power_is_being_steadily_wiped/
+is_ai_term_present: yes
+is_livestock_or_ag_term_present: yes
+
+===== POSITIVE (DOMAIN-MATCHED) =====
+date: 2025-06-30
+subreddit: PhasmophobiaGame
+confidence: 0.9642443656921387
+title: Wow... this is sadly the best use the sound sensor has ever gotten from me: place down and money farm
+content:
+Wow... this is sadly the best use the sound sensor has ever gotten from me: place down and money farm
+url: https://i.redd.it/ojhpbnedw0af1.png
+is_ai_term_present: yes
+is_livestock_or_ag_term_present: yes
+
+===== NEUTRAL (DOMAIN-MATCHED) =====
+date: 2024-01-10
+subreddit: CodingJobs
+confidence: 0.9469081163406372
+title: Jabil is hiring Automation Engineering Manager - Bryan Dairy St. Petersburg/Tampa, FL | US St. Petersburg, FL Tampa, FL
+content:
+Jabil is hiring Automation Engineering Manager - Bryan Dairy St. Petersburg/Tampa, FL | US St. Petersburg, FL Tampa, FL
+url: https://echojobs.io/job/jabil-automation-engineering-manager-bryan-dairy-st-petersburg-tampa-fl-s07lk?utm_source=oreddit&amp;utm_medium=CodingJobs&amp;utm_campaign=software-engineer-jobs
+is_ai_term_present: yes
+is_livestock_or_ag_term_present: yes

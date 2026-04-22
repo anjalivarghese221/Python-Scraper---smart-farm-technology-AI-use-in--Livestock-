@@ -1,0 +1,112 @@
+{
+  "logistic_file": "classified_sentiment_data.json",
+  "roberta_file": "classified_sentiment_data_roberta.json",
+  "vader_file": "classified_sentiment_data_vader.json",
+  "logistic_distribution": {
+    "total": 2684,
+    "positive": {
+      "count": 1522,
+      "pct": 56.706408345752614
+    },
+    "negative": {
+      "count": 803,
+      "pct": 29.918032786885245
+    },
+    "neutral": {
+      "count": 359,
+      "pct": 13.375558867362148
+    }
+  },
+  "roberta_distribution": {
+    "total": 2684,
+    "positive": {
+      "count": 545,
+      "pct": 20.305514157973175
+    },
+    "negative": {
+      "count": 450,
+      "pct": 16.76602086438152
+    },
+    "neutral": {
+      "count": 1689,
+      "pct": 62.928464977645305
+    }
+  },
+  "vader_distribution": {
+    "total": 2684,
+    "positive": {
+      "count": 1629,
+      "pct": 60.6929955290611
+    },
+    "negative": {
+      "count": 453,
+      "pct": 16.87779433681073
+    },
+    "neutral": {
+      "count": 602,
+      "pct": 22.429210134128166
+    }
+  },
+  "agreements": {
+    "logistic_vs_roberta": {
+      "compared_rows": 2684,
+      "agreement_count": 707,
+      "agreement_pct": 26.341281669150522,
+      "labels": {
+        "left": "Logistic",
+        "right": "RoBERTa"
+      },
+      "label_transitions": {
+        "positive->neutral": 1029,
+        "negative->neutral": 466,
+        "neutral->negative": 100,
+        "positive->negative": 165,
+        "negative->positive": 152,
+        "neutral->neutral": 194,
+        "negative->negative": 185,
+        "neutral->positive": 65,
+        "positive->positive": 328
+      }
+    },
+    "logistic_vs_vader": {
+      "compared_rows": 2684,
+      "agreement_count": 1157,
+      "agreement_pct": 43.10730253353204,
+      "labels": {
+        "left": "Logistic",
+        "right": "VADER"
+      },
+      "label_transitions": {
+        "positive->neutral": 400,
+        "negative->positive": 494,
+        "negative->neutral": 141,
+        "neutral->negative": 91,
+        "positive->negative": 194,
+        "positive->positive": 928,
+        "neutral->neutral": 61,
+        "negative->negative": 168,
+        "neutral->positive": 207
+      }
+    },
+    "roberta_vs_vader": {
+      "compared_rows": 2684,
+      "agreement_count": 1241,
+      "agreement_pct": 46.236959761549926,
+      "labels": {
+        "left": "RoBERTa",
+        "right": "VADER"
+      },
+      "label_transitions": {
+        "neutral->neutral": 521,
+        "neutral->positive": 967,
+        "negative->negative": 233,
+        "positive->positive": 487,
+        "neutral->negative": 201,
+        "negative->positive": 175,
+        "negative->neutral": 42,
+        "positive->negative": 19,
+        "positive->neutral": 39
+      }
+    }
+  }
+}

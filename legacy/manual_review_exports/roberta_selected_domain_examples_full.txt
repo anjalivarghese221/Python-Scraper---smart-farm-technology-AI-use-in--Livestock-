@@ -1,0 +1,41 @@
+
+==========================================================================================
+NEGATIVE
+date: 2024-06-29
+subreddit: news
+confidence: 0.49006813764572144
+title: Twelve Threats of Precision Livestock Farming (PLF) for Animal Welfare - Frontiers
+content:
+Twelve Threats of Precision Livestock Farming (PLF) for Animal Welfare - Frontiers <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNbjhwRTJhdG5sX1FlMEN4bmFvNTlBX1lhWHY0TkNRRjQ0dHl4amk5c2w1c3d5OU5NU1U2REQ1TVI1aWE4MDZrNU91dnlTbnRGUzBvVjM4VWloM0wtazl5b1g4Q3hJdHBlR0F6dzlWOXItSjV3RjRnWmIyMFNRbWxoa0tVVEZVRUFqbGhCcEZVTUJwU1ZkNFZsUTBmOA?oc=5" target="_blank">Twelve Threats of Precision Livestock Farming (PLF) for Animal Welfare</a>&nbsp;&nbsp;<font color="#6f6f6f">Frontiers</font>
+url: https://news.google.com/rss/articles/CBMimwFBVV95cUxNbjhwRTJhdG5sX1FlMEN4bmFvNTlBX1lhWHY0TkNRRjQ0dHl4amk5c2w1c3d5OU5NU1U2REQ1TVI1aWE4MDZrNU91dnlTbnRGUzBvVjM4VWloM0wtazl5b1g4Q3hJdHBlR0F6dzlWOXItSjV3RjRnWmIyMFNRbWxoa0tVVEZVRUFqbGhCcEZVTUJwU1ZkNFZsUTBmOA?oc=5
+
+==========================================================================================
+POSITIVE
+date: 2025-09-28
+subreddit: meridairy
+confidence: 0.9283886551856995
+title: Meri Dairy Smart DPU – One Device, Complete Dairy Automation 🥛🚀
+content:
+We’re excited to share our latest innovation – the **Smart DPU** by Meri Dairy, designed to make milk collection **faster, accurate, and fully digital**.
+
+**Highlights:**
+
+* 🏋️ Built-in **Weight Machine** – no need for extra devices
+* 📲 **Bluetooth Connectivity** – connect seamlessly with mobile
+* 🖨️ **Thermal Printer** – instant slip printing
+* 🔄 Syncs with **Meri Dairy Mobile App** for automation
+* ⚡ Works as a full **Automatic Milk Collection Unit**
+
+Our goal: **simplify dairy operations and empower farmers &amp; collection centers** with reliable technology.
+
+Check more here 👉 [meridairy.in]()  
+Contact 📞 9772196666
+
+What do you think about **digital transformation in dairy collection**? Would love to hear the community’s thoughts.
+
+\#DairyTech #AgriTech #Automation #India
+url: https://i.redd.it/0o33ykp9s0sf1.jpeg
+
+==========================================================================================
+NEUTRAL
+No match found for selector: michigan-state-university

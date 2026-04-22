@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "dataset": "classified_sentiment_data_clean_expanded.json",
+    "analysis_date": "2026-04-22T14:43:25.207488",
+    "alpha": 0.05,
+    "two_tailed": true,
+    "surge_start": "2025-07-01"
+  },
+  "hypotheses": {
+    "primary": {
+      "H0": "No significant difference in mean sentiment between livestock-focused and non-livestock discourse.",
+      "H1": "Significant difference in mean sentiment between livestock-focused and non-livestock discourse."
+    },
+    "secondary": {
+      "H0": "No significant difference in mean sentiment before vs during the surge window.",
+      "H1": "Significant difference in mean sentiment before vs during the surge window."
+    }
+  },
+  "primary_test_livestock_vs_nonlivestock": {
+    "groups": {
+      "group1": "Livestock-focused",
+      "group2": "Non-livestock"
+    },
+    "n": {
+      "group1": 786,
+      "group2": 1849
+    },
+    "means": {
+      "group1": 0.34478371501272265,
+      "group2": 0.2817739318550568
+    },
+    "normality_shapiro": {
+      "Livestock-focused": {
+        "W": 0.6580842233964259,
+        "p": 6.53843011601241e-37,
+        "n_used": 786
+      },
+      "Non-livestock": {
+        "W": 0.6872695187479394,
+        "p": 5.117744789746718e-50,
+        "n_used": 1849
+      },
+      "both_normal": false
+    },
+    "inferential_test": {
+      "test_used": "Mann-Whitney U (two-sided)",
+      "test_statistic_label": "U",
+      "test_statistic": 755406.0,
+      "p_value": 0.06692262484167909,
+      "cohens_d_group2_minus_group1": -0.07113667243791504,
+      "ci_95_mean_difference_group2_minus_group1": [
+        -0.1367731766091585,
+        0.010753610293826765
+      ],
+      "decision_alpha_0_05": "Fail to reject H0"
+    }
+  },
+  "secondary_test_pre_surge_vs_surge": {
+    "groups": {
+      "group1": "Pre-surge (<2025-07)",
+      "group2": "Surge window (>=2025-07)"
+    },
+    "n": {
+      "group1": 1444,
+      "group2": 1191
+    },
+    "means": {
+      "group1": 0.2513850415512465,
+      "group2": 0.3602015113350126
+    },
+    "normality_shapiro": {
+      "Pre-surge (<2025-07)": {
+        "W": 0.6960598668623451,
+        "p": 3.9346298967338676e-45,
+        "n_used": 1444
+      },
+      "Surge window (>=2025-07)": {
+        "W": 0.6553032900744192,
+        "p": 9.816565588906137e-44,
+        "n_used": 1191
+      },
+      "both_normal": false
+    },
+    "inferential_test": {
+      "test_used": "Mann-Whitney U (two-sided)",
+      "test_statistic_label": "U",
+      "test_statistic": 803175.0,
+      "p_value": 0.000889279625475097,
+      "cohens_d_group2_minus_group1": 0.12301644721479052,
+      "ci_95_mean_difference_group2_minus_group1": [
+        0.0410666855216273,
+        0.17656625404590487
+      ],
+      "decision_alpha_0_05": "Reject H0"
+    }
+  }
+}

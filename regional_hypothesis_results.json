@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "dataset": "classified_sentiment_data_clean_expanded.json",
+    "analysis_date": "2026-04-22T14:43:26.444288",
+    "alpha": 0.05,
+    "two_tailed": true,
+    "method_note": "Geographic regions inferred from subreddit-name proxies only."
+  },
+  "region_proxy_counts": {
+    "Asia": 29,
+    "North America": 25,
+    "Oceania": 14,
+    "Europe": 17,
+    "Africa": 3
+  },
+  "tested_groups": {
+    "group1": "Asia",
+    "group2": "North America",
+    "n_group1": 29,
+    "n_group2": 25,
+    "mean_group1": 0.27586206896551724,
+    "mean_group2": -0.08
+  },
+  "normality_shapiro": {
+    "Asia": {
+      "W": 0.6741187720798183,
+      "p": 9.137626656013384e-07
+    },
+    "North America": {
+      "W": 0.7079658722535068,
+      "p": 9.345303922502595e-06
+    },
+    "both_normal": false
+  },
+  "inferential_test": {
+    "test_used": "Mann-Whitney U (two-sided)",
+    "test_statistic_label": "U",
+    "test_statistic": 434.5,
+    "p_value": 0.1694852489713956,
+    "cohens_d_group2_minus_group1": -0.37987732261005935,
+    "ci_95_mean_difference_group2_minus_group1": [
+      -0.8706349067922077,
+      0.15891076886117322
+    ],
+    "decision_alpha_0_05": "Fail to reject H0"
+  }
+}

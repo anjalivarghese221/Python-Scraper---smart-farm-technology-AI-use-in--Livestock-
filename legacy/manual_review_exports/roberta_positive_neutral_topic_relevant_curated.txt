@@ -1,0 +1,43 @@
+RoBERTa POSITIVE + NEUTRAL — topic-relevant Reddit posts (curated)
+
+=== POSITIVE ===
+1) conf=0.9702 | r/drones | 2019-12-24
+Title: My uncle's drone changed the way we monitor cattle in the winter...
+URL: https://i.redd.it/p3yy9xuscm641.jpg
+
+2) conf=0.9621 | r/deeplearning | 2023-05-01
+Title: AI in agriculture: exploring the future of farming with deep learning
+URL: https://www.reddit.com/r/deeplearning/comments/134itkj/ai_in_agriculture_exploring_the_future_of_farming/
+
+3) conf=0.9487 | r/computervision | 2023-12-12
+Title: Exploring AI in Agriculture: New Deep Learning Model for Plant Disease and Pest Detection
+URL: https://www.reddit.com/r/computervision/comments/18go4jc/exploring_ai_in_agriculture_new_deep_learning/
+
+4) conf=0.9223 | r/wheresthebeef | 2022-12-07
+Title: ...genetic modification, and precision fermented dairy...
+URL: https://www.reddit.com/r/wheresthebeef/comments/zfdmh8/a_good_laypersons_introduction_to_the_concepts_of/
+
+5) conf=0.8873 | r/Futurology | 2022-05-07
+Title: ...real dairy protein produced with fermentation instead of cows...
+URL: https://www.businessinsider.com/lab-grown-dairy-perfect-day-2022-5?r=US&IR=T
+
+=== NEUTRAL ===
+1) conf=0.9096 | r/AgriTech | 2024-11-07
+Title: Counting livestock in with a drone while in the field.
+URL: https://www.reddit.com/r/AgriTech/comments/1gm8d2e/counting_livestock_in_with_a_drone_while_in_the/
+
+2) conf=0.9092 | r/agtech | 2019-05-14
+Title: Automated farming being tested in northeast China
+URL: https://www.youtube.com/watch?v=NePdwV5Slk4
+
+3) conf=0.9100 | r/europe | 2024-04-07
+Title: Automated farming in the Netherlands
+URL: https://www.reddit.com/gallery/1by9igp
+
+4) conf=0.9032 | r/Futurology | 2021-09-07
+Title: Producing dairy milk via precision fermentation to become the norm by 2035
+URL: https://cleantechnica.com/2021/09/07/rethinkx-the-first-step-to-replacing-the-inefficient-cow-milk/
+
+5) conf=0.9067 | r/news | 2019-09-11
+Title: Precision Livestock Farming Technology for Remote Monitoring of Pig Welfare and Health
+URL: https://news.google.com/rss/articles/CBMitwFBVV95cUxPaV9RcXlRN3ZFaXJjMXhoNmVuRGVZMzA3dnZFazkyZ0hIOUFuTTg0LVdOSVVaaVdpX2NZWHk1eXp0bUNlSTlyaUVHT0lGdTJycndWZFRHbDNMZHZnU3EzODRXUnpDak5ndVNrZlc5QXFHTzl6Yjl0QVNpR0Nybk50N3diOEJMV05WNWhiRFdRd2ctMFI0WWlmY0dUVDd4c216YzhVT1Q1cVpDS0dvbzduVU9sUFd0Tjg?oc=5

@@ -1,0 +1,61 @@
+
+=== NEGATIVE (STRICT RELEVANCE) ===
+None found
+
+=== POSITIVE (STRICT RELEVANCE) ===
+[1] conf=0.9223 | date=2022-12-07 | sub=r/wheresthebeef
+title: A good layperson's introduction to the concepts of genetic modification, and precision fermented dairy. Some good visual story-telling too.
+url: https://www.reddit.com/r/wheresthebeef/comments/zfdmh8/a_good_laypersons_introduction_to_the_concepts_of/
+[2] conf=0.8284 | date=2025-07-29 | sub=r/dairy
+title: How Turnkey Dairy Processing Plants Are Changing the Future of the Dairy Industry
+url: https://www.reddit.com/r/dairy/comments/1mc7q30/how_turnkey_dairy_processing_plants_are_changing/
+[3] conf=0.8090 | date=2025-04-06 | sub=r/agtech
+title: Student project on livestock tech - would love to hear from actual farmers!
+url: https://www.reddit.com/r/agtech/comments/1jsqley/student_project_on_livestock_tech_would_love_to/
+[4] conf=0.7991 | date=2025-10-28 | sub=r/dairyfarming
+title: Start up Precision Livestock Farming
+url: https://www.reddit.com/r/dairyfarming/comments/1oieml8/start_up_precision_livestock_farming/
+[5] conf=0.7966 | date=2023-02-09 | sub=r/dairy
+title: Hello everyone! Quick survey for cow farmers only, would really help if you answered
+url: https://www.reddit.com/r/dairy/comments/10xteaq/hello_everyone_quick_survey_for_cow_farmers_only/
+[6] conf=0.7356 | date=2018-05-29 | sub=r/agtech
+title: New agriculture technology company needs your help!
+url: https://www.reddit.com/r/agtech/comments/8n376d/new_agriculture_technology_company_needs_your_help/
+[7] conf=0.6382 | date=2024-03-22 | sub=r/dairyfarming
+title: Afimilk and dairy technology
+url: https://www.reddit.com/r/dairyfarming/comments/1blbn0f/afimilk_and_dairy_technology/
+[8] conf=0.6315 | date=2024-06-25 | sub=r/dairy
+title: dairy supply chain tokenization solution
+url: https://www.reddit.com/r/dairy/comments/1do062a/dairy_supply_chain_tokenization_solution/
+[9] conf=0.4991 | date=2025-05-11 | sub=r/ArtificialInteligence
+title: New Research Into Server Cooling Pays Off With Environmentally Friendly, Zero Emissions Technology
+url: https://www.reddit.com/r/ArtificialInteligence/comments/1kjuf25/new_research_into_server_cooling_pays_off_with/
+
+=== NEUTRAL (STRICT RELEVANCE) ===
+[1] conf=0.8750 | date=2023-10-07 | sub=r/ArtificialInteligence
+title: Using an AI to generate Livestock breed/pedigree statistics
+url: https://www.reddit.com/r/ArtificialInteligence/comments/17250q5/using_an_ai_to_generate_livestock_breedpedigree/
+[2] conf=0.8731 | date=2025-01-13 | sub=r/CellularAgriculture
+title: $144M for Seed Gene-Editing, Major Precision-Fermented Dairy Partnership, and $8.8M for UV-Sterilized Bioreactors
+url: https://www.reddit.com/r/CellularAgriculture/comments/1i0fz90/144m_for_seed_geneediting_major/
+[3] conf=0.8555 | date=2022-08-31 | sub=r/IOT
+title: Monitoring temperature in a livestock shed
+url: https://www.reddit.com/r/IOT/comments/x25arj/monitoring_temperature_in_a_livestock_shed/
+[4] conf=0.8380 | date=2025-03-03 | sub=r/CellularAgriculture
+title: €32.5M for Precision-Fermented Dairy, AI-Driven Biomanufacturing Lands €9.5M, and Cultivated Meat Aroma Breakthrough
+url: https://www.reddit.com/r/CellularAgriculture/comments/1j2jjz0/325m_for_precisionfermented_dairy_aidriven/
+[5] conf=0.7362 | date=2022-08-31 | sub=r/IOT
+title: Monitoring temperature in a livestock shed
+url: https://www.reddit.com/r/IOT/comments/x25arj/monitoring_temperature_in_a_livestock_shed/imhkeji/
+[6] conf=0.7065 | date=2025-05-14 | sub=r/PrecisionAg
+title: The Cattle Tech Adoption Paradox: Why is reproductive tracking still analog in 2025?
+url: https://www.reddit.com/r/PrecisionAg/comments/1kmzkkd/the_cattle_tech_adoption_paradox_why_is/
+[7] conf=0.6461 | date=2026-02-15 | sub=r/wheresthebeef
+title: I Flew to an Isle of Man Yearly Investors Meeting and Met the Billionaire Trying to End Factory Farming
+url: https://www.reddit.com/r/wheresthebeef/comments/1r5dbta/i_flew_to_an_isle_of_man_yearly_investors_meeting/
+[8] conf=0.5834 | date=2025-02-11 | sub=r/wheresthebeef
+title: ‘No Kill’ Meat has finally hit the shelves. The beginning of the end of the livestock and fishing industries.
+url: https://www.reddit.com/r/wheresthebeef/comments/1imwz97/no_kill_meat_has_finally_hit_the_shelves_the/
+[9] conf=0.5709 | date=2025-12-21 | sub=r/dairy
+title: Can Automation Truly Replace Manual Expertise in Modern Dairy Plants?
+url: https://www.reddit.com/r/dairy/comments/1psqad6/can_automation_truly_replace_manual_expertise_in/

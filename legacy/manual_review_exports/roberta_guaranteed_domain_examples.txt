@@ -1,0 +1,126 @@
+
+===== NEGATIVE (TOP 8 GUARANTEED DOMAIN CANDIDATES) =====
+
+[1] confidence=0.7734 | date=2021-03-12 | subreddit=r/mongolia
+title: Climate change has impacted many countries in a big way. In Mongolia, where half of the population rely on animal husbandry for their livelihood, droughts, sandstorms and heavy snow have left livestock with little grass to feed on. (Photos by Da Ai TV)
+content: Climate change has impacted many countries in a big way. In Mongolia, where half of the population rely on animal husbandry for their livelihood, droughts, sandstorms and heavy snow have left livestock with little grass to feed on. (Photos by Da Ai TV)
+url: https://www.reddit.com/gallery/m3dbd0
+
+[2] confidence=0.7687 | date=2020-10-20 | subreddit=r/RaftTheGame
+title: How to mitigate livestock AI/glitchiness?
+content: Just lost my first goat because it got stuck behind the watering machine and starved. I read horror stories of other rafters losing animals randomly as well. Fixed this issue by increasing the size of my pen.  My animal pen is on the second floor, is nowhere n...
+url: https://www.reddit.com/r/RaftTheGame/comments/jf1mi0/how_to_mitigate_livestock_aiglitchiness/
+
+[3] confidence=0.7658 | date=2026-01-04 | subreddit=r/NovaScotia
+title: Atlantic Lottery Is a Government-Protected Gambling Farm and We’re the Livestock
+content: Let’s stop pretending Atlantic Lottery is some harmless “public service.”  \*\*ALC is a gambling monopoly that milks Atlantic Canadians dry and hides behind a Crown Corp logo to avoid accountability.\*\* If this was a private company, it would already be burie...
+url: https://www.reddit.com/r/NovaScotia/comments/1q40dv6/atlantic_lottery_is_a_governmentprotected/
+
+[4] confidence=0.7552 | date=2025-12-08 | subreddit=r/UberEATS
+title: I got scammed
+content: So context, around a week ago I ordered Dairy Queen with my gf. We decided to split a large royal oreo blizzard, (came out to a ridiculous $18 after delivery fees) however what ended up coming was a small blizzard of a different type. When I opened a support t...
+url: https://www.reddit.com/r/UberEATS/comments/1ph4xp7/i_got_scammed/
+
+[5] confidence=0.7364 | date=2025-11-10 | subreddit=r/ReefTank
+title: Woke up to my worst nightmare.
+content: Please help!!! I had this nano 5g tank running for 6 months, besides a GHA outbreak at month 3 everything has been running smoothly. My corals &amp; macro algae were growing at a nice pace, until yesterday. No fish, only trochus snails, pods, bristleworms. I w...
+url: https://www.reddit.com/gallery/1otek3c
+
+[6] confidence=0.7292 | date=2026-01-07 | subreddit=r/CATHELP
+title: Albendazole Toxicity in Cats, My 4 Cats Died
+content: I have 4 cats which all died and I suspect its because of Albendazole Toxicity.  Hoghog (3.4kg) &amp; Wanwan (3.7kg) - 1 year 1 month old, both castrated (male) and siblings. their mother was stray that adopted herself into my property  Dora (2.3kg) - around 1...
+url: https://www.reddit.com/gallery/1q72x31
+
+[7] confidence=0.7072 | date=2026-01-04 | subreddit=r/NovaScotia
+title: Atlantic Lottery Is a Government-Protected Gambling Farm and We’re the Livestock
+content: The net loss/gain for society has always been a resounding loss. Always has been. Doesn’t take AI and emojis to find out.
+url: https://www.reddit.com/r/NovaScotia/comments/1q40dv6/atlantic_lottery_is_a_governmentprotected/nxosc6f/
+
+[8] confidence=0.7066 | date=2025-08-03 | subreddit=r/airbnb_hosts
+title: After almost 4 years of hosting, I actually fell for a lie! Result was a party with 30+ guests party. I am only mad at myself.
+content: I know the basic rules. DO NOT accept requests from locals for one night bookings. I stupidly did anyway.   A few days ago, I got a call from Airbnb person calling themselves Host Success Manager or something like that. They convinced me that my minimum stay s...
+url: https://www.reddit.com/r/airbnb_hosts/comments/1mgjwve/after_almost_4_years_of_hosting_i_actually_fell/
+
+===== POSITIVE (TOP 8 GUARANTEED DOMAIN CANDIDATES) =====
+
+[1] confidence=0.9284 | date=2025-02-05 | subreddit=r/bevelhealth
+title: Bevel 2.0 - Introducing the Nutrition Score
+content: # Watch Announcement Video  [https://www.youtube.com/watch?v=C6I\_Bt\_D2jE](https://www.youtube.com/watch?v=C6I_Bt_D2jE)  # Release notes  In this update, we're excited to announce the Nutrition Score!  Please note that this is a phased release over seven days...
+url: https://www.reddit.com/r/bevelhealth/comments/1iieu5i/bevel_20_introducing_the_nutrition_score/
+
+[2] confidence=0.9284 | date=2025-09-28 | subreddit=r/meridairy
+title: Meri Dairy Smart DPU – One Device, Complete Dairy Automation 🥛🚀
+content: We’re excited to share our latest innovation – the **Smart DPU** by Meri Dairy, designed to make milk collection **faster, accurate, and fully digital**.  **Highlights:**  * 🏋️ Built-in **Weight Machine** – no need for extra devices * 📲 **Bluetooth Connectivit...
+url: https://i.redd.it/0o33ykp9s0sf1.jpeg
+
+[3] confidence=0.9260 | date=2025-11-17 | subreddit=r/MMORPG
+title: Sword of Justice is the BEST MMO you'll NEVER play (100+hr review)
+content: UPDATE: after 300+ hrs some of my opinions have changed. Combat has gotten better and a few other things which I’ll update in the review  Just hear me out because I also almost uninstalled this game with a declaration of mobile slop after my first few hours. I...
+url: https://www.reddit.com/r/MMORPG/comments/1ozvz1j/sword_of_justice_is_the_best_mmo_youll_never_play/
+
+[4] confidence=0.9223 | date=2022-12-07 | subreddit=r/wheresthebeef
+title: A good layperson's introduction to the concepts of genetic modification, and precision fermented dairy. Some good visual story-telling too.
+content: Note the company and article are from New Zealand, one of the world's top dairy producers. Will hopefully cause a bit of a stir!    [https://www.stuff.co.nz/environment/climate-news/130551099/labmade-milk-getting-the-creaminess-without-the-climate-pollution](h...
+url: https://www.reddit.com/r/wheresthebeef/comments/zfdmh8/a_good_laypersons_introduction_to_the_concepts_of/
+
+[5] confidence=0.9177 | date=2020-04-16 | subreddit=r/MadeMeSmile
+title: I work as a service technician for an automated dairy company (gotta fix robots during lockdown!) and I woke up to this. Man it feels good to work for some who actually cares about you.
+content: I work as a service technician for an automated dairy company (gotta fix robots during lockdown!) and I woke up to this. Man it feels good to work for some who actually cares about you.
+url: https://i.redd.it/y3wc1zop19t41.jpg
+
+[6] confidence=0.8885 | date=2025-12-02 | subreddit=r/couchtuner
+title: Best Gift Ideas for Her (Wife/Girlfriend)
+content: This gift guide for her (wife/girlfriend/partner) combines the best of everything: viral finds from Reddit, Instagram, and TikTok, Amazon bestsellers, and curated picks from Wirecutter, New York Times, Women's Health, Vogue, Cosmopolitan, and others.  # Under ...
+url: https://www.reddit.com/r/couchtuner/comments/1pckwi0/best_gift_ideas_for_her_wifegirlfriend/
+
+[7] confidence=0.8871 | date=2018-04-11 | subreddit=r/Dbrain
+title: Our CTO Alexey Hahunov brings in an extensive experience in machine learning and robotics. Prior to Dbrain, Alexey founded R-SEPT, a startup developing robotic dairy farm and connectome.ai, a Machine Learning and Computer Vision company.
+content: :)
+url: https://www.reddit.com/r/Dbrain/comments/8bff27/our_cto_alexey_hahunov_brings_in_an_extensive/
+
+[8] confidence=0.8846 | date=2024-06-27 | subreddit=r/espresso
+title: Automating Milk Frothing… Anyone else does this?
+content: Just found this angle to be great for “automated milk frothing” while I do some other errands before coming back to take it out… 30 seconds saved is 30 seconds. 😁
+url: https://www.reddit.com/gallery/1dpph2f
+
+===== NEUTRAL (TOP 8 GUARANTEED DOMAIN CANDIDATES) =====
+
+[1] confidence=0.9469 | date=2024-01-10 | subreddit=r/CodingJobs
+title: Jabil is hiring Automation Engineering Manager - Bryan Dairy St. Petersburg/Tampa, FL | US St. Petersburg, FL Tampa, FL
+content: Jabil is hiring Automation Engineering Manager - Bryan Dairy St. Petersburg/Tampa, FL | US St. Petersburg, FL Tampa, FL
+url: https://echojobs.io/job/jabil-automation-engineering-manager-bryan-dairy-st-petersburg-tampa-fl-s07lk?utm_source=oreddit&amp;utm_medium=CodingJobs&amp;utm_campaign=software-engineer-jobs
+
+[2] confidence=0.9369 | date=2019-04-30 | subreddit=r/u_dipk123
+title: Global (United States, European Union and China) Automated Dairy Management Systems Market Research Report 2019-2025
+content: Global (United States, European Union and China) Automated Dairy Management Systems Market Research Report 2019-2025
+url: https://www.algororeports.com/sample-request/automated-dairy-management-systems-market-analysis-report-one-2885291?utm_source=prsync&amp;utm_medium=Snehal
+
+[3] confidence=0.9264 | date=2025-03-04 | subreddit=r/meridairy
+title: How to Set Timer and Frequency in Essae MA 815 BS Digital Stirrer for Accurate Milk Testing Digital Stirrer Timer and Frequency Setting Guide for Essae MA 815 BS, Essae Stirrer Configuration, Essae MA 815 BS Setup , Milk Collection Automation,Timer Setting Essae Stirrer, Dairy Equipment Setup
+content: How to Set Timer and Frequency in Essae MA 815 BS Digital Stirrer for Accurate Milk Testing Digital Stirrer Timer and Frequency Setting Guide for Essae MA 815 BS, Essae Stirrer Configuration, Essae MA 815 BS Setup , Milk Collection Automation,Timer Setting Ess...
+url: https://youtu.be/ZVKoDap4iKk?si=F3oam76qcPk8Gb20
+
+[4] confidence=0.9254 | date=2024-06-22 | subreddit=r/hypeurls
+title: Daily Automated Testing for Milk-V Duo S RISC-V SBC (IKEA Tretakt, Apache NuttX)
+content: Daily Automated Testing for Milk-V Duo S RISC-V SBC (IKEA Tretakt, Apache NuttX)
+url: https://lupyuen.codeberg.page/articles/sg2000a.html
+
+[5] confidence=0.9114 | date=2022-02-23 | subreddit=r/CultFSInvestorClub
+title: CULT Food Science Completes Seed Investment into Precision Fermentation Dairy Company De Novo Dairy
+content: CULT Food Science Completes Seed Investment into Precision Fermentation Dairy Company De Novo Dairy
+url: https://www.marketscreener.com/quote/stock/CULT-FOOD-SCIENCE-CORP-131860807/news/CULT-Food-Science-Completes-Seed-Investment-into-Precision-Fermentation-Dairy-Company-De-Novo-Dairy-39554738/
+
+[6] confidence=0.9072 | date=2025-06-30 | subreddit=r/OpenAI
+title: Anthropic Had Claude Run an Actual Store for a Month - Here's What Happened
+content: Anthropic just published results from "Project Vend" - an experiment where they let Claude Sonnet 3.7 autonomously run a small automated store in their San Francisco office for about a month.  **The Setup:**  * Claude ("Claudius") managed everything: inventory...
+url: https://www.reddit.com/r/OpenAI/comments/1lnzg0d/anthropic_had_claude_run_an_actual_store_for_a/
+
+[7] confidence=0.9070 | date=2025-12-10 | subreddit=r/TransitIndia
+title: Bengaluru Namma Metro's new train for pink line by BEML
+content: [News-Source](https://www.moneycontrol.com/news/india/bengaluru-metro-s-pink-line-to-start-with-5-driverless-trains-by-june-2026-13719473.html)      Bengaluru Metro’s 7.5-km elevated section of Pink Line (Kalena Agrahara-Tavarekere) will begin operations with ...
+url: https://i.redd.it/eds4hbw3rd6g1.png
+
+[8] confidence=0.9067 | date=2019-09-11 | subreddit=r/news
+title: Precision Livestock Farming Technology for Remote Monitoring of Pig Welfare and Health: Part 1 - Michigan State University
+content: Precision Livestock Farming Technology for Remote Monitoring of Pig Welfare and Health: Part 1 - Michigan State University <a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxPaV9RcXlRN3ZFaXJjMXhoNmVuRGVZMzA3dnZFazkyZ0hIOUFuTTg0LVdOSVVaaVdpX2NZWHk1eXp...
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPaV9RcXlRN3ZFaXJjMXhoNmVuRGVZMzA3dnZFazkyZ0hIOUFuTTg0LVdOSVVaaVdpX2NZWHk1eXp0bUNlSTlyaUVHT0lGdTJycndWZFRHbDNMZHZnU3EzODRXUnpDak5ndVNrZlc5QXFHTzl6Yjl0QVNpR0Nybk50N3diOEJMV05WNWhiRFdRd2ctMFI0WWlmY0dUVDd4c216YzhVT1Q1cVpDS0dvbzduVU9sUFd0Tjg?oc=5

@@ -1,0 +1,57 @@
+========================================================================
+SENTIMENT MODEL COMPARISON (LOGISTIC vs ROBERTA vs VADER)
+========================================================================
+Logistic rows: 2684
+RoBERTa rows : 2684
+VADER rows   : 2684
+
+DISTRIBUTION
+------------------------------------------------------------------------
+positive | Logistic: 1522 ( 56.71%) | RoBERTa:  545 ( 20.31%) | VADER: 1629 ( 60.69%)
+negative | Logistic:  803 ( 29.92%) | RoBERTa:  450 ( 16.77%) | VADER:  453 ( 16.88%)
+neutral  | Logistic:  359 ( 13.38%) | RoBERTa: 1689 ( 62.93%) | VADER:  602 ( 22.43%)
+
+PAIRWISE AGREEMENT: logistic_vs_roberta
+------------------------------------------------------------------------
+Compared rows : 2684
+Agreement     : 707 (26.34%)
+TOP LABEL TRANSITIONS
+positive->neutral   : 1029
+negative->neutral   : 466
+positive->positive  : 328
+neutral->neutral    : 194
+negative->negative  : 185
+positive->negative  : 165
+negative->positive  : 152
+neutral->negative   : 100
+neutral->positive   : 65
+
+PAIRWISE AGREEMENT: logistic_vs_vader
+------------------------------------------------------------------------
+Compared rows : 2684
+Agreement     : 1157 (43.11%)
+TOP LABEL TRANSITIONS
+positive->positive  : 928
+negative->positive  : 494
+positive->neutral   : 400
+neutral->positive   : 207
+positive->negative  : 194
+negative->negative  : 168
+negative->neutral   : 141
+neutral->negative   : 91
+neutral->neutral    : 61
+
+PAIRWISE AGREEMENT: roberta_vs_vader
+------------------------------------------------------------------------
+Compared rows : 2684
+Agreement     : 1241 (46.24%)
+TOP LABEL TRANSITIONS
+neutral->positive   : 967
+neutral->neutral    : 521
+positive->positive  : 487
+negative->negative  : 233
+neutral->negative   : 201
+negative->positive  : 175
+negative->neutral   : 42
+positive->neutral   : 39
+positive->negative  : 19

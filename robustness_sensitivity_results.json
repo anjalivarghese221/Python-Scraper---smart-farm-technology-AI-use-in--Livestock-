@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "dataset": "classified_sentiment_data_clean_expanded.json",
+    "analysis_date": "2026-04-22T14:43:28.108030",
+    "alpha": 0.05,
+    "base_cutoff": "2025-07-01"
+  },
+  "time_window_sensitivity": {
+    "base": {
+      "cutoff": "2025-07-01",
+      "n_before": 1444,
+      "n_after": 1191,
+      "mean_before": 0.2513850415512465,
+      "mean_after": 0.3602015113350126,
+      "test_used": "Mann-Whitney U (two-sided)",
+      "stat_label": "U",
+      "stat": 803175.0,
+      "p_value": 0.000889279625475097,
+      "cohens_d_after_minus_before": 0.12301644721479052,
+      "ci_95_after_minus_before": [
+        0.0410666855216273,
+        0.17656625404590487
+      ],
+      "decision": "Reject H0"
+    },
+    "minus_7_days": {
+      "cutoff": "2025-06-24",
+      "n_before": 1409,
+      "n_after": 1226,
+      "mean_before": 0.2526614620298084,
+      "mean_after": 0.3556280587275693,
+      "test_used": "Mann-Whitney U (two-sided)",
+      "stat_label": "U",
+      "stat": 809525.0,
+      "p_value": 0.001535643220223891,
+      "cohens_d_after_minus_before": 0.1163812267214492,
+      "ci_95_after_minus_before": [
+        0.03530122895069904,
+        0.17063196444482281
+      ],
+      "decision": "Reject H0"
+    },
+    "plus_7_days": {
+      "cutoff": "2025-07-08",
+      "n_before": 1473,
+      "n_after": 1162,
+      "mean_before": 0.25526137135098437,
+      "mean_after": 0.35800344234079173,
+      "test_used": "Mann-Whitney U (two-sided)",
+      "stat_label": "U",
+      "stat": 802185.0,
+      "p_value": 0.0016364213485768303,
+      "cohens_d_after_minus_before": 0.1161248124464031,
+      "ci_95_after_minus_before": [
+        0.034826793091655206,
+        0.17065734888795953
+      ],
+      "decision": "Reject H0"
+    }
+  },
+  "exclude_top_5pct_volume_days": {
+    "n_original": 2635,
+    "n_reduced": 2063,
+    "n_removed": 572,
+    "threshold_posts_per_day": 7.0,
+    "result": {
+      "cutoff": "2025-07-01",
+      "n_before": 1393,
+      "n_after": 670,
+      "mean_before": 0.2548456568557071,
+      "mean_after": 0.3044776119402985,
+      "test_used": "Mann-Whitney U (two-sided)",
+      "stat_label": "U",
+      "stat": 452001.0,
+      "p_value": 0.19230071698782092,
+      "cohens_d_after_minus_before": 0.055699779098029124,
+      "ci_95_after_minus_before": [
+        -0.032500636478009076,
+        0.13176454664719187
+      ],
+      "decision": "Fail to reject H0"
+    }
+  },
+  "subsampling_test": {
+    "runs": 100,
+    "sample_fraction": 0.8,
+    "median_p_value": 0.0026912464108963426,
+    "significant_rate_p_lt_0_05": 0.96,
+    "median_cohens_d": 0.12443949480334272
+  },
+  "multiple_testing_correction": [
+    {
+      "test": "base_cutoff",
+      "p_raw": 0.000889279625475097,
+      "p_bonferroni": 0.003557118501900388,
+      "p_fdr_bh": 0.002181895131435774,
+      "significant_bonferroni": true,
+      "significant_fdr": true
+    },
+    {
+      "test": "cutoff_minus_7d",
+      "p_raw": 0.001535643220223891,
+      "p_bonferroni": 0.006142572880895564,
+      "p_fdr_bh": 0.002181895131435774,
+      "significant_bonferroni": true,
+      "significant_fdr": true
+    },
+    {
+      "test": "cutoff_plus_7d",
+      "p_raw": 0.0016364213485768303,
+      "p_bonferroni": 0.006545685394307321,
+      "p_fdr_bh": 0.002181895131435774,
+      "significant_bonferroni": true,
+      "significant_fdr": true
+    },
+    {
+      "test": "exclude_top_5pct_volume_days",
+      "p_raw": 0.19230071698782092,
+      "p_bonferroni": 0.7692028679512837,
+      "p_fdr_bh": 0.19230071698782092,
+      "significant_bonferroni": false,
+      "significant_fdr": false
+    }
+  ]
+}

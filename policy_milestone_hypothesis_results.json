@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "dataset": "classified_sentiment_data_clean_expanded.json",
+    "analysis_date": "2026-04-22T14:43:23.808618",
+    "milestone_date": "2024-01-01",
+    "alpha": 0.05,
+    "two_tailed": true
+  },
+  "hypotheses": {
+    "H0": "No significant difference in mean sentiment scores before vs after 2024 milestone (mu_before = mu_after)",
+    "H1": "Significant difference in mean sentiment scores before vs after 2024 milestone (mu_before != mu_after)"
+  },
+  "group_stats": {
+    "before": {
+      "n": 681,
+      "mean_sentiment": 0.19530102790014683,
+      "std": 0.8919781084834133
+    },
+    "after": {
+      "n": 1954,
+      "mean_sentiment": 0.33725690890481064,
+      "std": 0.881263028187292
+    },
+    "mean_difference_after_minus_before": 0.1419558810046638,
+    "ci_95_mean_difference": [
+      0.0643203836063698,
+      0.2195913784029578
+    ]
+  },
+  "normality_shapiro_wilk": {
+    "before": {
+      "W": 0.718708812496269,
+      "p": 2.8597004628794016e-32,
+      "n_used": 681
+    },
+    "after": {
+      "W": 0.6625139111554305,
+      "p": 2.560549391287681e-52,
+      "n_used": 1954
+    },
+    "both_normal": false
+  },
+  "inferential_test": {
+    "test_used": "Mann-Whitney U (two-sided)",
+    "test_statistic_label": "U",
+    "test_statistic": 606480.0,
+    "p_value": 8.85212388469066e-05,
+    "cohens_d": 0.16057581039051533,
+    "decision_alpha_0_05": "Reject H0"
+  }
+}

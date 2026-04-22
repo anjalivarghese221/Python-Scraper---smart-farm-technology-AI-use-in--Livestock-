@@ -1,0 +1,161 @@
+count 55
+
+[1] conf=0.8861 date=2024-06-29 sub=r/Law_and_Politics
+title: MAGA, got a minute?
+url: https://www.reddit.com/r/Law_and_Politics/comments/1dr982t/maga_got_a_minute/
+
+[2] conf=0.8826 date=2025-11-23 sub=r/complaints
+title: My complaint is about America being destabilized
+url: https://www.reddit.com/r/complaints/comments/1p54hk4/my_complaint_is_about_america_being_destabilized/
+
+[3] conf=0.8746 date=2026-02-13 sub=r/NorthCarolina
+title: Breaking News: The EPA Just Repealed the Endangerment Finding. Here's What North Carolina Loses.
+url: https://www.reddit.com/r/NorthCarolina/comments/1r3rrzu/breaking_news_the_epa_just_repealed_the/
+
+[4] conf=0.8651 date=2025-10-29 sub=r/amazonemployees
+title: Andy resurfaces... to boast about destroying farms to build AI data centers!
+url: https://www.reddit.com/r/amazonemployees/comments/1ojixpa/andy_resurfaces_to_boast_about_destroying_farms/nm3krgc/
+
+[5] conf=0.8538 date=2024-04-03 sub=r/dairy
+title: Found dairy cause joint pain
+url: https://www.reddit.com/r/dairy/comments/1bvaxdq/found_dairy_cause_joint_pain/
+
+[6] conf=0.8527 date=2026-02-04 sub=r/vegan
+title: whats up with anti-vegan leftists?
+url: https://www.reddit.com/r/vegan/comments/1qvzxr2/whats_up_with_antivegan_leftists/
+
+[7] conf=0.8326 date=2025-12-15 sub=r/3Dprinting
+title: PSA: home Air/VOC monitors suck for 3D printing. They won’t keep you safe, and here’s why.
+url: https://www.reddit.com/r/3Dprinting/comments/1pnm3qk/psa_home_airvoc_monitors_suck_for_3d_printing/
+
+[8] conf=0.8241 date=2019-07-19 sub=r/collapse
+title: It is unfair. We will all die unhappy because 95% of the population is not aware of the collapse.
+url: https://www.reddit.com/r/collapse/comments/cf7msp/it_is_unfair_we_will_all_die_unhappy_because_95/
+
+[9] conf=0.8029 date=2018-03-06 sub=r/legaladvice
+title: [Kansas: Update] Drone is harrassing livestock. What options do we have?
+url: https://www.reddit.com/r/legaladvice/comments/82hra2/kansas_update_drone_is_harrassing_livestock_what/
+
+[10] conf=0.7948 date=2026-01-12 sub=r/RealEstateCanada
+title: [HOT TAKE] People who bought overpriced Homes at peak aren’t ready to accept their mistakes!
+url: https://www.reddit.com/r/RealEstateCanada/comments/1qaz94a/hot_take_people_who_bought_overpriced_homes_at/
+
+[11] conf=0.7767 date=2024-04-08 sub=r/Cattle
+title: Cattle Tracking Provision in Omnibus Bill Will Limit Beef Supply Even Further
+url: https://www.reddit.com/r/Cattle/comments/1byvwcm/cattle_tracking_provision_in_omnibus_bill_will/kymzzti/
+
+[12] conf=0.7734 date=2021-03-12 sub=r/mongolia
+title: Climate change has impacted many countries in a big way. In Mongolia, where half of the population rely on animal husbandry for their livelihood, droughts, sandstorms and heavy snow have left livestock with little grass to feed on. (Photos by Da Ai TV)
+url: https://www.reddit.com/gallery/m3dbd0
+
+[13] conf=0.7709 date=2025-08-09 sub=r/chicago
+title: Reminder that you should be pissed about ComEd rates skyrocketing
+url: https://www.reddit.com/r/chicago/comments/1mlqotr/reminder_that_you_should_be_pissed_about_comed/
+
+[14] conf=0.7626 date=2025-04-21 sub=r/NorthCarolina
+title: The Trump Administration Let Weather Monitoring Centers Shut Down. The Impact Is Huge.
+url: https://www.reddit.com/r/NorthCarolina/comments/1k4wazq/the_trump_administration_let_weather_monitoring/
+
+[15] conf=0.7596 date=2025-02-20 sub=r/economicCollapse
+title: It all unravels in 45-60 days
+url: https://www.reddit.com/r/economicCollapse/comments/1itv4l0/it_all_unravels_in_4560_days/
+
+[16] conf=0.7512 date=2024-06-08 sub=r/H5N1_AvianFlu
+title: I’m Now Worried About Bird Flu—and You Probably Should Be Too: If it feels like we’ve learned nothing from COVID-19, it’s because … well, we haven’t.
+url: https://www.reddit.com/r/H5N1_AvianFlu/comments/1dbc9fi/im_now_worried_about_bird_fluand_you_probably/
+
+[17] conf=0.7432 date=2024-12-04 sub=r/collapse
+title: Yes, Climate Change Is Probably Going To Kill You
+url: https://www.reddit.com/r/collapse/comments/1h6ajjp/yes_climate_change_is_probably_going_to_kill_you/
+
+[18] conf=0.7382 date=2025-09-20 sub=r/chicago
+title: Visited MSI today and left feeling sad.
+url: https://www.reddit.com/r/chicago/comments/1nmejly/visited_msi_today_and_left_feeling_sad/
+
+[19] conf=0.7313 date=2025-03-05 sub=r/economicCollapse
+title: The US economy is already dead... it just doesn't know it yet.
+url: https://www.reddit.com/r/economicCollapse/comments/1j442u4/the_us_economy_is_already_dead_it_just_doesnt/
+
+[20] conf=0.7244 date=2024-06-10 sub=r/legaladvice
+title: Neighbor just got a massive drone &amp; it’s freaking out our livestock
+url: https://www.reddit.com/r/legaladvice/comments/1dcuh5d/neighbor_just_got_a_massive_drone_its_freaking/
+
+[21] conf=0.7143 date=2025-10-29 sub=r/amazonemployees
+title: Andy resurfaces... to boast about destroying farms to build AI data centers!
+url: https://www.reddit.com/r/amazonemployees/comments/1ojixpa/andy_resurfaces_to_boast_about_destroying_farms/
+
+[22] conf=0.7119 date=2025-05-22 sub=r/Home
+title: State Farm offering free "smart home sensor" - pros/cons?
+url: https://www.reddit.com/r/Home/comments/1ksz79q/state_farm_offering_free_smart_home_sensor/mtqzhpc/
+
+[23] conf=0.7114 date=2022-05-18 sub=r/Homesteading
+title: Chickens. The evil gateway animal.
+url: https://www.reddit.com/r/Homesteading/comments/usttjj/chickens_the_evil_gateway_animal/
+
+[24] conf=0.6878 date=2025-10-20 sub=r/ghana
+title: Farm.io sensors
+url: https://www.reddit.com/r/ghana/comments/1oboi30/farmio_sensors/
+
+[25] conf=0.6811 date=2025-08-20 sub=r/india
+title: I come from a vegetarian family. Vegetarianism is nothing but a tool to segregate society.
+url: https://www.reddit.com/r/india/comments/1mvj1mb/i_come_from_a_vegetarian_family_vegetarianism_is/
+
+[26] conf=0.6735 date=2026-02-16 sub=r/reactivedogs
+title: Traumatized after a dog attack
+url: https://www.reddit.com/r/reactivedogs/comments/1r6gtxz/traumatized_after_a_dog_attack/
+
+[27] conf=0.6555 date=2024-10-04 sub=r/Futurology
+title: Will farming automation actually fix world hunger, or is it a temporary fix for a larger systemic problem?
+url: https://www.reddit.com/r/Futurology/comments/1fvy86o/will_farming_automation_actually_fix_world_hunger/lqajyy6/
+
+[28] conf=0.6501 date=2025-11-27 sub=r/Environmentalism
+title: What are your thoughts on the focus recently on the amount of water used for ai prompts, but still ignoring how much water animal agriculture requires?
+url: https://www.reddit.com/r/Environmentalism/comments/1p8al8y/what_are_your_thoughts_on_the_focus_recently_on/nr3uqd7/
+
+[29] conf=0.6488 date=2025-11-20 sub=r/Parasitology
+title: The current administration is trying to weaponize a parasitic fly (screwworm) for anti immigrant messaging and increasing beef prices, which doesn't align with the parasitology or basic facts (long write up)
+url: https://www.reddit.com/r/Parasitology/comments/1p2394s/the_current_administration_is_trying_to_weaponize/
+
+[30] conf=0.6159 date=2025-12-09 sub=r/Seattle
+title: Does anyone know why the first Link train from Federal Way every morning is limited to 25 mph until Angle Lake?
+url: https://www.reddit.com/r/Seattle/comments/1pirf9m/does_anyone_know_why_the_first_link_train_from/
+
+[31] conf=0.5989 date=2025-01-24 sub=r/Ranching
+title: Any Idea What Did This?
+url: https://www.reddit.com/gallery/1i991bj
+
+[32] conf=0.5940 date=2025-11-02 sub=r/AskReddit
+title: Do you think we'll ever live in a world with no work, construction and agriculture is done with robots, and all media is ai based to your choosing? Why? why not?
+url: https://www.reddit.com/r/AskReddit/comments/1omihwn/do_you_think_well_ever_live_in_a_world_with_no/
+
+[33] conf=0.5929 date=2025-06-28 sub=r/dairy
+title: What is when you get nauseous eating/drinking dairy on an empty stomach?
+url: https://www.reddit.com/r/dairy/comments/1lmsfg1/what_is_when_you_get_nauseous_eatingdrinking/
+
+[34] conf=0.5762 date=2025-05-19 sub=r/dairy
+title: How much diary
+url: https://www.reddit.com/r/dairy/comments/1kqcrr9/how_much_diary/
+
+[35] conf=0.5759 date=2025-10-18 sub=r/ArtificialInteligence
+title: Nvidia CEO told everyone to skip coding and learn AI. Then told everyone to skip coding and become plumbers.
+url: https://www.reddit.com/r/ArtificialInteligence/comments/1o9svah/nvidia_ceo_told_everyone_to_skip_coding_and_learn/
+
+[36] conf=0.5732 date=2025-06-09 sub=r/ClarksonsFarm
+title: I'm dreading next season
+url: https://www.reddit.com/r/ClarksonsFarm/comments/1l6zpau/im_dreading_next_season/
+
+[37] conf=0.5674 date=2023-12-27 sub=r/Homesteading
+title: We've noticed nature is weird this year. Are we in the opening scenes of a doomsday movie?
+url: https://www.reddit.com/r/Homesteading/comments/18sj3ro/weve_noticed_nature_is_weird_this_year_are_we_in/
+
+[38] conf=0.5624 date=2025-03-12 sub=r/economicCollapse
+title: Time for a firesale
+url: https://www.reddit.com/r/economicCollapse/comments/1j9osef/time_for_a_firesale/
+
+[39] conf=0.5564 date=2025-11-28 sub=r/cscareerquestions
+title: Giant tech companies cut approx 180,000 jobs as AI reshapes the tech industry
+url: https://www.reddit.com/r/cscareerquestions/comments/1p94il2/giant_tech_companies_cut_approx_180000_jobs_as_ai/
+
+[40] conf=0.5484 date=2025-01-07 sub=r/learnprogramming
+title: I gave up on programing..
+url: https://www.reddit.com/r/learnprogramming/comments/1hvu83b/i_gave_up_on_programing/

@@ -1,0 +1,76 @@
+count=37
+
+[1] conf=0.8592 | date=2025-07-06 | sub=r/goodnews
+title: Petition to ban the daily "Trump voters are changing their mind" Posts
+content: Every day someone shares an article with a headline like "Maga is starting to question Trump" or something along those lines.  This is not true. These are trash articles that use a single tweet as a source. Just because ...
+url: https://www.reddit.com/r/goodnews/comments/1lt5j9h/petition_to_ban_the_daily_trump_voters_are/
+
+[2] conf=0.8527 | date=2026-02-04 | sub=r/vegan
+title: whats up with anti-vegan leftists?
+content: genuinely, because i cant wrap my head around it, what is the deal with anti-vegan leftists? under any videos of vegan activism online, i'll see so many self-proclaimed leftists with bios like (and im quoting right now):...
+url: https://www.reddit.com/r/vegan/comments/1qvzxr2/whats_up_with_antivegan_leftists/
+
+[3] conf=0.8326 | date=2025-12-15 | sub=r/3Dprinting
+title: PSA: home Air/VOC monitors suck for 3D printing. They won’t keep you safe, and here’s why.
+content: There’s recent posts with home VOC / Particle readings, but I’m concerned they’re not accurate with 3D printers and here’s why.  I’ll go into details but home monitors don’t catch most particles small enough, and don’t r...
+url: https://www.reddit.com/r/3Dprinting/comments/1pnm3qk/psa_home_airvoc_monitors_suck_for_3d_printing/
+
+[4] conf=0.8241 | date=2019-07-19 | sub=r/collapse
+title: It is unfair. We will all die unhappy because 95% of the population is not aware of the collapse.
+content: Inspired by this beautiful [topic by /u/Sabina090705]( https://www.reddit.com/r/collapse/comments/ceum0y/i_flaired_this_post_coping_because_to_me_its_not/) I decided to pitch in my 2 cents.  I do not live in the United S...
+url: https://www.reddit.com/r/collapse/comments/cf7msp/it_is_unfair_we_will_all_die_unhappy_because_95/
+
+[5] conf=0.7965 | date=2025-02-02 | sub=r/FoodLosAngeles
+title: Niku X and Chubby Group: Misleading Advertising, Suspect Yelp Reviews, and the Illusion of a Wagyu Empire.
+content: I recently visited Niku X, a high-end Japanese steakhouse in Los Angeles, and left with serious concerns about the accuracy of its sourcing claims. What began as a dining experience led to an in-depth examination of misl...
+url: https://www.reddit.com/r/FoodLosAngeles/comments/1ifwf86/niku_x_and_chubby_group_misleading_advertising/
+
+[6] conf=0.7734 | date=2021-03-12 | sub=r/mongolia
+title: Climate change has impacted many countries in a big way. In Mongolia, where half of the population rely on animal husbandry for their livelihood, droughts, sandstorms and heavy snow have left livestock with little grass to feed on. (Photos by Da Ai TV)
+content: Climate change has impacted many countries in a big way. In Mongolia, where half of the population rely on animal husbandry for their livelihood, droughts, sandstorms and heavy snow have left livestock with little grass ...
+url: https://www.reddit.com/gallery/m3dbd0
+
+[7] conf=0.7687 | date=2020-10-20 | sub=r/RaftTheGame
+title: How to mitigate livestock AI/glitchiness?
+content: Just lost my first goat because it got stuck behind the watering machine and starved. I read horror stories of other rafters losing animals randomly as well. Fixed this issue by increasing the size of my pen.  My animal ...
+url: https://www.reddit.com/r/RaftTheGame/comments/jf1mi0/how_to_mitigate_livestock_aiglitchiness/
+
+[8] conf=0.7656 | date=2026-01-07 | sub=r/pluribustv
+title: The Signal isn't a religion. It’s a "safety protocol" from a dead civilization that’s glitching out.
+content: I’ve been trying to wrap my head around the Hive values. On the surface, the "do no harm" stuff sounds noble, almost Hippocratic. But when you actually play it out? It’s insane.  If you strictly follow the logic -- speci...
+url: https://www.reddit.com/r/pluribustv/comments/1q6iz24/the_signal_isnt_a_religion_its_a_safety_protocol/
+
+[9] conf=0.7552 | date=2025-12-08 | sub=r/UberEATS
+title: I got scammed
+content: So context, around a week ago I ordered Dairy Queen with my gf. We decided to split a large royal oreo blizzard, (came out to a ridiculous $18 after delivery fees) however what ended up coming was a small blizzard of a d...
+url: https://www.reddit.com/r/UberEATS/comments/1ph4xp7/i_got_scammed/
+
+[10] conf=0.7483 | date=2021-10-29 | sub=r/samharris
+title: I truly dread Zuckerberg's "metaverse". If you thought Facebook was damaging to society, just wait for the damage Meta is going to do.
+content: Near the end of David Fincher and Aaron Sorkin's 2010 film *The Social Network*, Justin Timberlake's Sean Parker character maniacally says, "We lived on farms, then we lived in cities, and now we're going to live on the ...
+url: https://www.reddit.com/r/samharris/comments/qidqgz/i_truly_dread_zuckerbergs_metaverse_if_you/
+
+[11] conf=0.7450 | date=2026-01-18 | sub=r/ChatGPT
+title: I asked ChatGPT why reddit users hate AI, and DAMN it went all out 💀
+content: Alright, I’ll be straight with you.  A **large chunk of Reddit users hate AI not because of careful reasoning, but because of what AI represents to** ***them***. It hits several psychological and social nerves at once.  ...
+url: https://www.reddit.com/r/ChatGPT/comments/1qgg3ed/i_asked_chatgpt_why_reddit_users_hate_ai_and_damn/
+
+[12] conf=0.7364 | date=2025-11-10 | sub=r/ReefTank
+title: Woke up to my worst nightmare.
+content: Please help!!! I had this nano 5g tank running for 6 months, besides a GHA outbreak at month 3 everything has been running smoothly. My corals &amp; macro algae were growing at a nice pace, until yesterday. No fish, only...
+url: https://www.reddit.com/gallery/1otek3c
+
+[13] conf=0.7313 | date=2025-03-05 | sub=r/economicCollapse
+title: The US economy is already dead... it just doesn't know it yet.
+content: Someone recommended this sub for a re-posting of my little prediction of doom. Enjoy, so far as you are able:  **To be specific: The US will go into acute stagflation inside of 4 months, which will then transition to a d...
+url: https://www.reddit.com/r/economicCollapse/comments/1j442u4/the_us_economy_is_already_dead_it_just_doesnt/
+
+[14] conf=0.7203 | date=2025-02-28 | sub=r/Ohio
+title: I contacted Bernie Moreno's office about the MEDICAID CUTS
+content: I contacted Bernie Moreno's office on FB Messenger (because  he is not answering phones) about the Medicaid expansion cuts, and all I got back was barely a sentence:  **"We will take the waste, fraud, and abuse out of Me...
+url: https://www.reddit.com/r/Ohio/comments/1j08850/i_contacted_bernie_morenos_office_about_the/
+
+[15] conf=0.7119 | date=2025-05-22 | sub=r/Home
+title: State Farm offering free "smart home sensor" - pros/cons?
+content: State Farm uses this to deny coverage if they identify electrical issues which you decline to fix.
+url: https://www.reddit.com/r/Home/comments/1ksz79q/state_farm_offering_free_smart_home_sensor/mtqzhpc/

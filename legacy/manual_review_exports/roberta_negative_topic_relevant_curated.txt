@@ -1,0 +1,29 @@
+RoBERTa NEGATIVE — topic-relevant Reddit posts (curated)
+
+1) conf=0.8029 | r/legaladvice | 2018-03-06
+Title: [Kansas: Update] Drone is harrassing livestock. What options do we have?
+URL: https://www.reddit.com/r/legaladvice/comments/82hra2/kansas_update_drone_is_harrassing_livestock_what/
+
+2) conf=0.7244 | r/legaladvice | 2024-06-10
+Title: Neighbor just got a massive drone & it’s freaking out our livestock
+URL: https://www.reddit.com/r/legaladvice/comments/1dcuh5d/neighbor_just_got_a_massive_drone_its_freaking/
+
+3) conf=0.6555 | r/Futurology | 2024-10-04
+Title: Will farming automation actually fix world hunger, or is it a temporary fix for a larger systemic problem?
+URL: https://www.reddit.com/r/Futurology/comments/1fvy86o/will_farming_automation_actually_fix_world_hunger/lqajyy6/
+
+4) conf=0.6356 | r/aiwars | 2026-02-04
+Title: AI and agriculture(and horses)
+URL: https://www.reddit.com/r/aiwars/comments/1qw80nw/ai_and_agricultureand_horses/
+
+5) conf=0.5479 | r/climatechange | 2025-04-14
+Title: HYPOTHETICAL: If Precision Fermentation ACTUALLY bankrupts livestock grazing and dairy ...
+URL: https://www.reddit.com/r/climatechange/comments/1jzfw88/hypothetical_if_precision_fermentation_actually/
+
+6) conf=0.8845 | r/ukraine | 2025-10-03
+Title: A Russian Shahed drone strike hit a pig farm ...
+URL: https://v.redd.it/6ojt7fi5xxsf1
+
+Notes:
+- All entries are Reddit-sourced and labeled NEGATIVE by RoBERTa in classified_sentiment_data_roberta.json.
+- Curated for AI/tech + livestock/agriculture topical overlap.
