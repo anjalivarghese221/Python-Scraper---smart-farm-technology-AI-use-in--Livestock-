@@ -5,12 +5,13 @@ Reddit sentiment analysis for smart farming technology and AI use in livestock m
 ## Overview
 
 **Peer-Reviewed Research Pipeline:**
-1. **Data Collection** - Reddit posts from 2018+ (2,811 posts from 1,113 subreddits)
-2. **Preprocessing** - Phase 2 compliant cleaning (86.4% retention)
-3. **Sentiment Analysis** - 3-class classification (positive/negative/neutral)
+1. **Data Collection** - Reddit posts from 2018+ (Reddit-only workflow)
+2. **Preprocessing** - Phase 2 compliant cleaning + attrition reporting
+3. **Sentiment Analysis** - 3-class classification (positive/negative/neutral) with multiple model options
 4. **Network Analysis** - 4 agriculture-focused topic communities
 5. **Temporal Analysis** - Trend detection and spike identification
 6. **Statistical Analysis** - Odds ratios and probability distributions
+7. **Model Comparison** - Logistic vs RoBERTa vs VADER agreement and label shifts
 
 ## Features
 
@@ -30,9 +31,10 @@ Reddit sentiment analysis for smart farming technology and AI use in livestock m
 - 86.4% retention rate (2,811 final posts)
 
 ### Sentiment Classification
-- Logistic Regression with TF-IDF (150 training examples)
-- 48.1% positive, 35.6% negative, 16.4% neutral
-- Odds ratio: 1.35:1 (positive:negative)
+- Logistic Regression with TF-IDF
+- RoBERTa transformer classifier
+- VADER lexicon-based classifier
+- Pairwise agreement reporting across models
 
 ### Topic Modeling
 - 4 agriculture-focused communities (no mixed topics)
@@ -53,7 +55,18 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-**Complete Analysis Pipeline:**
+**Full baseline pipeline (logistic):**
+```bash
+python3 run_full_pipeline.py
+```
+
+**Full alternative pipelines:**
+```bash
+python3 run_full_pipeline_roberta.py
+python3 run_full_pipeline_vader.py
+```
+
+**Step-by-step pipeline:**
 ```bash
 # Step 1: Data Collection (Reddit-only, multi-query strategies)
 python3 simple_collector.py
@@ -69,6 +82,9 @@ python3 sentiment_classifier.py
 python3 sentiment_classifier_roberta.py
 # - VADER classifier output: classified_sentiment_data_vader.json
 python3 sentiment_classifier_vader.py
+
+# Optional: compare model outputs
+python3 compare_sentiment_models.py
 
 # Step 4: Phase 1 quality checks
 # - keywords by positive/negative/neutral labels
@@ -99,9 +115,8 @@ python3 regional_hypothesis_proxy.py
 # Step 12: Robustness & Sensitivity Checks
 python3 robustness_sensitivity_analysis.py
 
-# One-command variant pipelines:
-python3 run_full_pipeline_roberta.py
-python3 run_full_pipeline_vader.py
+# Optional: generate model-specific temporal figures (logistic/roberta/vader)
+python3 generate_model_temporal_visualizations.py
 ```
 
 ## Project Structure
@@ -110,10 +125,17 @@ python3 run_full_pipeline_vader.py
 ├── simple_collector.py           # Data collection (2018+ Reddit API)
 ├── enhanced_preprocessing.py     # Phase 2 cleaning pipeline
 ├── sentiment_classifier.py       # 3-class sentiment classification
+├── sentiment_classifier_roberta.py
+├── sentiment_classifier_vader.py
+├── compare_sentiment_models.py   # Logistic vs RoBERTa vs VADER comparison
 ├── phase1_quality_check.py       # Keyword extraction + manual review sample (n=20)
 ├── network_analysis.py           # Community detection (4 topics)
 ├── temporal_analysis.py          # Trend and spike detection
 ├── network_visualizer.py         # Generate all visualizations
+├── run_full_pipeline.py          # End-to-end logistic pipeline
+├── run_full_pipeline_roberta.py  # End-to-end RoBERTa pipeline
+├── run_full_pipeline_vader.py    # End-to-end VADER pipeline
+├── generate_model_temporal_visualizations.py
 ├── generate_statistics.py        # Final statistics report
 ├── requirements.txt              # Dependencies
 ├── PHASE1_DATA_EXTRACTION_DOCUMENTATION.md
@@ -129,8 +151,9 @@ python3 run_full_pipeline_vader.py
 **Data:**
 - `enhanced_scraped_data.json` - Collected posts (2018+)
 - `preprocessed_data.json` - Cleaned text (Phase 2)
-- `sentiment_training_data.json` - 150 labeled training examples
-- `classified_sentiment_data.json` - Final analyzed dataset (2,811 posts)
+- `classified_sentiment_data.json` - Logistic classified dataset
+- `classified_sentiment_data_roberta.json` - RoBERTa classified dataset
+- `classified_sentiment_data_vader.json` - VADER classified dataset
 - `temporal_analysis_results.json` - Monthly/quarterly trends
 - `network_analysis_results.json` - 4 communities with sentiment
 - `final_statistics.json` - Comprehensive statistics
@@ -139,19 +162,23 @@ python3 run_full_pipeline_vader.py
 - `sentiment_model.pkl` - Trained Logistic Regression classifier
 - `vectorizer.pkl` - TF-IDF vectorizer
 - `keyword_network.pkl` - NetworkX graph object
-- `vectorizer.pkl` - TF-IDF vectorizer
-- `keyword_network.pkl` - Network graph
+
+**Comparison:**
+- `sentiment_model_comparison.json` - Structured comparison metrics across available models
+- `sentiment_model_comparison.txt` - Human-readable comparison report
 
 **Reports:**
-- `statistics.json` - Word frequencies
 - `network_analysis_results.json` - Network statistics
 - Text reports auto-generated by each step
 
 **Visualizations:**
-- `visualizations/full_network.png` - Complete keyword network
-- `visualizations/communities.png` - Topic communities
+- `visualizations/network_full.png` - Complete keyword network
+- `visualizations/network_communities.png` - Topic communities
 - `visualizations/community_*.png` - Individual communities
 - `visualizations/sentiment_overview.png` - 4-panel analysis
+- `visualizations/logistic/` - Snapshot visualizations for logistic runs
+- `visualizations/roberta/` - Snapshot visualizations for RoBERTa runs
+- `visualizations/vader/` - Snapshot visualizations for VADER runs
 
 ##  Requirements
 
