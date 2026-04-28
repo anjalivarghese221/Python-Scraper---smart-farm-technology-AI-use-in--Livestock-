@@ -1,0 +1,142 @@
+======================================================================
+MODEL SIMILARITY STATISTICAL ANALYSIS
+Comparing: Logistic Regression (TF-IDF) vs RoBERTa vs VADER
+======================================================================
+
+INTERPRETATION GUIDE:
+----------------------------------------------------------------------
+• Cohen's Kappa: Measures agreement beyond chance (0-1 scale)
+  - 0.0-0.2: Slight agreement
+  - 0.2-0.4: Fair agreement
+  - 0.4-0.6: Moderate agreement
+  - 0.6-0.8: Substantial agreement
+  - 0.8-1.0: Almost perfect agreement
+
+• Pearson/Spearman Correlation: Relationship between predictions (-1 to +1)
+  - High positive: Models move together
+  - Near zero: Models operate independently
+
+• Matthews Correlation Coefficient: Balanced measure for multi-class
+  - Similar interpretation to Kappa
+
+• Confusion Matrix: Shows misclassification patterns
+
+======================================================================
+1. LOGISTIC REGRESSION (TF-IDF) vs RoBERTa
+======================================================================
+
+Sample Size: 2684 aligned posts
+
+AGREEMENT METRICS:
+  Exact Agreement: 26.34%
+  Cohen's Kappa: 0.0186
+  Matthews Corrcoef: 0.0252
+  Pearson r: 0.1173 (p=1.0980e-09)
+  Spearman ρ: 0.1213 (p=2.8701e-10)
+
+PER-CLASS AGREEMENT:
+  Negative: 803 posts, 23.04% agree
+  Neutral: 359 posts, 54.04% agree
+  Positive: 1522 posts, 21.55% agree
+
+CONFUSION MATRIX:
+                 Predicted RoBERTa
+                 Neg    Neu    Pos
+  Logistic Neg   185   466   152
+  Logistic Neu   100   194    65
+  Logistic Pos   165  1029   328
+
+CONFIDENCE ANALYSIS:
+  Logistic mean confidence: 0.3983
+  RoBERTa mean confidence: 0.7302
+
+  High-Confidence Agreement:
+    both_>=0.5: 60 posts, 23.33% agree
+    both_>=0.6: 2 posts, 50.00% agree
+
+
+======================================================================
+2. LOGISTIC REGRESSION (TF-IDF) vs VADER
+======================================================================
+
+Sample Size: 2684 aligned posts
+
+AGREEMENT METRICS:
+  Exact Agreement: 43.11%
+  Cohen's Kappa: 0.0111
+  Matthews Corrcoef: 0.0114
+  Pearson r: 0.0509 (p=8.3994e-03)
+  Spearman ρ: 0.0331 (p=8.6332e-02)
+
+PER-CLASS AGREEMENT:
+  Negative: 803 posts, 20.92% agree
+  Neutral: 359 posts, 16.99% agree
+  Positive: 1522 posts, 60.97% agree
+
+CONFUSION MATRIX:
+                 Predicted VADER
+                 Neg    Neu    Pos
+  Logistic Neg   168   141   494
+  Logistic Neu    91    61   207
+  Logistic Pos   194   400   928
+
+CONFIDENCE ANALYSIS:
+  Logistic mean confidence: 0.3983
+  VADER mean confidence: 0.5349
+
+  High-Confidence Agreement:
+    both_>=0.5: 36 posts, 77.78% agree
+
+
+======================================================================
+3. RoBERTa vs VADER
+======================================================================
+
+Sample Size: 2684 aligned posts
+
+AGREEMENT METRICS:
+  Exact Agreement: 46.24%
+  Cohen's Kappa: 0.2399
+  Matthews Corrcoef: 0.3121
+  Pearson r: 0.3886 (p=1.7908e-97)
+  Spearman ρ: 0.3674 (p=1.5398e-86)
+
+PER-CLASS AGREEMENT:
+  Negative: 450 posts, 51.78% agree
+  Neutral: 1689 posts, 30.85% agree
+  Positive: 545 posts, 89.36% agree
+
+CONFUSION MATRIX:
+                 Predicted VADER
+                 Neg    Neu    Pos
+  RoBERTa Neg    233    42   175
+  RoBERTa Neu    201   521   967
+  RoBERTa Pos     19    39   487
+
+CONFIDENCE ANALYSIS:
+  RoBERTa mean confidence: 0.7302
+  VADER mean confidence: 0.5349
+
+  High-Confidence Agreement:
+    both_>=0.5: 1434 posts, 38.42% agree
+    both_>=0.6: 1014 posts, 40.14% agree
+    both_>=0.7: 605 posts, 45.79% agree
+    both_>=0.8: 274 posts, 53.65% agree
+    both_>=0.9: 60 posts, 85.00% agree
+
+
+======================================================================
+KEY INSIGHTS
+======================================================================
+
+MODEL SIMILARITY INTERPRETATION:
+
+1. Strongest Agreement: RoBERTa vs VADER (κ=0.2399)
+2. Middle Agreement: Logistic vs RoBERTa (κ=0.0186)
+3. Lowest Agreement: Logistic vs VADER (κ=0.0111)
+
+RECOMMENDATIONS:
+• Model disagreement suggests each captures different aspects of sentiment
+• Use ensemble methods (voting/averaging) for more robust predictions
+• High-confidence predictions from all models provide highest reliability
+• Consider using model disagreement as a signal of uncertain/nuanced posts

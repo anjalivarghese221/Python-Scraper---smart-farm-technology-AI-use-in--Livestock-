@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "analysis_date": "2026-04-22",
+    "models": [
+      "Logistic Regression (TF-IDF)",
+      "RoBERTa (Transformer)",
+      "VADER (Lexicon)"
+    ],
+    "description": "Statistical similarity analysis comparing three sentiment classification models"
+  },
+  "pairwise_metrics": {
+    "logistic_vs_roberta": {
+      "sample_size": 2684,
+      "pair": "Logistic vs RoBERTa",
+      "exact_agreement_pct": 26.341281669150522,
+      "cohens_kappa": 0.01856911793129401,
+      "matthews_corrcoef": 0.025222273151778603,
+      "spearman_rho": 0.12131996839351068,
+      "spearman_p_value": 2.870053603469451e-10,
+      "pearson_r": 0.11728552979000023,
+      "pearson_p_value": 1.0980446791159923e-09,
+      "per_class_agreement": {
+        "negative": {
+          "count_in_a": 803,
+          "agreement_pct": 23.038605230386054
+        },
+        "neutral": {
+          "count_in_a": 359,
+          "agreement_pct": 54.038997214484674
+        },
+        "positive": {
+          "count_in_a": 1522,
+          "agreement_pct": 21.55059132720105
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "matrix": [
+          [
+            185,
+            466,
+            152
+          ],
+          [
+            100,
+            194,
+            65
+          ],
+          [
+            165,
+            1029,
+            328
+          ]
+        ]
+      }
+    },
+    "logistic_vs_vader": {
+      "sample_size": 2684,
+      "pair": "Logistic vs VADER",
+      "exact_agreement_pct": 43.10730253353204,
+      "cohens_kappa": 0.01114040998967103,
+      "matthews_corrcoef": 0.01140746857213849,
+      "spearman_rho": 0.03311118822408616,
+      "spearman_p_value": 0.08633173277692335,
+      "pearson_r": 0.05086344441511194,
+      "pearson_p_value": 0.008399411992641463,
+      "per_class_agreement": {
+        "negative": {
+          "count_in_a": 803,
+          "agreement_pct": 20.921544209215444
+        },
+        "neutral": {
+          "count_in_a": 359,
+          "agreement_pct": 16.991643454038996
+        },
+        "positive": {
+          "count_in_a": 1522,
+          "agreement_pct": 60.97240473061761
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "matrix": [
+          [
+            168,
+            141,
+            494
+          ],
+          [
+            91,
+            61,
+            207
+          ],
+          [
+            194,
+            400,
+            928
+          ]
+        ]
+      }
+    },
+    "roberta_vs_vader": {
+      "sample_size": 2684,
+      "pair": "RoBERTa vs VADER",
+      "exact_agreement_pct": 46.236959761549926,
+      "cohens_kappa": 0.23990373321312086,
+      "matthews_corrcoef": 0.31211356390188416,
+      "spearman_rho": 0.36736820276845056,
+      "spearman_p_value": 1.5398369815526856e-86,
+      "pearson_r": 0.3886048586268379,
+      "pearson_p_value": 1.7907994479994042e-97,
+      "per_class_agreement": {
+        "negative": {
+          "count_in_a": 450,
+          "agreement_pct": 51.77777777777778
+        },
+        "neutral": {
+          "count_in_a": 1689,
+          "agreement_pct": 30.846654825340437
+        },
+        "positive": {
+          "count_in_a": 545,
+          "agreement_pct": 89.35779816513761
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "matrix": [
+          [
+            233,
+            42,
+            175
+          ],
+          [
+            201,
+            521,
+            967
+          ],
+          [
+            19,
+            39,
+            487
+          ]
+        ]
+      }
+    }
+  },
+  "confidence_analysis": {
+    "logistic_vs_roberta": {
+      "mean_confidence_a": 0.3982582100669633,
+      "mean_confidence_b": 0.7301557333987267,
+      "std_confidence_a": 0.04163491286654298,
+      "std_confidence_b": 0.13450435231357583,
+      "confidence_threshold_analysis": {
+        "both_>=0.5": {
+          "sample_size": 60,
+          "agreement_pct": 23.333333333333332
+        },
+        "both_>=0.6": {
+          "sample_size": 2,
+          "agreement_pct": 50.0
+        }
+      }
+    },
+    "logistic_vs_vader": {
+      "mean_confidence_a": 0.3982582100669633,
+      "mean_confidence_b": 0.5349419895678093,
+      "std_confidence_a": 0.04163491286654298,
+      "std_confidence_b": 0.37472658471579373,
+      "confidence_threshold_analysis": {
+        "both_>=0.5": {
+          "sample_size": 36,
+          "agreement_pct": 77.77777777777779
+        }
+      }
+    },
+    "roberta_vs_vader": {
+      "mean_confidence_a": 0.7301557333987267,
+      "mean_confidence_b": 0.5349419895678093,
+      "std_confidence_a": 0.13450435231357583,
+      "std_confidence_b": 0.37472658471579373,
+      "confidence_threshold_analysis": {
+        "both_>=0.5": {
+          "sample_size": 1434,
+          "agreement_pct": 38.423988842398884
+        },
+        "both_>=0.6": {
+          "sample_size": 1014,
+          "agreement_pct": 40.138067061143985
+        },
+        "both_>=0.7": {
+          "sample_size": 605,
+          "agreement_pct": 45.78512396694215
+        },
+        "both_>=0.8": {
+          "sample_size": 274,
+          "agreement_pct": 53.64963503649635
+        },
+        "both_>=0.9": {
+          "sample_size": 60,
+          "agreement_pct": 85.0
+        }
+      }
+    }
+  }
+}
